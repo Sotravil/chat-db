@@ -2,11 +2,11 @@
   "meta": {
     "room": "mainroom",
     "version": 2,
-    "lastUpdate": "2025-12-08T10:08:22.175Z"
+    "lastUpdate": "2025-12-08T11:54:25.566Z"
   },
   "segments": {
     "2025-12-08": {
-      "02": [
+      "04": [
         {
           "cellIndex": 0,
           "approxBytes": 798,
@@ -42,7 +42,7 @@
           ]
         }
       ],
-      "04": [
+      "06": [
         {
           "cellIndex": 0,
           "approxBytes": 380,
@@ -57,6 +57,28 @@
               "ip": "104.218.69.167",
               "device": "screen:412x915@2.625|lang:en-US",
               "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36",
+              "edited": false,
+              "editedAt": null,
+              "deleted": false
+            }
+          ]
+        }
+      ],
+      "07": [
+        {
+          "cellIndex": 0,
+          "approxBytes": 368,
+          "messages": [
+            {
+              "room": "mainroom",
+              "sender": "zxczx",
+              "ts": 1765194864320,
+              "text": "klk",
+              "userId": "u_bd44740b19a26048a8294d56",
+              "userCreatedAt": "2025-12-08T11:54:02.970Z",
+              "ip": "190.80.185.184",
+              "device": "screen:1920x1080@1|lang:es-ES",
+              "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
               "edited": false,
               "editedAt": null,
               "deleted": false
