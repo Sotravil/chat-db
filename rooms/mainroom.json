@@ -2,7 +2,7 @@
   "meta": {
     "room": "mainroom",
     "version": 1,
-    "lastUpdate": "2025-12-08T08:15:57.641Z"
+    "lastUpdate": "2025-12-08T08:16:41.105Z"
   },
   "segments": {
     "2025-12-08": {
@@ -24,6 +24,12 @@
           "sender": "Test",
           "ts": 1765181757122,
           "text": "Xd"
+        },
+        {
+          "room": "mainroom",
+          "sender": "Chat1",
+          "ts": 1765181800578,
+          "text": "Hola"
         }
       ]
     }
