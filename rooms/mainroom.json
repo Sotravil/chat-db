@@ -12,5 +12,19 @@
     "deleted": false,
     "createdAt": 1765225960354,
     "readBy": {}
+  },
+  {
+    "id": "m-1765226009126-231jpp",
+    "room": "mainroom",
+    "sender": "Sotravil",
+    "userId": "u-1765189585649-tk23lmux",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-tk23lmux",
+    "ts": 1765226009126,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1765226009126,
+    "readBy": {}
   }
 ]
