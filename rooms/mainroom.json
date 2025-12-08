@@ -1,91 +1,16 @@
-{
-  "meta": {
+[
+  {
+    "id": "m-1765225960354-np79lk",
     "room": "mainroom",
-    "version": 2,
-    "lastUpdate": "2025-12-08T11:54:25.566Z"
-  },
-  "segments": {
-    "2025-12-08": {
-      "04": [
-        {
-          "cellIndex": 0,
-          "approxBytes": 798,
-          "messages": [
-            {
-              "room": "mainroom",
-              "sender": "Usuario-A",
-              "ts": 1765182652780,
-              "text": "[mensaje eliminado]",
-              "userId": "u_7cecf76e3c9739516665fdf4",
-              "userCreatedAt": "2025-12-08T08:24:08.762Z",
-              "ip": "104.218.69.167",
-              "device": "screen:412x915@2.625|lang:en-US",
-              "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36",
-              "edited": false,
-              "editedAt": null,
-              "deleted": true
-            },
-            {
-              "room": "mainroom",
-              "sender": "Usuario B",
-              "ts": 1765182680093,
-              "text": "[mensaje eliminado]",
-              "userId": "u_7cecf76e3c9739516665fdf4",
-              "userCreatedAt": "2025-12-08T08:24:08.762Z",
-              "ip": "104.218.69.167",
-              "device": "screen:412x915@2.625|lang:en-US",
-              "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36",
-              "edited": false,
-              "editedAt": null,
-              "deleted": true
-            }
-          ]
-        }
-      ],
-      "06": [
-        {
-          "cellIndex": 0,
-          "approxBytes": 380,
-          "messages": [
-            {
-              "room": "mainroom",
-              "sender": "Test",
-              "ts": 1765188501378,
-              "text": "Hola",
-              "userId": "u_7cecf76e3c9739516665fdf4",
-              "userCreatedAt": "2025-12-08T08:24:08.762Z",
-              "ip": "104.218.69.167",
-              "device": "screen:412x915@2.625|lang:en-US",
-              "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36",
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            }
-          ]
-        }
-      ],
-      "07": [
-        {
-          "cellIndex": 0,
-          "approxBytes": 368,
-          "messages": [
-            {
-              "room": "mainroom",
-              "sender": "zxczx",
-              "ts": 1765194864320,
-              "text": "klk",
-              "userId": "u_bd44740b19a26048a8294d56",
-              "userCreatedAt": "2025-12-08T11:54:02.970Z",
-              "ip": "190.80.185.184",
-              "device": "screen:1920x1080@1|lang:es-ES",
-              "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            }
-          ]
-        }
-      ]
-    }
+    "sender": "Sotravil",
+    "userId": "u-1765189585649-tk23lmux",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-tk23lmux",
+    "ts": 1765225960354,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1765225960354,
+    "readBy": {}
   }
-}
+]
