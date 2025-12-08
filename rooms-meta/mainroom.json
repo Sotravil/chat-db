@@ -8,8 +8,12 @@
     "name": "Sotravil",
     "fingerprint": "fp-TW96aWxsYS81LjAg-tk23lmux"
   },
-  "lastActivity": 1765221740271,
-  "lastActivityIso": "2025-12-08T19:22:20.271Z",
+  "lastActivity": 1765225960354,
+  "lastActivityIso": "2025-12-08T20:32:40.354Z",
   "description": "",
-  "tags": []
+  "tags": [],
+  "lastMessageBy": {
+    "userId": "u-1765189585649-tk23lmux",
+    "name": "Sotravil"
+  }
 }
