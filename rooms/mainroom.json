@@ -2,20 +2,20 @@
   "meta": {
     "room": "mainroom",
     "version": 2,
-    "lastUpdate": "2025-12-08T08:31:20.717Z"
+    "lastUpdate": "2025-12-08T08:33:36.856Z"
   },
   "segments": {
     "2025-12-08": {
       "02": [
         {
           "cellIndex": 0,
-          "approxBytes": 770,
+          "approxBytes": 784,
           "messages": [
             {
               "room": "mainroom",
               "sender": "Usuario-A",
               "ts": 1765182652780,
-              "text": "Hola",
+              "text": "[mensaje eliminado]",
               "userId": "u_7cecf76e3c9739516665fdf4",
               "userCreatedAt": "2025-12-08T08:24:08.762Z",
               "ip": "104.218.69.167",
@@ -23,7 +23,7 @@
               "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36",
               "edited": false,
               "editedAt": null,
-              "deleted": false
+              "deleted": true
             },
             {
               "room": "mainroom",
