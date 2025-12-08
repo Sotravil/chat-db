@@ -1,1 +1,25 @@
-[{"room":"mainroom","sender":"Hola","ts":1765181699119,"text":"Holaa"}]
+{
+  "meta": {
+    "room": "mainroom",
+    "version": 1,
+    "lastUpdate": "2025-12-08T08:15:50.377Z"
+  },
+  "segments": {
+    "2025-12-08": {
+      "02": [
+        {
+          "room": "mainroom",
+          "sender": "Hola",
+          "ts": 1765181699119,
+          "text": "Holaa"
+        },
+        {
+          "room": "mainroom",
+          "sender": "Test",
+          "ts": 1765181747532,
+          "text": "Hola"
+        }
+      ]
+    }
+  }
+}
