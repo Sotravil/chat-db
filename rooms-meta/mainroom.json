@@ -1,0 +1,15 @@
+{
+  "room": "mainroom",
+  "roomId": "room-mainroom-1765221740271-mcrrmi",
+  "createdAt": 1765221740271,
+  "createdAtIso": "2025-12-08T19:22:20.271Z",
+  "createdBy": {
+    "userId": "u-1765189585649-tk23lmux",
+    "name": "Sotravil",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-tk23lmux"
+  },
+  "lastActivity": 1765221740271,
+  "lastActivityIso": "2025-12-08T19:22:20.271Z",
+  "description": "",
+  "tags": []
+}
