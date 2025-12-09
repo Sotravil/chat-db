@@ -2,7 +2,7 @@
   "meta": {
     "room": "mainroom",
     "version": 2,
-    "lastUpdate": "2025-12-09T01:01:12.805Z"
+    "lastUpdate": "2025-12-09T01:01:17.130Z"
   },
   "segments": {
     "2025-12-08": {
@@ -67,7 +67,7 @@
       "20": [
         {
           "cellIndex": 0,
-          "approxBytes": 894,
+          "approxBytes": 1342,
           "messages": [
             {
               "room": "mainroom",
@@ -87,6 +87,20 @@
               "room": "mainroom",
               "sender": "guest-vslp4j",
               "ts": 1765242071031,
+              "text": "ð",
+              "userId": "u_5219bf123fda2753868b5f71",
+              "userCreatedAt": "2025-12-09T01:00:33.033Z",
+              "ip": "152.207.111.230",
+              "device": "screen:412x877@2.625|lang:es-US",
+              "ua": "Mozilla/5.0 (Linux; Android 10; moto g stylus Build/QPRS30.80-64-6-6-5-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36",
+              "edited": false,
+              "editedAt": null,
+              "deleted": false
+            },
+            {
+              "room": "mainroom",
+              "sender": "guest-vslp4j",
+              "ts": 1765242073487,
               "text": "😂",
               "userId": "u_5219bf123fda2753868b5f71",
               "userCreatedAt": "2025-12-09T01:00:33.033Z",
