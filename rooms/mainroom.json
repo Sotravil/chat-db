@@ -26,5 +26,19 @@
     "deleted": false,
     "createdAt": 1765226009126,
     "readBy": {}
+  },
+  {
+    "id": "m-1765240867504-3370w1",
+    "room": "mainroom",
+    "sender": "Sotravil",
+    "userId": "u-1765189585649-tk23lmux",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-tk23lmux",
+    "ts": 1765240867504,
+    "text": "Xd",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1765240867504,
+    "readBy": {}
   }
 ]
