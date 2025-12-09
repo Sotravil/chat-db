@@ -12,5 +12,19 @@
     "deleted": false,
     "createdAt": 1765241935326,
     "readBy": {}
+  },
+  {
+    "id": "m-1765242011269-8y6p43",
+    "room": "mainroom",
+    "sender": "Kevin",
+    "userId": "u-1765196327380-hrqpvhjf",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-hrqpvhjf",
+    "ts": 1765242011269,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1765242011269,
+    "readBy": {}
   }
 ]
