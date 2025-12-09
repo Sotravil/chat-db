@@ -1,0 +1,15 @@
+{
+  "room": "leandro",
+  "roomId": "room-leandro-1765242282432-38su3u",
+  "createdAt": 1765242282432,
+  "createdAtIso": "2025-12-09T01:04:42.432Z",
+  "createdBy": {
+    "userId": "u-1765242243838-2culpev1",
+    "name": "agus",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-2culpev1"
+  },
+  "lastActivity": 1765242282432,
+  "lastActivityIso": "2025-12-09T01:04:42.432Z",
+  "description": "",
+  "tags": []
+}
