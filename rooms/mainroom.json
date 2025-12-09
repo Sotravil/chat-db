@@ -1,119 +1,16 @@
-{
-  "meta": {
+[
+  {
+    "id": "m-1765241827558-1fmoor",
     "room": "mainroom",
-    "version": 2,
-    "lastUpdate": "2025-12-09T01:01:25.091Z"
-  },
-  "segments": {
-    "2025-12-08": {
-      "15": [
-        {
-          "cellIndex": 0,
-          "approxBytes": 420,
-          "messages": [
-            {
-              "room": "mainroom",
-              "sender": "Sotravil",
-              "ts": 1765225960354,
-              "text": "Hola",
-              "userId": "u-1765189585649-tk23lmux",
-              "userCreatedAt": null,
-              "ip": null,
-              "device": null,
-              "ua": null,
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            },
-            {
-              "room": "mainroom",
-              "sender": "Sotravil",
-              "ts": 1765226009126,
-              "text": "Hola",
-              "userId": "u-1765189585649-tk23lmux",
-              "userCreatedAt": null,
-              "ip": null,
-              "device": null,
-              "ua": null,
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            }
-          ]
-        }
-      ],
-      "19": [
-        {
-          "cellIndex": 0,
-          "approxBytes": 208,
-          "messages": [
-            {
-              "room": "mainroom",
-              "sender": "Sotravil",
-              "ts": 1765240867504,
-              "text": "Xd",
-              "userId": "u-1765189585649-tk23lmux",
-              "userCreatedAt": null,
-              "ip": null,
-              "device": null,
-              "ua": null,
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            }
-          ]
-        }
-      ],
-      "20": [
-        {
-          "cellIndex": 0,
-          "approxBytes": 1362,
-          "messages": [
-            {
-              "room": "mainroom",
-              "sender": "guest-vslp4j",
-              "ts": 1765242057468,
-              "text": "Hola",
-              "userId": "u_5219bf123fda2753868b5f71",
-              "userCreatedAt": "2025-12-09T01:00:33.033Z",
-              "ip": "152.207.111.230",
-              "device": "screen:412x877@2.625|lang:es-US",
-              "ua": "Mozilla/5.0 (Linux; Android 10; moto g stylus Build/QPRS30.80-64-6-6-5-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36",
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            },
-            {
-              "room": "mainroom",
-              "sender": "guest-vslp4j",
-              "ts": 1765242071031,
-              "text": "Ã°ÂÂÂ",
-              "userId": "u_5219bf123fda2753868b5f71",
-              "userCreatedAt": "2025-12-09T01:00:33.033Z",
-              "ip": "152.207.111.230",
-              "device": "screen:412x877@2.625|lang:es-US",
-              "ua": "Mozilla/5.0 (Linux; Android 10; moto g stylus Build/QPRS30.80-64-6-6-5-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36",
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            },
-            {
-              "room": "mainroom",
-              "sender": "guest-vslp4j",
-              "ts": 1765242073487,
-              "text": "[mensaje eliminado]",
-              "userId": "u_5219bf123fda2753868b5f71",
-              "userCreatedAt": "2025-12-09T01:00:33.033Z",
-              "ip": "152.207.111.230",
-              "device": "screen:412x877@2.625|lang:es-US",
-              "ua": "Mozilla/5.0 (Linux; Android 10; moto g stylus Build/QPRS30.80-64-6-6-5-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36",
-              "edited": false,
-              "editedAt": null,
-              "deleted": true
-            }
-          ]
-        }
-      ]
-    }
+    "sender": "Kevin",
+    "userId": "u-1765196327380-hrqpvhjf",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-hrqpvhjf",
+    "ts": 1765241827558,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1765241827558,
+    "readBy": {}
   }
-}
+]
