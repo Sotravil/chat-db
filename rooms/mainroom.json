@@ -1,55 +1,16 @@
-{
-  "meta": {
+[
+  {
+    "id": "m-1765241935326-x0swzv",
     "room": "mainroom",
-    "version": 2,
-    "lastUpdate": "2025-12-09T01:03:27.036Z"
-  },
-  "segments": {
-    "2025-12-08": {
-      "19": [
-        {
-          "cellIndex": 0,
-          "approxBytes": 207,
-          "messages": [
-            {
-              "room": "mainroom",
-              "sender": "Kevin",
-              "ts": 1765241827558,
-              "text": "Hola",
-              "userId": "u-1765196327380-hrqpvhjf",
-              "userCreatedAt": null,
-              "ip": null,
-              "device": null,
-              "ua": null,
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            }
-          ]
-        }
-      ],
-      "20": [
-        {
-          "cellIndex": 0,
-          "approxBytes": 457,
-          "messages": [
-            {
-              "room": "mainroom",
-              "sender": "guest-vslp4j",
-              "ts": 1765242140724,
-              "text": "Hola.",
-              "userId": "u_5219bf123fda2753868b5f71",
-              "userCreatedAt": "2025-12-09T01:00:33.033Z",
-              "ip": "152.207.111.230",
-              "device": "screen:412x877@2.625|lang:es-US",
-              "ua": "Mozilla/5.0 (Linux; Android 10; moto g stylus Build/QPRS30.80-64-6-6-5-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36",
-              "edited": true,
-              "editedAt": 1765242207016,
-              "deleted": false
-            }
-          ]
-        }
-      ]
-    }
+    "sender": "Kelly E",
+    "userId": "u-1765241815893-p4na9d84",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-p4na9d84",
+    "ts": 1765241935326,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1765241935326,
+    "readBy": {}
   }
-}
+]
