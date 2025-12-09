@@ -1,0 +1,15 @@
+{
+  "room": "home",
+  "roomId": "room-home-1765242596170-4vmho2",
+  "createdAt": 1765242596170,
+  "createdAtIso": "2025-12-09T01:09:56.170Z",
+  "createdBy": {
+    "userId": "u-1765242504674-f3lbtxw8",
+    "name": "Sammey",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-f3lbtxw8"
+  },
+  "lastActivity": 1765242596170,
+  "lastActivityIso": "2025-12-09T01:09:56.170Z",
+  "description": "",
+  "tags": []
+}
