@@ -1,44 +1,91 @@
-[
-  {
-    "id": "m-1765225960354-np79lk",
+{
+  "meta": {
     "room": "mainroom",
-    "sender": "Sotravil",
-    "userId": "u-1765189585649-tk23lmux",
-    "fingerprint": "fp-TW96aWxsYS81LjAg-tk23lmux",
-    "ts": 1765225960354,
-    "text": "Hola",
-    "edited": false,
-    "editedAt": null,
-    "deleted": false,
-    "createdAt": 1765225960354,
-    "readBy": {}
+    "version": 2,
+    "lastUpdate": "2025-12-09T01:01:03.630Z"
   },
-  {
-    "id": "m-1765226009126-231jpp",
-    "room": "mainroom",
-    "sender": "Sotravil",
-    "userId": "u-1765189585649-tk23lmux",
-    "fingerprint": "fp-TW96aWxsYS81LjAg-tk23lmux",
-    "ts": 1765226009126,
-    "text": "Hola",
-    "edited": false,
-    "editedAt": null,
-    "deleted": false,
-    "createdAt": 1765226009126,
-    "readBy": {}
-  },
-  {
-    "id": "m-1765240867504-3370w1",
-    "room": "mainroom",
-    "sender": "Sotravil",
-    "userId": "u-1765189585649-tk23lmux",
-    "fingerprint": "fp-TW96aWxsYS81LjAg-tk23lmux",
-    "ts": 1765240867504,
-    "text": "Xd",
-    "edited": false,
-    "editedAt": null,
-    "deleted": false,
-    "createdAt": 1765240867504,
-    "readBy": {}
+  "segments": {
+    "2025-12-08": {
+      "15": [
+        {
+          "cellIndex": 0,
+          "approxBytes": 536,
+          "messages": [
+            {
+              "room": "mainroom",
+              "sender": "Sotravil",
+              "ts": 1765225960354,
+              "text": "Hola",
+              "userId": "u-1765189585649-tk23lmux",
+              "userCreatedAt": null,
+              "ip": null,
+              "device": null,
+              "ua": null,
+              "edited": false,
+              "editedAt": null,
+              "deleted": false
+            },
+            {
+              "room": "mainroom",
+              "sender": "Sotravil",
+              "ts": 1765226009126,
+              "text": "Hola",
+              "userId": "u-1765189585649-tk23lmux",
+              "userCreatedAt": null,
+              "ip": null,
+              "device": null,
+              "ua": null,
+              "edited": false,
+              "editedAt": null,
+              "deleted": false
+            }
+          ]
+        }
+      ],
+      "19": [
+        {
+          "cellIndex": 0,
+          "approxBytes": 266,
+          "messages": [
+            {
+              "room": "mainroom",
+              "sender": "Sotravil",
+              "ts": 1765240867504,
+              "text": "Xd",
+              "userId": "u-1765189585649-tk23lmux",
+              "userCreatedAt": null,
+              "ip": null,
+              "device": null,
+              "ua": null,
+              "edited": false,
+              "editedAt": null,
+              "deleted": false
+            }
+          ]
+        }
+      ],
+      "20": [
+        {
+          "cellIndex": 0,
+          "approxBytes": 448,
+          "messages": [
+            {
+              "room": "mainroom",
+              "sender": "guest-vslp4j",
+              "ts": 1765242057468,
+              "text": "Hola",
+              "userId": "u_5219bf123fda2753868b5f71",
+              "userCreatedAt": "2025-12-09T01:00:33.033Z",
+              "ip": "152.207.111.230",
+              "device": "screen:412x877@2.625|lang:es-US",
+              "ua": "Mozilla/5.0 (Linux; Android 10; moto g stylus Build/QPRS30.80-64-6-6-5-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36",
+              "edited": false,
+              "editedAt": null,
+              "deleted": false
+            }
+          ]
+        }
+      ]
+    }
   }
-]
+}
