@@ -2,9 +2,9 @@
   "v": 2,
   "room": "sotravil",
   "createdAt": 1766790572224,
-  "updatedAt": 1766790628926,
+  "updatedAt": 1766790632620,
   "latestCell": 1,
-  "totalMessages": 3,
+  "totalMessages": 4,
   "cellMax": 4,
   "note": "V2 manifest (anti-lag). Mensajes en rooms-cells/<room>/cells/..."
 }
