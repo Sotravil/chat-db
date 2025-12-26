@@ -16,5 +16,23 @@
     "deletedBy": null,
     "pasteUrl": null,
     "cell": 3
+  },
+  {
+    "id": "m-1766792515657-kkk11mrj",
+    "room": "sotravil",
+    "sender": "Test",
+    "userId": "u-1765196327380-hrqpvhjf",
+    "userCreatedAt": 1765196327380,
+    "fingerprint": "fp-TW96aWxsYS81LjAg-hrqpvhjf",
+    "ts": 1766792515657,
+    "text": "No veo nada",
+    "edited": false,
+    "editedAt": null,
+    "editedBy": null,
+    "deleted": false,
+    "deletedAt": null,
+    "deletedBy": null,
+    "pasteUrl": null,
+    "cell": 3
   }
 ]
