@@ -1,0 +1,36 @@
+[
+  {
+    "id": "m-1766739643801-jv439h",
+    "room": "mainroom",
+    "cell": 1,
+    "sender": "Sotravil",
+    "userId": "u-1765189583891-o1zmngwf",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-o1zmngwf",
+    "ts": 1766739643801,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "editedBy": null,
+    "deleted": false,
+    "deletedAt": null,
+    "deletedBy": null,
+    "pasteUrl": null
+  },
+  {
+    "id": "m-1766739697424-lrliip",
+    "room": "mainroom",
+    "cell": 1,
+    "sender": "Prueba",
+    "userId": "u-1765196327380-hrqpvhjf",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-hrqpvhjf",
+    "ts": 1766739697424,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "editedBy": null,
+    "deleted": false,
+    "deletedAt": null,
+    "deletedBy": null,
+    "pasteUrl": null
+  }
+]
