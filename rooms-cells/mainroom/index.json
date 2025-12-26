@@ -1,0 +1,14 @@
+{
+  "room": "mainroom",
+  "boxes": [
+    {
+      "box": 1,
+      "startCell": 1,
+      "endCell": 3,
+      "path": "rooms-cells/mainroom/boxes/box-000001.json",
+      "msgs": 10
+    }
+  ],
+  "totalMessages": 10,
+  "lastUpdated": 1766793012362
+}
