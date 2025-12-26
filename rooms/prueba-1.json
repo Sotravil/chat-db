@@ -1,0 +1,10 @@
+{
+  "v": 2,
+  "room": "prueba-1",
+  "createdAt": 1766790372491,
+  "updatedAt": 1766790372491,
+  "latestCell": 1,
+  "totalMessages": 0,
+  "cellMax": 4,
+  "note": "V2 manifest (anti-lag). Mensajes en rooms-cells/<room>/cells/..."
+}
