@@ -105,19 +105,18 @@
   {
     "id": "m-1766790025096-vpiiji2t",
     "room": "mainroom",
+    "cell": 1,
     "sender": "Sotravil",
     "userId": "u-1766784444976-o1d0p74f",
-    "userCreatedAt": 1766784444976,
     "fingerprint": "fp-TW96aWxsYS81LjAg-o1d0p74f",
     "ts": 1766790025095,
-    "text": "saved",
-    "edited": false,
-    "editedAt": null,
-    "editedBy": null,
+    "text": "saved and edited",
+    "edited": true,
+    "editedAt": 1766790030628,
+    "editedBy": "u-1766784444976-o1d0p74f",
     "deleted": false,
     "deletedAt": null,
     "deletedBy": null,
-    "pasteUrl": null,
-    "cell": 1
+    "pasteUrl": null
   }
 ]
