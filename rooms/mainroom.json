@@ -1,10 +1,11 @@
 {
-  "v": 2,
+  "v": 3,
   "room": "mainroom",
   "createdAt": 1766788400142,
-  "updatedAt": 1766790610292,
-  "latestCell": 1,
+  "updatedAt": 1766793010387,
+  "latestCell": 3,
   "totalMessages": 10,
-  "cellMax": 120,
-  "migratedFromLegacyArray": true
+  "cellMax": 4,
+  "migratedFromLegacyArray": true,
+  "migratedToV3At": 1766793010387
 }
