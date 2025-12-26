@@ -1,10 +1,33 @@
 {
-  "v": 2,
-  "room": "mainroom",
-  "createdAt": 1766777083068,
-  "updatedAt": 1766777123061,
-  "latestCell": 1,
-  "totalMessages": 3,
-  "cellMax": 120,
-  "migratedFromLegacyArray": true
+  "meta": {
+    "room": "mainroom",
+    "version": 2,
+    "lastUpdate": "2025-12-26T19:25:45.777Z"
+  },
+  "segments": {
+    "2025-12-26": {
+      "11": [
+        {
+          "cellIndex": 0,
+          "approxBytes": 429,
+          "messages": [
+            {
+              "room": "mainroom",
+              "sender": "Xd",
+              "ts": 1766777145137,
+              "text": "Prueba",
+              "userId": "u_30b7c8bc06f94ead1335b8a5",
+              "userCreatedAt": "2025-12-08T08:24:05.856Z",
+              "ip": "172.56.104.14",
+              "device": "screen:412x915@2.625|lang:en-US",
+              "ua": "Mozilla/5.0 (Linux; Android 16; Pixel 6a Build/BP3A.250905.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.7444.171 Mobile Safari/537.36",
+              "edited": false,
+              "editedAt": null,
+              "deleted": false
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
