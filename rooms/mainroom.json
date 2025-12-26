@@ -12,5 +12,19 @@
     "deleted": false,
     "createdAt": 1766739643801,
     "readBy": {}
+  },
+  {
+    "id": "m-1766739697424-lrliip",
+    "room": "mainroom",
+    "sender": "Prueba",
+    "userId": "u-1765196327380-hrqpvhjf",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-hrqpvhjf",
+    "ts": 1766739697424,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766739697424,
+    "readBy": {}
   }
 ]
