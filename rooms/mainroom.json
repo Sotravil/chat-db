@@ -12,5 +12,19 @@
     "deleted": false,
     "createdAt": 1766788000971,
     "readBy": {}
+  },
+  {
+    "id": "m-1766788001329-zqk1so",
+    "room": "mainroom",
+    "sender": "Sotravil",
+    "userId": "u-1766784444976-o1d0p74f",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-o1d0p74f",
+    "ts": 1766788001329,
+    "text": "xd hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766788001329,
+    "readBy": {}
   }
 ]
