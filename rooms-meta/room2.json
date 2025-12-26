@@ -1,0 +1,15 @@
+{
+  "room": "room2",
+  "roomId": "room-room2-1766790241954-t8ao62",
+  "createdAt": 1766790241954,
+  "createdAtIso": "2025-12-26T23:04:01.954Z",
+  "createdBy": {
+    "userId": "u-1766784444976-o1d0p74f",
+    "name": "Sotravil",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-o1d0p74f"
+  },
+  "lastActivity": 1766790241954,
+  "lastActivityIso": "2025-12-26T23:04:01.954Z",
+  "description": "",
+  "tags": []
+}
