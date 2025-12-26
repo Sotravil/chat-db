@@ -31,9 +31,12 @@
     "edited": false,
     "editedAt": null,
     "editedBy": null,
-    "deleted": false,
-    "deletedAt": null,
-    "deletedBy": null,
+    "deleted": true,
+    "deletedAt": 1766777094272,
+    "deletedBy": {
+      "userId": "u-1765189585649-tk23lmux",
+      "name": "Sotravil"
+    },
     "pasteUrl": null
   }
 ]
