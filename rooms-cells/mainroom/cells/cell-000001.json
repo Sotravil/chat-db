@@ -84,5 +84,23 @@
     "deletedAt": 1766788856881,
     "deletedBy": "u-1766784444976-o1d0p74f",
     "pasteUrl": null
+  },
+  {
+    "id": "m-1766789122094-52o3f53b",
+    "room": "mainroom",
+    "sender": "test",
+    "userId": "u-1766784444976-o1d0p74f",
+    "userCreatedAt": 1766784444976,
+    "fingerprint": "fp-TW96aWxsYS81LjAg-o1d0p74f",
+    "ts": 1766789122094,
+    "text": "test 1",
+    "edited": false,
+    "editedAt": null,
+    "editedBy": null,
+    "deleted": false,
+    "deletedAt": null,
+    "deletedBy": null,
+    "pasteUrl": null,
+    "cell": 1
   }
 ]
