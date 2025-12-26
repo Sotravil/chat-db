@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "m-1766790588059-6dh0ihvx",
+    "room": "sotravil",
+    "sender": "sotravil",
+    "userId": "u-1766784444976-o1d0p74f",
+    "userCreatedAt": 1766784444976,
+    "fingerprint": "fp-TW96aWxsYS81LjAg-o1d0p74f",
+    "ts": 1766790588059,
+    "text": "preuba",
+    "edited": false,
+    "editedAt": null,
+    "editedBy": null,
+    "deleted": false,
+    "deletedAt": null,
+    "deletedBy": null,
+    "pasteUrl": null,
+    "cell": 1
+  }
+]
