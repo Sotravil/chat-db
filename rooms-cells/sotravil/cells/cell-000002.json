@@ -52,5 +52,23 @@
     "deletedBy": null,
     "pasteUrl": null,
     "cell": 2
+  },
+  {
+    "id": "m-1766792313917-ctfjpuni",
+    "room": "sotravil",
+    "sender": "Mobil",
+    "userId": "u-1765196327380-hrqpvhjf",
+    "userCreatedAt": 1765196327380,
+    "fingerprint": "fp-TW96aWxsYS81LjAg-hrqpvhjf",
+    "ts": 1766792313917,
+    "text": "Prueba 2",
+    "edited": false,
+    "editedAt": null,
+    "editedBy": null,
+    "deleted": false,
+    "deletedAt": null,
+    "deletedBy": null,
+    "pasteUrl": null,
+    "cell": 2
   }
 ]
