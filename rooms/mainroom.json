@@ -1,69 +1,16 @@
-{
-  "meta": {
+[
+  {
+    "id": "m-1766739643801-jv439h",
     "room": "mainroom",
-    "version": 2,
-    "lastUpdate": "2025-12-09T01:05:44.700Z"
-  },
-  "segments": {
-    "2025-12-08": {
-      "19": [
-        {
-          "cellIndex": 0,
-          "approxBytes": 267,
-          "messages": [
-            {
-              "room": "mainroom",
-              "sender": "Kelly E",
-              "ts": 1765241935326,
-              "text": "Hola",
-              "userId": "u-1765241815893-p4na9d84",
-              "userCreatedAt": null,
-              "ip": null,
-              "device": null,
-              "ua": null,
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            }
-          ]
-        }
-      ],
-      "20": [
-        {
-          "cellIndex": 0,
-          "approxBytes": 713,
-          "messages": [
-            {
-              "room": "mainroom",
-              "sender": "Kevin",
-              "ts": 1765242011269,
-              "text": "Hola",
-              "userId": "u-1765196327380-hrqpvhjf",
-              "userCreatedAt": null,
-              "ip": null,
-              "device": null,
-              "ua": null,
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            },
-            {
-              "room": "mainroom",
-              "sender": "SAMMEY",
-              "ts": 1765242339253,
-              "text": "Que hacen?",
-              "userId": "u_5219bf123fda2753868b5f71",
-              "userCreatedAt": "2025-12-09T01:00:33.033Z",
-              "ip": "152.207.111.230",
-              "device": "screen:412x877@2.625|lang:es-US",
-              "ua": "Mozilla/5.0 (Linux; Android 10; moto g stylus Build/QPRS30.80-64-6-6-5-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36",
-              "edited": false,
-              "editedAt": null,
-              "deleted": false
-            }
-          ]
-        }
-      ]
-    }
+    "sender": "Sotravil",
+    "userId": "u-1765189583891-o1zmngwf",
+    "fingerprint": "fp-TW96aWxsYS81LjAg-o1zmngwf",
+    "ts": 1766739643801,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766739643801,
+    "readBy": {}
   }
-}
+]
