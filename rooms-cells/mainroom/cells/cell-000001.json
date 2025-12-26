@@ -88,19 +88,18 @@
   {
     "id": "m-1766789122094-52o3f53b",
     "room": "mainroom",
+    "cell": 1,
     "sender": "test",
     "userId": "u-1766784444976-o1d0p74f",
-    "userCreatedAt": 1766784444976,
     "fingerprint": "fp-TW96aWxsYS81LjAg-o1d0p74f",
     "ts": 1766789122094,
-    "text": "test 1",
-    "edited": false,
-    "editedAt": null,
-    "editedBy": null,
+    "text": "test 1 lmao",
+    "edited": true,
+    "editedAt": 1766789129854,
+    "editedBy": "u-1766784444976-o1d0p74f",
     "deleted": false,
     "deletedAt": null,
     "deletedBy": null,
-    "pasteUrl": null,
-    "cell": 1
+    "pasteUrl": null
   }
 ]
