@@ -1,30 +1,10 @@
-[
-  {
-    "id": "m-1766739643801-jv439h",
-    "room": "mainroom",
-    "sender": "Sotravil",
-    "userId": "u-1765189583891-o1zmngwf",
-    "fingerprint": "fp-TW96aWxsYS81LjAg-o1zmngwf",
-    "ts": 1766739643801,
-    "text": "Hola",
-    "edited": false,
-    "editedAt": null,
-    "deleted": false,
-    "createdAt": 1766739643801,
-    "readBy": {}
-  },
-  {
-    "id": "m-1766739697424-lrliip",
-    "room": "mainroom",
-    "sender": "Prueba",
-    "userId": "u-1765196327380-hrqpvhjf",
-    "fingerprint": "fp-TW96aWxsYS81LjAg-hrqpvhjf",
-    "ts": 1766739697424,
-    "text": "Hola",
-    "edited": false,
-    "editedAt": null,
-    "deleted": false,
-    "createdAt": 1766739697424,
-    "readBy": {}
-  }
-]
+{
+  "v": 2,
+  "room": "mainroom",
+  "createdAt": 1766777083068,
+  "updatedAt": 1766777083068,
+  "latestCell": 1,
+  "totalMessages": 2,
+  "cellMax": 120,
+  "migratedFromLegacyArray": true
+}
