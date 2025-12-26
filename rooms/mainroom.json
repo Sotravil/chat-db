@@ -2,9 +2,9 @@
   "v": 2,
   "room": "mainroom",
   "createdAt": 1766788400142,
-  "updatedAt": 1766788400142,
+  "updatedAt": 1766788716347,
   "latestCell": 1,
-  "totalMessages": 3,
+  "totalMessages": 4,
   "cellMax": 120,
   "migratedFromLegacyArray": true
 }
