@@ -67,5 +67,23 @@
     "deletedBy": null,
     "pasteUrl": null,
     "cell": 1
+  },
+  {
+    "id": "m-1766788846746-q2dfvmub",
+    "room": "mainroom",
+    "sender": "Sotravil",
+    "userId": "u-1766784444976-o1d0p74f",
+    "userCreatedAt": 1766784444976,
+    "fingerprint": "fp-TW96aWxsYS81LjAg-o1d0p74f",
+    "ts": 1766788846746,
+    "text": "prueba 2",
+    "edited": false,
+    "editedAt": null,
+    "editedBy": null,
+    "deleted": false,
+    "deletedAt": null,
+    "deletedBy": null,
+    "pasteUrl": null,
+    "cell": 1
   }
 ]
