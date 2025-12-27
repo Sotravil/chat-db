@@ -1,0 +1,16 @@
+{
+  "v": 3,
+  "room": "Abc",
+  "createdAt": 1766829908116,
+  "updatedAt": 1766829908116,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/Abc/index.json",
+    "boxesIndex": "rooms-cells/Abc/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/Abc/cells/",
+    "boxesDir": "rooms-cells/Abc/boxes/"
+  }
+}
