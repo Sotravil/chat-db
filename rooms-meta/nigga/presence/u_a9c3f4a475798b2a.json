@@ -3,9 +3,9 @@
   "room": "nigga",
   "userId": "u_a9c3f4a475798b2a",
   "username": "usertest#1",
-  "online": false,
-  "lastSeenAt": 1766810746626,
-  "lastActiveAt": 1766810746126,
+  "online": true,
+  "lastSeenAt": 1766810774455,
+  "lastActiveAt": 1766810774455,
   "lastReadTs": 1766810743616,
   "lastReadMsgId": "m-1766810743616-on14im",
   "device": {
