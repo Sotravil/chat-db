@@ -1,6 +1,7 @@
 {
+  "v": 3,
   "room": "sotravil",
-  "boxes": [],
-  "totalMessages": 0,
-  "lastUpdated": 1766792476087
+  "latestCell": 3,
+  "totalMessages": 10,
+  "updatedAt": 1766800881570
 }
