@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "m-1766818109524-ln1swg",
+    "room": "nigga",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1766818109524,
+    "text": "Hell yeah Ford",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766818109524,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "sotravil",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 12
+  }
+]
