@@ -44,5 +44,33 @@
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
     },
     "cell": 11
+  },
+  {
+    "id": "m-1766814221570-0yl8bv",
+    "room": "nigga",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1766814221570,
+    "text": "me too nigga, me too...",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766814221570,
+    "status": "sending",
+    "replyTo": {
+      "msgId": "m-1766814202716-lroxpc",
+      "sender": "usertest#1",
+      "text": "Hate niggers",
+      "userId": "u_a9c3f4a475798b2a"
+    },
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 11
   }
 ]
