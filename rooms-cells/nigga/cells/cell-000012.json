@@ -21,5 +21,33 @@
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
     },
     "cell": 12
+  },
+  {
+    "id": "m-1766857614110-eh1ce2",
+    "room": "nigga",
+    "sender": "chanty",
+    "userId": "u_44fe98cbe6104783",
+    "ts": 1766857614110,
+    "text": "im a ngge",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766857614110,
+    "status": "sending",
+    "replyTo": {
+      "msgId": "m-1766814241810-mid2wu",
+      "sender": "sotravil",
+      "text": "we both agree on something i guess",
+      "userId": "u_98172ae8f41f2ba5"
+    },
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "chanty",
+      "device": "Linux aarch64 - Mozilla/5.0 (Linux; Android 15; CPH2639 Build/AP3A",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 15; CPH2639 Build/AP3A.240617.008; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.146 Mobile Safari/537.36 Instagram 410.1.0.63.71 Android (35/15; 360dpi; 720x1604; OPPO; CPH2639; OP5B05L1; mt6835; es_MX; 846519340; IABMV/1)"
+    },
+    "cell": 12
   }
 ]
