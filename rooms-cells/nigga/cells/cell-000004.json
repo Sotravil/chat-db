@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "m-1766806980696-1b9rmj",
+    "room": "nigga",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1766806980696,
+    "text": "fuck",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766806980696,
+    "status": "sending",
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 4
+  }
+]
