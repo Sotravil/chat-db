@@ -34,5 +34,17 @@
     "editedAt": null,
     "deleted": false,
     "createdAt": 1766800895726
+  },
+  {
+    "id": "m-1766800904991-vn7xzw",
+    "room": "sotravil",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1766800904991,
+    "text": "ohhhh ya puedo enviar mensajes",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766800904991
   }
 ]
