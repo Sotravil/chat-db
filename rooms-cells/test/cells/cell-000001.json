@@ -20,7 +20,7 @@
     "text": "hola",
     "edited": false,
     "editedAt": null,
-    "deleted": false,
+    "deleted": true,
     "createdAt": 1766803822650,
     "meta": {
       "sessionType": "registered",
@@ -29,7 +29,9 @@
       "ip": null,
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
-    "cell": 1
+    "cell": 1,
+    "deletedAt": 1766804410019,
+    "deletedBy": "u_98172ae8f41f2ba5"
   },
   {
     "id": "m-1766803830633-601u93",
