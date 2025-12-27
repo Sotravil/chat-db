@@ -22,5 +22,17 @@
     "editedAt": null,
     "deleted": false,
     "createdAt": 1766792515657
+  },
+  {
+    "id": "m-1766800895726-6t0lfx",
+    "room": "sotravil",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1766800895726,
+    "text": "xd",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766800895726
   }
 ]
