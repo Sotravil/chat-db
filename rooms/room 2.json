@@ -1,0 +1,16 @@
+{
+  "v": 3,
+  "room": "room 2",
+  "createdAt": 1766804612090,
+  "updatedAt": 1766804612090,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/room 2/index.json",
+    "boxesIndex": "rooms-cells/room 2/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/room 2/cells/",
+    "boxesDir": "rooms-cells/room 2/boxes/"
+  }
+}
