@@ -56,5 +56,33 @@
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
     },
     "cell": 13
+  },
+  {
+    "id": "m-1766876445013-8435mb",
+    "room": "nigga",
+    "sender": "usertest#1",
+    "userId": "u_a9c3f4a475798b2a",
+    "ts": 1766876445013,
+    "text": "Test",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766876445013,
+    "status": "sending",
+    "replyTo": {
+      "msgId": "m-1766875418124-p3ggw0",
+      "sender": "sotravil",
+      "text": "🎤 Voice message",
+      "userId": "u_98172ae8f41f2ba5"
+    },
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "usertest#1",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 13
   }
 ]
