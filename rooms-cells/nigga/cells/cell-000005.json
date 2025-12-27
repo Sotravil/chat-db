@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "m-1766807780389-ye1726",
+    "room": "nigga",
+    "sender": "usertest#1",
+    "userId": "u_a9c3f4a475798b2a",
+    "ts": 1766807780389,
+    "text": "😭😭😭",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766807780389,
+    "status": "sending",
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "usertest#1",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 5
+  }
+]
