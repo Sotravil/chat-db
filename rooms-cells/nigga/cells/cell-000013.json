@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "id": "m-1766875418124-p3ggw0",
+    "room": "nigga",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1766875418124,
+    "text": "🎤 Voice message",
+    "type": "audio",
+    "audioPath": "rooms-meta/nigga/recorded-audios/u_98172ae8f41f2ba5_1766875418125_m-1766875418124-p3ggw0.webm",
+    "audioFileName": "u_98172ae8f41f2ba5_1766875418125_m-1766875418124-p3ggw0.webm",
+    "audioFolderType": "recorded-audios",
+    "audioDuration": 9.959,
+    "audioMimeType": "audio/webm;codecs=opus",
+    "audioSize": 82941,
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766875418124,
+    "status": "sending",
+    "replyTo": null,
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 13
+  }
+]
