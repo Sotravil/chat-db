@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "m-1766801374476-v0oevh",
+    "room": "test",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1766801374476,
+    "text": "hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766801374476
+  }
+]
