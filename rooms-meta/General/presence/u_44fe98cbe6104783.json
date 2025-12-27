@@ -3,9 +3,9 @@
   "room": "General",
   "userId": "u_44fe98cbe6104783",
   "username": "chanty",
-  "online": false,
-  "lastSeenAt": 1766810313610,
-  "lastActiveAt": 1766810310810,
+  "online": true,
+  "lastSeenAt": 1766810316406,
+  "lastActiveAt": 1766810316406,
   "lastReadTs": 0,
   "lastReadMsgId": null,
   "device": {
