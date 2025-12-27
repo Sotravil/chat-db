@@ -1,0 +1,13 @@
+{
+  "v": 3,
+  "room": "sotravil",
+  "boxes": [
+    {
+      "box": 1,
+      "startCell": 1,
+      "endCell": 3,
+      "updatedAt": 1766800881570
+    }
+  ],
+  "updatedAt": 1766800881570
+}
