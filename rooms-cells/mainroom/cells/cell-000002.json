@@ -8,7 +8,7 @@
     "text": "hola prueba",
     "edited": true,
     "editedAt": 1766803671314,
-    "deleted": false,
+    "deleted": true,
     "createdAt": 1766803654293,
     "meta": {
       "sessionType": "registered",
@@ -18,6 +18,8 @@
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
     "cell": 2,
-    "editedBy": "u_98172ae8f41f2ba5"
+    "editedBy": "u_98172ae8f41f2ba5",
+    "deletedAt": 1766804560503,
+    "deletedBy": "u_98172ae8f41f2ba5"
   }
 ]
