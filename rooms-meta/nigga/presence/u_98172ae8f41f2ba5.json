@@ -3,11 +3,11 @@
   "room": "nigga",
   "userId": "u_98172ae8f41f2ba5",
   "username": "sotravil",
-  "online": false,
-  "lastSeenAt": 1766811458991,
-  "lastActiveAt": 1766811456054,
-  "lastReadTs": 0,
-  "lastReadMsgId": null,
+  "online": true,
+  "lastSeenAt": 1766811460088,
+  "lastActiveAt": 1766811460088,
+  "lastReadTs": 1766809197743,
+  "lastReadMsgId": "m-1766809197743-0tdqjm",
   "device": {
     "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
     "platform": "Win32"
