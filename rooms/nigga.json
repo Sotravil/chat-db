@@ -1,0 +1,16 @@
+{
+  "v": 3,
+  "room": "nigga",
+  "createdAt": 1766805589656,
+  "updatedAt": 1766805589656,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/nigga/index.json",
+    "boxesIndex": "rooms-cells/nigga/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/nigga/cells/",
+    "boxesDir": "rooms-cells/nigga/boxes/"
+  }
+}
