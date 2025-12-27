@@ -5,9 +5,9 @@
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
     "ts": 1766803654293,
-    "text": "hola",
-    "edited": false,
-    "editedAt": null,
+    "text": "hola prueba",
+    "edited": true,
+    "editedAt": 1766803671314,
     "deleted": false,
     "createdAt": 1766803654293,
     "meta": {
@@ -17,6 +17,7 @@
       "ip": null,
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
-    "cell": 2
+    "cell": 2,
+    "editedBy": "u_98172ae8f41f2ba5"
   }
 ]
