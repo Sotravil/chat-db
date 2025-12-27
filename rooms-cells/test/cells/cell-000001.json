@@ -8,8 +8,10 @@
     "text": "hola",
     "edited": false,
     "editedAt": null,
-    "deleted": false,
-    "createdAt": 1766801374476
+    "deleted": true,
+    "createdAt": 1766801374476,
+    "deletedAt": 1766804412852,
+    "deletedBy": "u_98172ae8f41f2ba5"
   },
   {
     "id": "m-1766803822650-df736v",
