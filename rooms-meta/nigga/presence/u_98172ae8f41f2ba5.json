@@ -3,11 +3,11 @@
   "room": "nigga",
   "userId": "u_98172ae8f41f2ba5",
   "username": "sotravil",
-  "online": true,
-  "lastSeenAt": 1766818102747,
-  "lastActiveAt": 1766818102747,
-  "lastReadTs": 0,
-  "lastReadMsgId": null,
+  "online": false,
+  "lastSeenAt": 1766818104229,
+  "lastActiveAt": 1766818104229,
+  "lastReadTs": 1766814241810,
+  "lastReadMsgId": "m-1766814241810-mid2wu",
   "device": {
     "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
     "platform": "Linux armv81"
