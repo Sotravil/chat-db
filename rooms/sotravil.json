@@ -1,10 +1,17 @@
 {
-  "v": 2,
+  "v": 3,
   "room": "sotravil",
   "createdAt": 1766790572224,
-  "updatedAt": 1766792516662,
-  "latestCell": 3,
-  "totalMessages": 10,
-  "cellMax": 4,
-  "note": "V2 manifest (anti-lag). Mensajes en rooms-cells/<room>/cells/..."
+  "updatedAt": 1766800887404,
+  "migratedFrom": 2,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/sotravil/index.json",
+    "boxesIndex": "rooms-cells/sotravil/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/sotravil/cells/",
+    "boxesDir": "rooms-cells/sotravil/boxes/"
+  }
 }
