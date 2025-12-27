@@ -2,18 +2,13 @@
   {
     "id": "m-1766790246715-3zkw5ljv",
     "room": "room2",
-    "cell": 1,
     "sender": "Sotravil",
     "userId": "u-1766784444976-o1d0p74f",
-    "fingerprint": "fp-TW96aWxsYS81LjAg-o1d0p74f",
     "ts": 1766790246715,
     "text": "hola editado",
     "edited": true,
     "editedAt": 1766790252735,
-    "editedBy": "u-1766784444976-o1d0p74f",
     "deleted": false,
-    "deletedAt": null,
-    "deletedBy": null,
-    "pasteUrl": null
+    "createdAt": 1766790246715
   }
 ]
