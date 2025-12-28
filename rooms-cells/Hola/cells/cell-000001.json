@@ -34,5 +34,28 @@
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
     },
     "cell": 1
+  },
+  {
+    "id": "m-1766880945504-vdp588",
+    "room": "Hola",
+    "sender": "Mega",
+    "userId": "g-1766880820125-xn47ox85",
+    "ts": 1766880945504,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766880945504,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "guest",
+      "sessionUsername": null,
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 1
   }
 ]
