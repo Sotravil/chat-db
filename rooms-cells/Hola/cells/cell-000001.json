@@ -13,7 +13,13 @@
     "audioDuration": 4.748,
     "audioMimeType": "audio/webm;codecs=opus",
     "audioSize": 47338,
-    "listenedBy": [],
+    "listenedBy": [
+      {
+        "userId": "g-1766880820125-xn47ox85",
+        "username": "Guest",
+        "listenedAt": 1766880897497
+      }
+    ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
