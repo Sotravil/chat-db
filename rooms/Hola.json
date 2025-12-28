@@ -1,0 +1,16 @@
+{
+  "v": 3,
+  "room": "Hola",
+  "createdAt": 1766880838810,
+  "updatedAt": 1766880838810,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/Hola/index.json",
+    "boxesIndex": "rooms-cells/Hola/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/Hola/cells/",
+    "boxesDir": "rooms-cells/Hola/boxes/"
+  }
+}
