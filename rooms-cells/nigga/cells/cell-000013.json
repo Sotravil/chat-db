@@ -44,7 +44,7 @@
     "audioSize": 135537,
     "edited": false,
     "editedAt": null,
-    "deleted": false,
+    "deleted": true,
     "createdAt": 1766876103321,
     "status": "sending",
     "replyTo": null,
@@ -62,7 +62,9 @@
         "username": "usertest#1",
         "listenedAt": 1766882868022
       }
-    ]
+    ],
+    "deletedAt": 1766882877987,
+    "deletedBy": "u_a9c3f4a475798b2a"
   },
   {
     "id": "m-1766876445013-8435mb",
