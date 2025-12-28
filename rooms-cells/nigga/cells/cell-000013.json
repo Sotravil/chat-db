@@ -55,7 +55,14 @@
       "ip": null,
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
     },
-    "cell": 13
+    "cell": 13,
+    "listenedBy": [
+      {
+        "userId": "u_a9c3f4a475798b2a",
+        "username": "usertest#1",
+        "listenedAt": 1766882868022
+      }
+    ]
   },
   {
     "id": "m-1766876445013-8435mb",
