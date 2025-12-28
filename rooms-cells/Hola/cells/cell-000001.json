@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "m-1766880887070-cqc5on",
+    "room": "Hola",
+    "sender": "Mega",
+    "userId": "g-1766880820125-xn47ox85",
+    "ts": 1766880887070,
+    "text": "🎤 Voice message",
+    "type": "audio",
+    "audioPath": "rooms-meta/Hola/recorded-audios/g-1766880820125-xn47ox85_1766880887071_m-1766880887070-cqc5on.webm",
+    "audioFileName": "g-1766880820125-xn47ox85_1766880887071_m-1766880887070-cqc5on.webm",
+    "audioFolderType": "recorded-audios",
+    "audioDuration": 4.748,
+    "audioMimeType": "audio/webm;codecs=opus",
+    "audioSize": 47338,
+    "listenedBy": [],
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1766880887070,
+    "status": "sending",
+    "replyTo": null,
+    "meta": {
+      "sessionType": "guest",
+      "sessionUsername": null,
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 1
+  }
+]
