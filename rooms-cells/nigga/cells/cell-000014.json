@@ -92,7 +92,7 @@
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
     "ts": 1766991751453,
-    "text": "",
+    "text": "hola xd",
     "type": "media",
     "attachments": [
       {
@@ -108,8 +108,8 @@
         "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/nigga/media-images/u_98172ae8f41f2ba5_1766991758425_m-1766991751453-1lhi21.jpg"
       }
     ],
-    "edited": false,
-    "editedAt": null,
+    "edited": true,
+    "editedAt": 1766992031374,
     "deleted": false,
     "createdAt": 1766991751453,
     "status": "sending",
@@ -122,6 +122,7 @@
       "ip": null,
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
-    "cell": 14
+    "cell": 14,
+    "editedBy": "u_98172ae8f41f2ba5"
   }
 ]
