@@ -3,9 +3,9 @@
   "room": "Hola",
   "userId": "u_a9c3f4a475798b2a",
   "username": "usertest#1",
-  "online": false,
-  "lastSeenAt": 1767120701967,
-  "lastActiveAt": 1767120700388,
+  "online": true,
+  "lastSeenAt": 1767120703842,
+  "lastActiveAt": 1767120703842,
   "lastReadTs": 0,
   "lastReadMsgId": null,
   "device": {
