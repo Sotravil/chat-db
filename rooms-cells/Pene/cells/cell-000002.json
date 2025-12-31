@@ -23,22 +23,22 @@
     "cell": 2
   },
   {
-    "id": "m-1767156185537-sjgw6i",
+    "id": "m-1767156191059-dj7ucg",
     "room": "Pene",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767156185537,
-    "text": "prueba uno",
+    "ts": 1767156191059,
+    "text": "prueba 2",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767156185537,
+    "createdAt": 1767156191059,
     "status": "sending",
     "replyTo": {
-      "msgId": "m-1767154842979-oe7xvu",
-      "sender": "usertest#1",
-      "text": "Hola?",
-      "userId": "u_a9c3f4a475798b2a"
+      "msgId": "m-1767155123552-n3rp8c",
+      "sender": "melvin2",
+      "text": "Hol",
+      "userId": "u_a67385b6588a60ce"
     },
     "mentions": [],
     "meta": {
