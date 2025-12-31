@@ -46,37 +46,38 @@
     "cell": 1
   },
   {
-    "id": "m-1767155367055-g83mp9",
+    "id": "m-1767155421161-k5l57n",
     "room": "Pene",
-    "sender": "melvin2",
-    "userId": "u_a67385b6588a60ce",
-    "ts": 1767155367055,
+    "sender": "usertest#1",
+    "userId": "u_a9c3f4a475798b2a",
+    "ts": 1767155421161,
     "text": "",
     "type": "media",
     "attachments": [
       {
-        "kind": "video",
-        "fileName": "20251230_232917.mp4",
-        "mime": "video/mp4",
-        "size": 8263787,
+        "kind": "image",
+        "fileName": "Screenshot_20251230-202148.png",
+        "mime": "image/png",
+        "size": 453540,
         "caption": "",
-        "duration": 3.281544,
-        "path": "rooms-meta/Pene/media-videos/u_a67385b6588a60ce_1767155369857_m-1767155367055-g83mp9.mp4",
-        "isChunked": true,
-        "chunkCount": 11,
-        "totalSize": 8263787
+        "width": 480,
+        "height": 1066.6666666666667,
+        "thumbPath": "rooms-meta/Pene/media-thumbs/u_a9c3f4a475798b2a_1767155421313_m-1767155421161-k5l57n_0_thumb.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/u_a9c3f4a475798b2a_1767155421313_m-1767155421161-k5l57n_0_thumb.jpg",
+        "path": "rooms-meta/Pene/media-images/u_a9c3f4a475798b2a_1767155422414_m-1767155421161-k5l57n.png",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-images/u_a9c3f4a475798b2a_1767155422414_m-1767155421161-k5l57n.png"
       }
     ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767155367055,
+    "createdAt": 1767155421161,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
-      "sessionUsername": "melvin2",
+      "sessionUsername": "usertest#1",
       "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
       "ip": null,
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
