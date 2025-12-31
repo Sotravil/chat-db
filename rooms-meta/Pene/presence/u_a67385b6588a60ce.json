@@ -3,9 +3,9 @@
   "room": "Pene",
   "userId": "u_a67385b6588a60ce",
   "username": "melvin2",
-  "online": false,
-  "lastSeenAt": 1767155485673,
-  "lastActiveAt": 1767155483155,
+  "online": true,
+  "lastSeenAt": 1767155487501,
+  "lastActiveAt": 1767155487501,
   "lastReadTs": 1767155421161,
   "lastReadMsgId": "m-1767155421161-k5l57n",
   "device": {
