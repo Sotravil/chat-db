@@ -1,0 +1,29 @@
+{
+  "id": "00MJTO99A4IIROIM8872D5F95C",
+  "ts": 1767164736316,
+  "userId": "u_98172ae8f41f2ba5",
+  "username": "sotravil",
+  "type": "text",
+  "text": "respuesta",
+  "status": "sending",
+  "room": "Pene",
+  "sender": "sotravil",
+  "edited": false,
+  "editedAt": null,
+  "deleted": false,
+  "createdAt": 1767164736316,
+  "replyTo": {
+    "msgId": "m-1767164617479-f2ucjr",
+    "sender": "Melvin",
+    "text": "",
+    "userId": "u_08e486faf56b304c"
+  },
+  "mentions": [],
+  "meta": {
+    "sessionType": "registered",
+    "sessionUsername": "sotravil",
+    "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+    "ip": null,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+  }
+}
