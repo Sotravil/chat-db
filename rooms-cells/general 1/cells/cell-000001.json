@@ -49,5 +49,28 @@
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
     "cell": 1
+  },
+  {
+    "id": "m-1767148170333-ozf74a",
+    "room": "general 1",
+    "sender": "asdsad",
+    "userId": "g-1767147501528-dn5ri9h3",
+    "ts": 1767148170333,
+    "text": "adsdas",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767148170333,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "guest",
+      "sessionUsername": null,
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0"
+    },
+    "cell": 1
   }
 ]
