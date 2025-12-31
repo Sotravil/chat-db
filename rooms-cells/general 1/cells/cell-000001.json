@@ -28,16 +28,16 @@
     "cell": 1
   },
   {
-    "id": "m-1767148008017-f7zq7n",
+    "id": "m-1767148019351-cdw2wd",
     "room": "general 1",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767148008017,
-    "text": "si",
+    "ts": 1767148019351,
+    "text": "puedes ver este mensaje?",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767148008017,
+    "createdAt": 1767148019351,
     "status": "sending",
     "replyTo": {
       "msgId": "m-1767147896732-9ounao",
