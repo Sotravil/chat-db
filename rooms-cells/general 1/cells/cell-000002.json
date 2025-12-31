@@ -78,18 +78,23 @@
     "cell": 2
   },
   {
-    "id": "m-1767150675426-tt16f6",
+    "id": "m-1767150680377-s1tp2t",
     "room": "general 1",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767150675426,
-    "text": "si subi otra foto",
+    "ts": 1767150680377,
+    "text": "no te aparece?",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767150675426,
+    "createdAt": 1767150680377,
     "status": "sending",
-    "replyTo": null,
+    "replyTo": {
+      "msgId": "m-1767150508594-wb6abn",
+      "sender": "sotravil",
+      "text": "cache",
+      "userId": "u_98172ae8f41f2ba5"
+    },
     "mentions": [],
     "meta": {
       "sessionType": "registered",
