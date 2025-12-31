@@ -1,0 +1,24 @@
+{
+  "id": "00MJTO6H1MAS1MY90AN3M6WU7M",
+  "ts": 1767164606410,
+  "userId": "u_08e486faf56b304c",
+  "username": "Melvin",
+  "type": "text",
+  "text": "asd",
+  "status": "sending",
+  "room": "Pene",
+  "sender": "Melvin",
+  "edited": false,
+  "editedAt": null,
+  "deleted": false,
+  "createdAt": 1767164606410,
+  "replyTo": null,
+  "mentions": [],
+  "meta": {
+    "sessionType": "registered",
+    "sessionUsername": "Melvin",
+    "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+    "ip": null,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+  }
+}
