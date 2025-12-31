@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "m-1767161039595-sgdy2y",
+    "room": "Pene",
+    "sender": "Mel",
+    "userId": "g-1767159677769-jgow7whh",
+    "ts": 1767161039595,
+    "text": "Hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767161039595,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "guest",
+      "sessionUsername": null,
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 3
+  }
+]
