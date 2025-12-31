@@ -3,11 +3,11 @@
   "room": "general 1",
   "userId": "g-1767150364084-1x62mjc3",
   "username": "Guest",
-  "online": true,
-  "lastSeenAt": 1767150806940,
-  "lastActiveAt": 1767150806940,
-  "lastReadTs": 1767150680377,
-  "lastReadMsgId": "m-1767150680377-s1tp2t",
+  "online": false,
+  "lastSeenAt": 1767150814736,
+  "lastActiveAt": 1767150692514,
+  "lastReadTs": 1767150330033,
+  "lastReadMsgId": "m-1767150330033-0sduyb",
   "device": {
     "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
     "platform": "Win32"
