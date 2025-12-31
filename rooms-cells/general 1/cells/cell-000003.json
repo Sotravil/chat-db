@@ -36,7 +36,13 @@
     "audioDuration": 8.566,
     "audioMimeType": "audio/webm;codecs=opus",
     "audioSize": 103387,
-    "listenedBy": [],
+    "listenedBy": [
+      {
+        "userId": "u_08e486faf56b304c",
+        "username": "Melvin",
+        "listenedAt": 1767153194610
+      }
+    ],
     "edited": false,
     "editedAt": null,
     "deleted": true,
@@ -55,31 +61,32 @@
     "deletedBy": "u_08e486faf56b304c"
   },
   {
-    "id": "m-1767153151462-k2fyao",
+    "id": "m-1767153029887-rlf21d",
     "room": "general 1",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767153151462,
-    "text": "xd",
+    "ts": 1767153029887,
+    "text": "uwu",
     "type": "media",
     "attachments": [
       {
-        "kind": "video",
-        "fileName": "Uwu Meme - Galad (720p, h264).mp4",
-        "mime": "video/mp4",
-        "size": 682025,
-        "caption": "xd",
-        "duration": 5.048844,
-        "posterPath": "rooms-meta/general 1/media-thumbs/u_98172ae8f41f2ba5_1767153151580_m-1767153151462-k2fyao_0_thumb.jpg",
-        "posterUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-thumbs/u_98172ae8f41f2ba5_1767153151580_m-1767153151462-k2fyao_0_thumb.jpg",
-        "path": "rooms-meta/general 1/media-videos/u_98172ae8f41f2ba5_1767153152447_m-1767153151462-k2fyao.mp4",
-        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-videos/u_98172ae8f41f2ba5_1767153152447_m-1767153151462-k2fyao.mp4"
+        "kind": "image",
+        "fileName": "image.png",
+        "mime": "image/png",
+        "size": 47879,
+        "caption": "uwu",
+        "width": 412,
+        "height": 691,
+        "thumbPath": "rooms-meta/general 1/media-thumbs/u_98172ae8f41f2ba5_1767153029905_m-1767153029887-rlf21d_0_thumb.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-thumbs/u_98172ae8f41f2ba5_1767153029905_m-1767153029887-rlf21d_0_thumb.jpg",
+        "path": "rooms-meta/general 1/media-images/u_98172ae8f41f2ba5_1767153030905_m-1767153029887-rlf21d.png",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-images/u_98172ae8f41f2ba5_1767153030905_m-1767153029887-rlf21d.png"
       }
     ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767153151462,
+    "createdAt": 1767153029887,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
