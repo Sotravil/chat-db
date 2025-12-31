@@ -53,5 +53,44 @@
     "cell": 3,
     "deletedAt": 1767152975085,
     "deletedBy": "u_08e486faf56b304c"
+  },
+  {
+    "id": "m-1767153029887-rlf21d",
+    "room": "general 1",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1767153029887,
+    "text": "uwu",
+    "type": "media",
+    "attachments": [
+      {
+        "kind": "image",
+        "fileName": "image.png",
+        "mime": "image/png",
+        "size": 47879,
+        "caption": "uwu",
+        "width": 412,
+        "height": 691,
+        "thumbPath": "rooms-meta/general 1/media-thumbs/u_98172ae8f41f2ba5_1767153029905_m-1767153029887-rlf21d_0_thumb.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-thumbs/u_98172ae8f41f2ba5_1767153029905_m-1767153029887-rlf21d_0_thumb.jpg",
+        "path": "rooms-meta/general 1/media-images/u_98172ae8f41f2ba5_1767153030905_m-1767153029887-rlf21d.png",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-images/u_98172ae8f41f2ba5_1767153030905_m-1767153029887-rlf21d.png"
+      }
+    ],
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767153029887,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 3
   }
 ]
