@@ -1,0 +1,24 @@
+{
+  "id": "00MJTO6EDLBJT788M9ZLCDWTJ5",
+  "ts": 1767164602953,
+  "userId": "u_98172ae8f41f2ba5",
+  "username": "sotravil",
+  "type": "text",
+  "text": "hola",
+  "status": "sending",
+  "room": "Pene",
+  "sender": "sotravil",
+  "edited": false,
+  "editedAt": null,
+  "deleted": false,
+  "createdAt": 1767164602953,
+  "replyTo": null,
+  "mentions": [],
+  "meta": {
+    "sessionType": "registered",
+    "sessionUsername": "sotravil",
+    "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+    "ip": null,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+  }
+}
