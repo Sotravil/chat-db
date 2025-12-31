@@ -86,31 +86,16 @@
     "cell": 1
   },
   {
-    "id": "m-1767156129954-vfwncm",
+    "id": "m-1767156135304-32ejda",
     "room": "Pene",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767156129954,
-    "text": "uwu",
-    "type": "media",
-    "attachments": [
-      {
-        "kind": "video",
-        "fileName": "Uwu Meme - Galad (720p, h264).mp4",
-        "mime": "video/mp4",
-        "size": 682025,
-        "caption": "uwu",
-        "duration": 5.048844,
-        "posterPath": "rooms-meta/Pene/media-thumbs/u_98172ae8f41f2ba5_1767156130058_m-1767156129954-vfwncm_0_thumb.jpg",
-        "posterUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/u_98172ae8f41f2ba5_1767156130058_m-1767156129954-vfwncm_0_thumb.jpg",
-        "path": "rooms-meta/Pene/media-videos/u_98172ae8f41f2ba5_1767156130750_m-1767156129954-vfwncm.mp4",
-        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-videos/u_98172ae8f41f2ba5_1767156130750_m-1767156129954-vfwncm.mp4"
-      }
-    ],
+    "ts": 1767156135304,
+    "text": "prueba",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767156129954,
+    "createdAt": 1767156135304,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
