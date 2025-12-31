@@ -4,10 +4,10 @@
   "userId": "u_08e486faf56b304c",
   "username": "Melvin",
   "online": true,
-  "lastSeenAt": 1767161862844,
-  "lastActiveAt": 1767161862844,
-  "lastReadTs": 1767156165404,
-  "lastReadMsgId": "m-1767156165404-ezk16u",
+  "lastSeenAt": 1767161865735,
+  "lastActiveAt": 1767161865735,
+  "lastReadTs": 0,
+  "lastReadMsgId": null,
   "device": {
     "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
     "platform": "Win32"
