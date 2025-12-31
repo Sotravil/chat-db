@@ -28,18 +28,23 @@
     "cell": 1
   },
   {
-    "id": "m-1767147937685-lb8bgd",
+    "id": "m-1767148008017-f7zq7n",
     "room": "general 1",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767147937685,
-    "text": "prueba xd",
+    "ts": 1767148008017,
+    "text": "si",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767147937685,
+    "createdAt": 1767148008017,
     "status": "sending",
-    "replyTo": null,
+    "replyTo": {
+      "msgId": "m-1767147896732-9ounao",
+      "sender": "asdsad",
+      "text": "dasdas",
+      "userId": "g-1767147501528-dn5ri9h3"
+    },
     "mentions": [],
     "meta": {
       "sessionType": "registered",
