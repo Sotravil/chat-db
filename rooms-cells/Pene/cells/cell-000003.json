@@ -82,5 +82,45 @@
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
     "cell": 3
+  },
+  {
+    "id": "m-1767164617479-f2ucjr",
+    "room": "Pene",
+    "sender": "Melvin",
+    "userId": "u_08e486faf56b304c",
+    "ts": 1767164617479,
+    "text": "",
+    "type": "media",
+    "attachments": [
+      {
+        "kind": "video",
+        "fileName": "YTDown.com_Shorts_Soy-bien-peruano_Media_G7f8hUUO_lM_001_480p.mp4",
+        "mime": "video/mp4",
+        "size": 1137323,
+        "caption": "",
+        "duration": 11.818957,
+        "posterPath": "rooms-meta/Pene/media-thumbs/u_08e486faf56b304c_1767164617587_m-1767164617479-f2ucjr_0_thumb.jpg",
+        "posterUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/u_08e486faf56b304c_1767164617587_m-1767164617479-f2ucjr_0_thumb.jpg",
+        "path": "rooms-meta/Pene/media-videos/u_08e486faf56b304c_1767164624027_m-1767164617479-f2ucjr.mp4",
+        "isChunked": true,
+        "chunkCount": 2,
+        "totalSize": 1137323
+      }
+    ],
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767164617479,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "Melvin",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 3
   }
 ]
