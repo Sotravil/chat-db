@@ -1,0 +1,13 @@
+{
+  "v": 3,
+  "room": "general  1",
+  "boxes": [
+    {
+      "box": 1,
+      "startCell": 1,
+      "endCell": 1,
+      "updatedAt": 1767152169153
+    }
+  ],
+  "updatedAt": 1767152169153
+}
