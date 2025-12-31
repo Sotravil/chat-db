@@ -3,11 +3,11 @@
   "room": "Pene",
   "userId": "g-1767159677769-jgow7whh",
   "username": "Guest",
-  "online": true,
-  "lastSeenAt": 1767161996374,
-  "lastActiveAt": 1767161996374,
-  "lastReadTs": 1767161039595,
-  "lastReadMsgId": "m-1767161039595-sgdy2y",
+  "online": false,
+  "lastSeenAt": 1767162000041,
+  "lastActiveAt": 1767161075450,
+  "lastReadTs": 1767154842979,
+  "lastReadMsgId": "m-1767154842979-oe7xvu",
   "device": {
     "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
     "platform": "Linux armv81"
