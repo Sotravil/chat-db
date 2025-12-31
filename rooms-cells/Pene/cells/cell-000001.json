@@ -46,41 +46,25 @@
     "cell": 1
   },
   {
-    "id": "m-1767155248804-oe5zkx",
+    "id": "m-1767155269188-aymsv9",
     "room": "Pene",
-    "sender": "usertest#1",
-    "userId": "u_a9c3f4a475798b2a",
-    "ts": 1767155248804,
-    "text": "",
-    "type": "media",
-    "attachments": [
-      {
-        "kind": "image",
-        "fileName": "Screenshot_20251230-202148.png",
-        "mime": "image/png",
-        "size": 453540,
-        "caption": "",
-        "width": 480,
-        "height": 1066.6666666666667,
-        "thumbPath": "rooms-meta/Pene/media-thumbs/u_a9c3f4a475798b2a_1767155248995_m-1767155248804-oe5zkx_0_thumb.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/u_a9c3f4a475798b2a_1767155248995_m-1767155248804-oe5zkx_0_thumb.jpg",
-        "path": "rooms-meta/Pene/media-images/u_a9c3f4a475798b2a_1767155249967_m-1767155248804-oe5zkx.png",
-        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-images/u_a9c3f4a475798b2a_1767155249967_m-1767155248804-oe5zkx.png"
-      }
-    ],
+    "sender": "Melvin",
+    "userId": "u_08e486faf56b304c",
+    "ts": 1767155269188,
+    "text": "sdf",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767155248804,
+    "createdAt": 1767155269188,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
-      "sessionUsername": "usertest#1",
-      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "sessionUsername": "Melvin",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
       "ip": null,
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
     "cell": 1
   }
