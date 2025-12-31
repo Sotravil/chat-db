@@ -3,11 +3,11 @@
   "room": "Pene",
   "userId": "u_98172ae8f41f2ba5",
   "username": "sotravil",
-  "online": true,
-  "lastSeenAt": 1767156918034,
-  "lastActiveAt": 1767156918034,
-  "lastReadTs": 1767156181738,
-  "lastReadMsgId": "m-1767156181738-mi78jj",
+  "online": false,
+  "lastSeenAt": 1767156922567,
+  "lastActiveAt": 1767156870925,
+  "lastReadTs": 1767155398035,
+  "lastReadMsgId": "m-1767155398035-c8vhqa",
   "device": {
     "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
     "platform": "Win32"
