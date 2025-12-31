@@ -23,42 +23,25 @@
     "cell": 2
   },
   {
-    "id": "m-1767156236440-r4el00",
+    "id": "m-1767156253567-a4krw3",
     "room": "Pene",
-    "sender": "Melvin12",
-    "userId": "u_a65011cce2471a71",
-    "ts": 1767156236440,
-    "text": "",
-    "type": "media",
-    "attachments": [
-      {
-        "kind": "video",
-        "fileName": "YTDown.com_Shorts_Soy-bien-peruano_Media_G7f8hUUO_lM_001_480p.mp4",
-        "mime": "video/mp4",
-        "size": 1137323,
-        "caption": "",
-        "duration": 11.818957,
-        "posterPath": "rooms-meta/Pene/media-thumbs/u_a65011cce2471a71_1767156236601_m-1767156236440-r4el00_0_thumb.jpg",
-        "posterUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/u_a65011cce2471a71_1767156236601_m-1767156236440-r4el00_0_thumb.jpg",
-        "path": "rooms-meta/Pene/media-videos/u_a65011cce2471a71_1767156237222_m-1767156236440-r4el00.mp4",
-        "isChunked": true,
-        "chunkCount": 2,
-        "totalSize": 1137323
-      }
-    ],
+    "sender": "Anon",
+    "userId": "g-1767156168094-kr6cty6t",
+    "ts": 1767156253567,
+    "text": "Hola",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767156236440,
+    "createdAt": 1767156253567,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
     "meta": {
-      "sessionType": "registered",
-      "sessionUsername": "Melvin12",
-      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "sessionType": "guest",
+      "sessionUsername": null,
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
       "ip": null,
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
     },
     "cell": 2
   }
