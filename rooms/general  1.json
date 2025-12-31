@@ -1,0 +1,16 @@
+{
+  "v": 3,
+  "room": "general  1",
+  "createdAt": 1767152169153,
+  "updatedAt": 1767152169153,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/general  1/index.json",
+    "boxesIndex": "rooms-cells/general  1/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/general  1/cells/",
+    "boxesDir": "rooms-cells/general  1/boxes/"
+  }
+}
