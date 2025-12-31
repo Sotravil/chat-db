@@ -23,34 +23,38 @@
     "cell": 3
   },
   {
-    "id": "m-1767152443560-3hc7k6",
+    "id": "m-1767152479446-ci9c31",
     "room": "general 1",
-    "sender": "Melvin",
-    "userId": "u_08e486faf56b304c",
-    "ts": 1767152443560,
-    "text": "",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1767152479446,
+    "text": "vitae",
     "type": "media",
     "attachments": [
       {
-        "kind": "file",
-        "fileName": "CV_MELVIN-CRUZ.pdf",
-        "mime": "application/pdf",
-        "size": 155987,
-        "caption": "",
-        "path": "rooms-meta/general 1/media-files/u_08e486faf56b304c_1767152443561_m-1767152443560-3hc7k6.pdf",
-        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-files/u_08e486faf56b304c_1767152443561_m-1767152443560-3hc7k6.pdf"
+        "kind": "image",
+        "fileName": "Nitro_Wallpaper_03_3840x2400.jpg",
+        "mime": "image/jpeg",
+        "size": 7263645,
+        "caption": "vitae",
+        "width": 480,
+        "height": 300,
+        "thumbPath": "rooms-meta/general 1/media-thumbs/u_98172ae8f41f2ba5_1767152479580_m-1767152479446-ci9c31_0_thumb.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-thumbs/u_98172ae8f41f2ba5_1767152479580_m-1767152479446-ci9c31_0_thumb.jpg",
+        "path": "rooms-meta/general 1/media-images/u_98172ae8f41f2ba5_1767152480595_m-1767152479446-ci9c31.jpg",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-images/u_98172ae8f41f2ba5_1767152480595_m-1767152479446-ci9c31.jpg"
       }
     ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767152443560,
+    "createdAt": 1767152479446,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
-      "sessionUsername": "Melvin",
+      "sessionUsername": "sotravil",
       "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
       "ip": null,
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
