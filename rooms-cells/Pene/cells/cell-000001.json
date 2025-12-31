@@ -1,34 +1,30 @@
 [
   {
-    "id": "m-1767154948129-nikdmm",
+    "id": "m-1767154980652-ocm17a",
     "room": "Pene",
     "sender": "usertest#1",
     "userId": "u_a9c3f4a475798b2a",
-    "ts": 1767154948129,
-    "text": "Se ve fea la ui en celular incluso en grande 😭",
-    "type": "media",
-    "attachments": [
-      {
-        "kind": "image",
-        "fileName": "Screenshot_20251230-202148.png",
-        "mime": "image/png",
-        "size": 453540,
-        "caption": "Se ve fea la ui en celular incluso en grande 😭",
-        "width": 480,
-        "height": 1066.6666666666667,
-        "thumbPath": "rooms-meta/Pene/media-thumbs/u_a9c3f4a475798b2a_1767154948535_m-1767154948129-nikdmm_0_thumb.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/u_a9c3f4a475798b2a_1767154948535_m-1767154948129-nikdmm_0_thumb.jpg",
-        "path": "rooms-meta/Pene/media-images/u_a9c3f4a475798b2a_1767154949327_m-1767154948129-nikdmm.png",
-        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-images/u_a9c3f4a475798b2a_1767154949327_m-1767154948129-nikdmm.png"
-      }
-    ],
+    "ts": 1767154980652,
+    "text": "🎤 Voice message",
+    "type": "audio",
+    "audioPath": "rooms-meta/Pene/recorded-audios/u_a9c3f4a475798b2a_1767154980653_m-1767154980652-ocm17a.webm",
+    "audioFileName": "u_a9c3f4a475798b2a_1767154980653_m-1767154980652-ocm17a.webm",
+    "audioFolderType": "recorded-audios",
+    "audioDuration": 4.382,
+    "audioMimeType": "audio/webm;codecs=opus",
+    "audioSize": 52739,
+    "listenedBy": [],
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767154948129,
+    "createdAt": 1767154980652,
     "status": "sending",
-    "replyTo": null,
-    "mentions": [],
+    "replyTo": {
+      "msgId": "m-1767154923704-xi80cn",
+      "sender": "melvin",
+      "text": "esto es mi computadora",
+      "userId": "g-1767154867919-s564pdd5"
+    },
     "meta": {
       "sessionType": "registered",
       "sessionUsername": "usertest#1",
