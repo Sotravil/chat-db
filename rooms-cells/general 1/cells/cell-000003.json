@@ -100,32 +100,34 @@
     "cell": 3
   },
   {
-    "id": "m-1767153684235-6rg1i1",
+    "id": "m-1767153716891-wrvnx6",
     "room": "general 1",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767153684235,
-    "text": "🎤 Voice message",
-    "type": "audio",
-    "audioPath": "rooms-meta/general 1/recorded-audios/u_98172ae8f41f2ba5_1767153684237_m-1767153684235-6rg1i1.webm",
-    "audioFileName": "u_98172ae8f41f2ba5_1767153684237_m-1767153684235-6rg1i1.webm",
-    "audioFolderType": "recorded-audios",
-    "audioDuration": 6.559,
-    "audioMimeType": "audio/webm;codecs=opus",
-    "audioSize": 92681,
-    "listenedBy": [
+    "ts": 1767153716891,
+    "text": "uwu",
+    "type": "media",
+    "attachments": [
       {
-        "userId": "u_08e486faf56b304c",
-        "username": "Melvin",
-        "listenedAt": 1767153716010
+        "kind": "video",
+        "fileName": "Uwu Meme - Galad (720p, h264).mp4",
+        "mime": "video/mp4",
+        "size": 682025,
+        "caption": "uwu",
+        "duration": 5.048844,
+        "posterPath": "rooms-meta/general 1/media-thumbs/u_98172ae8f41f2ba5_1767153716989_m-1767153716891-wrvnx6_0_thumb.jpg",
+        "posterUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-thumbs/u_98172ae8f41f2ba5_1767153716989_m-1767153716891-wrvnx6_0_thumb.jpg",
+        "path": "rooms-meta/general 1/media-videos/u_98172ae8f41f2ba5_1767153717636_m-1767153716891-wrvnx6.mp4",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-videos/u_98172ae8f41f2ba5_1767153717636_m-1767153716891-wrvnx6.mp4"
       }
     ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767153684235,
+    "createdAt": 1767153716891,
     "status": "sending",
     "replyTo": null,
+    "mentions": [],
     "meta": {
       "sessionType": "registered",
       "sessionUsername": "sotravil",
