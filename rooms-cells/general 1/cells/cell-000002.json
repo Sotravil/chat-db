@@ -78,38 +78,55 @@
     "cell": 2
   },
   {
-    "id": "m-1767150805112-y60epr",
+    "id": "m-1767150680377-s1tp2t",
     "room": "general 1",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767150805112,
-    "text": "mira",
-    "type": "media",
-    "attachments": [
-      {
-        "kind": "image",
-        "fileName": "image.png",
-        "mime": "image/png",
-        "size": 154215,
-        "caption": "mira",
-        "width": 480,
-        "height": 291.81525241675615,
-        "thumbPath": "rooms-meta/general 1/media-thumbs/u_98172ae8f41f2ba5_1767150805159_m-1767150805112-y60epr_0_thumb.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-thumbs/u_98172ae8f41f2ba5_1767150805159_m-1767150805112-y60epr_0_thumb.jpg",
-        "path": "rooms-meta/general 1/media-images/u_98172ae8f41f2ba5_1767150805750_m-1767150805112-y60epr.png",
-        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-images/u_98172ae8f41f2ba5_1767150805750_m-1767150805112-y60epr.png"
-      }
-    ],
+    "ts": 1767150680377,
+    "text": "no te aparece?",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767150805112,
+    "createdAt": 1767150680377,
     "status": "sending",
-    "replyTo": null,
+    "replyTo": {
+      "msgId": "m-1767150508594-wb6abn",
+      "sender": "sotravil",
+      "text": "cache",
+      "userId": "u_98172ae8f41f2ba5"
+    },
     "mentions": [],
     "meta": {
       "sessionType": "registered",
       "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 2
+  },
+  {
+    "id": "m-1767150826181-ntozdv",
+    "room": "general 1",
+    "sender": "melvin",
+    "userId": "g-1767150364084-1x62mjc3",
+    "ts": 1767150826181,
+    "text": "ño",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767150826181,
+    "status": "sending",
+    "replyTo": {
+      "msgId": "m-1767150508594-wb6abn",
+      "sender": "sotravil",
+      "text": "cache",
+      "userId": "u_98172ae8f41f2ba5"
+    },
+    "mentions": [],
+    "meta": {
+      "sessionType": "guest",
+      "sessionUsername": null,
       "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
       "ip": null,
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
