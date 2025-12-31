@@ -23,30 +23,25 @@
     "cell": 2
   },
   {
-    "id": "m-1767156284674-o24ql6",
+    "id": "m-1767156307264-3b53sv",
     "room": "Pene",
-    "sender": "sotravil",
-    "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767156284674,
-    "text": "xd",
+    "sender": "Anon",
+    "userId": "g-1767156168094-kr6cty6t",
+    "ts": 1767156307264,
+    "text": "Dota?",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767156284674,
+    "createdAt": 1767156307264,
     "status": "sending",
-    "replyTo": {
-      "msgId": "m-1767156275060-5euoaz",
-      "sender": "Melvin12",
-      "text": "callate chayane",
-      "userId": "u_a65011cce2471a71"
-    },
+    "replyTo": null,
     "mentions": [],
     "meta": {
-      "sessionType": "registered",
-      "sessionUsername": "sotravil",
-      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "sessionType": "guest",
+      "sessionUsername": null,
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
       "ip": null,
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
     },
     "cell": 2
   }
