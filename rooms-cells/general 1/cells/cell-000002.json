@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "m-1767149870791-0mibjh",
+    "room": "general 1",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1767149870791,
+    "text": "PUT",
+    "type": "media",
+    "attachments": [
+      {
+        "kind": "image",
+        "fileName": "Nitro_Wallpaper_03_3840x2400.jpg",
+        "mime": "image/jpeg",
+        "size": 7263645,
+        "caption": "PUT",
+        "width": 480,
+        "height": 300,
+        "thumbPath": "rooms-meta/general 1/media-thumbs/u_98172ae8f41f2ba5_1767149870919_m-1767149870791-0mibjh_0_thumb.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-thumbs/u_98172ae8f41f2ba5_1767149870919_m-1767149870791-0mibjh_0_thumb.jpg",
+        "path": "rooms-meta/general 1/media-images/u_98172ae8f41f2ba5_1767149871703_m-1767149870791-0mibjh.jpg",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-images/u_98172ae8f41f2ba5_1767149871703_m-1767149870791-0mibjh.jpg"
+      }
+    ],
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767149870791,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 2
+  }
+]
