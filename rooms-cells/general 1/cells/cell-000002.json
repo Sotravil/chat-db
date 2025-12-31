@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "m-1767149738122-rzmqo2",
+    "room": "general 1",
+    "sender": "melvin",
+    "userId": "g-1767147501528-dn5ri9h3",
+    "ts": 1767149738122,
+    "text": "🎤 Voice message",
+    "type": "audio",
+    "audioPath": "rooms-meta/general 1/recorded-audios/g-1767147501528-dn5ri9h3_1767149738126_m-1767149738122-rzmqo2.webm",
+    "audioFileName": "g-1767147501528-dn5ri9h3_1767149738126_m-1767149738122-rzmqo2.webm",
+    "audioFolderType": "recorded-audios",
+    "audioDuration": 6.02,
+    "audioMimeType": "audio/webm;codecs=opus",
+    "audioSize": 82939,
+    "listenedBy": [],
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767149738122,
+    "status": "sending",
+    "replyTo": null,
+    "meta": {
+      "sessionType": "guest",
+      "sessionUsername": null,
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0"
+    },
+    "cell": 2
+  }
+]
