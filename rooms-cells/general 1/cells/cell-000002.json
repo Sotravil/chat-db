@@ -78,55 +78,22 @@
     "cell": 2
   },
   {
-    "id": "m-1767150680377-s1tp2t",
+    "id": "m-1767150794532-0rejm1",
     "room": "general 1",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767150680377,
-    "text": "no te aparece?",
+    "ts": 1767150794532,
+    "text": "hola",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767150680377,
+    "createdAt": 1767150794532,
     "status": "sending",
-    "replyTo": {
-      "msgId": "m-1767150508594-wb6abn",
-      "sender": "sotravil",
-      "text": "cache",
-      "userId": "u_98172ae8f41f2ba5"
-    },
+    "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
       "sessionUsername": "sotravil",
-      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
-      "ip": null,
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
-    },
-    "cell": 2
-  },
-  {
-    "id": "m-1767150745444-lfkesi",
-    "room": "general 1",
-    "sender": "melvin",
-    "userId": "g-1767150364084-1x62mjc3",
-    "ts": 1767150745444,
-    "text": "y este tambien",
-    "edited": false,
-    "editedAt": null,
-    "deleted": false,
-    "createdAt": 1767150745444,
-    "status": "sending",
-    "replyTo": {
-      "msgId": "m-1767150680377-s1tp2t",
-      "sender": "sotravil",
-      "text": "no te aparece?",
-      "userId": "u_98172ae8f41f2ba5"
-    },
-    "mentions": [],
-    "meta": {
-      "sessionType": "guest",
-      "sessionUsername": null,
       "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
       "ip": null,
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
