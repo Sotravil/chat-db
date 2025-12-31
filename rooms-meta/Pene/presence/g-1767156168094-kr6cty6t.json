@@ -4,10 +4,10 @@
   "userId": "g-1767156168094-kr6cty6t",
   "username": "Guest",
   "online": true,
-  "lastSeenAt": 1767156251688,
-  "lastActiveAt": 1767156251688,
-  "lastReadTs": 0,
-  "lastReadMsgId": null,
+  "lastSeenAt": 1767156253988,
+  "lastActiveAt": 1767156253988,
+  "lastReadTs": 1767156253567,
+  "lastReadMsgId": "m-1767156253567-a4krw3",
   "device": {
     "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
     "platform": "Linux armv81"
