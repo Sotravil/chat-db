@@ -46,43 +46,30 @@
     "cell": 1
   },
   {
-    "id": "m-1767155349696-tzpj5l",
+    "id": "m-1767155388798-nfzt0f",
     "room": "Pene",
-    "sender": "melvin2",
-    "userId": "u_a67385b6588a60ce",
-    "ts": 1767155349696,
-    "text": "",
-    "type": "media",
-    "attachments": [
-      {
-        "kind": "image",
-        "fileName": "17671553305672097694010960159809.jpg",
-        "mime": "image/jpeg",
-        "size": 4194677,
-        "caption": "",
-        "width": 480,
-        "height": 640,
-        "thumbPath": "rooms-meta/Pene/media-thumbs/u_a67385b6588a60ce_1767155350260_m-1767155349696-tzpj5l_0_thumb.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/u_a67385b6588a60ce_1767155350260_m-1767155349696-tzpj5l_0_thumb.jpg",
-        "path": "rooms-meta/Pene/media-images/u_a67385b6588a60ce_1767155351158_m-1767155349696-tzpj5l.jpg",
-        "isChunked": true,
-        "chunkCount": 6,
-        "totalSize": 4194677
-      }
-    ],
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1767155388798,
+    "text": "xd",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767155349696,
+    "createdAt": 1767155388798,
     "status": "sending",
-    "replyTo": null,
+    "replyTo": {
+      "msgId": "m-1767155349696-tzpj5l",
+      "sender": "melvin2",
+      "text": "",
+      "userId": "u_a67385b6588a60ce"
+    },
     "mentions": [],
     "meta": {
       "sessionType": "registered",
-      "sessionUsername": "melvin2",
-      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
       "ip": null,
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
     "cell": 1
   }
