@@ -1,0 +1,15 @@
+{
+  "v": 1,
+  "room": "general  1",
+  "userId": "g-1766880820125-xn47ox85",
+  "username": "Guest",
+  "online": true,
+  "lastSeenAt": 1767152173608,
+  "lastActiveAt": 1767152173608,
+  "lastReadTs": 0,
+  "lastReadMsgId": null,
+  "device": {
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "platform": "Linux armv81"
+  }
+}
