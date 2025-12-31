@@ -46,16 +46,16 @@
     "cell": 1
   },
   {
-    "id": "m-1767155340824-bb6kan",
+    "id": "m-1767155348973-dymdtd",
     "room": "Pene",
     "sender": "usertest#1",
     "userId": "u_a9c3f4a475798b2a",
-    "ts": 1767155340824,
-    "text": "Porque se borran los mensajes?",
+    "ts": 1767155348973,
+    "text": "Este mensaje no aparece en mi pc",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767155340824,
+    "createdAt": 1767155348973,
     "status": "sending",
     "replyTo": {
       "msgId": "m-1767155248804-oe5zkx",
