@@ -36,19 +36,36 @@
     "audioDuration": 8.566,
     "audioMimeType": "audio/webm;codecs=opus",
     "audioSize": 103387,
-    "listenedBy": [
-      {
-        "userId": "u_08e486faf56b304c",
-        "username": "Melvin",
-        "listenedAt": 1767152809923
-      }
-    ],
+    "listenedBy": [],
     "edited": false,
     "editedAt": null,
     "deleted": false,
     "createdAt": 1767152582336,
     "status": "sending",
     "replyTo": null,
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "Melvin",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 3
+  },
+  {
+    "id": "m-1767152919950-po98vc",
+    "room": "general 1",
+    "sender": "Melvin",
+    "userId": "u_08e486faf56b304c",
+    "ts": 1767152919950,
+    "text": "sd",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767152919950,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
     "meta": {
       "sessionType": "registered",
       "sessionUsername": "Melvin",
