@@ -36,13 +36,7 @@
     "audioDuration": 6.992,
     "audioMimeType": "audio/webm;codecs=opus",
     "audioSize": 96577,
-    "listenedBy": [
-      {
-        "userId": "u_a65011cce2471a71",
-        "username": "Melvin12",
-        "listenedAt": 1767156520321
-      }
-    ],
+    "listenedBy": [],
     "edited": false,
     "editedAt": null,
     "deleted": false,
@@ -55,6 +49,44 @@
       "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
       "ip": null,
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 2
+  },
+  {
+    "id": "m-1767156619569-n1qpaw",
+    "room": "Pene",
+    "sender": "Anon",
+    "userId": "g-1767156168094-kr6cty6t",
+    "ts": 1767156619569,
+    "text": "Hoia",
+    "type": "media",
+    "attachments": [
+      {
+        "kind": "video",
+        "fileName": "0b8872b0ccc8dca2ea1a18aaf1006fb5.mp4",
+        "mime": "video/mp4",
+        "size": 704219,
+        "caption": "Hoia",
+        "duration": 14.119002,
+        "posterPath": "rooms-meta/Pene/media-thumbs/g-1767156168094-kr6cty6t_1767156619869_m-1767156619569-n1qpaw_0_thumb.jpg",
+        "posterUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/g-1767156168094-kr6cty6t_1767156619869_m-1767156619569-n1qpaw_0_thumb.jpg",
+        "path": "rooms-meta/Pene/media-videos/g-1767156168094-kr6cty6t_1767156620510_m-1767156619569-n1qpaw.mp4",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-videos/g-1767156168094-kr6cty6t_1767156620510_m-1767156619569-n1qpaw.mp4"
+      }
+    ],
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767156619569,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "guest",
+      "sessionUsername": null,
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
     },
     "cell": 2
   }
