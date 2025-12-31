@@ -23,21 +23,21 @@
     "cell": 2
   },
   {
-    "id": "m-1767156255898-lmcm1r",
+    "id": "m-1767156262313-bo5ojz",
     "room": "Pene",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767156255898,
-    "text": "este lo puedo ver",
+    "ts": 1767156262313,
+    "text": "este video tambien",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767156255898,
+    "createdAt": 1767156262313,
     "status": "sending",
     "replyTo": {
-      "msgId": "m-1767156181738-mi78jj",
+      "msgId": "m-1767156236440-r4el00",
       "sender": "Melvin12",
-      "text": "dsadsa",
+      "text": "",
       "userId": "u_a65011cce2471a71"
     },
     "mentions": [],
