@@ -3,9 +3,9 @@
   "room": "general 1",
   "userId": "u_08e486faf56b304c",
   "username": "Melvin",
-  "online": false,
-  "lastSeenAt": 1767153729711,
-  "lastActiveAt": 1767153728257,
+  "online": true,
+  "lastSeenAt": 1767153746390,
+  "lastActiveAt": 1767153746390,
   "lastReadTs": 1767153684235,
   "lastReadMsgId": "m-1767153684235-6rg1i1",
   "device": {
