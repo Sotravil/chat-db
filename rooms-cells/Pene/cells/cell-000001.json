@@ -23,25 +23,25 @@
     "cell": 1
   },
   {
-    "id": "m-1767154923704-xi80cn",
+    "id": "m-1767154926686-iixb0c",
     "room": "Pene",
-    "sender": "melvin",
-    "userId": "g-1767154867919-s564pdd5",
-    "ts": 1767154923704,
-    "text": "esto es mi computadora",
+    "sender": "Pereo",
+    "userId": "g-1766880820125-xn47ox85",
+    "ts": 1767154926686,
+    "text": "Esto es mi celuae",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767154923704,
+    "createdAt": 1767154926686,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "guest",
       "sessionUsername": null,
-      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
       "ip": null,
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
     },
     "cell": 1
   }
