@@ -39,23 +39,34 @@
     "cell": 2
   },
   {
-    "id": "m-1767150330033-0sduyb",
+    "id": "m-1767150508594-wb6abn",
     "room": "general 1",
     "sender": "sotravil",
     "userId": "u_98172ae8f41f2ba5",
-    "ts": 1767150330033,
-    "text": "si",
+    "ts": 1767150508594,
+    "text": "cache",
+    "type": "media",
+    "attachments": [
+      {
+        "kind": "image",
+        "fileName": "Nitro_Wallpaper_01_3840x2400.jpg",
+        "mime": "image/jpeg",
+        "size": 3545147,
+        "caption": "cache",
+        "width": 480,
+        "height": 300,
+        "thumbPath": "rooms-meta/general 1/media-thumbs/u_98172ae8f41f2ba5_1767150508692_m-1767150508594-wb6abn_0_thumb.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-thumbs/u_98172ae8f41f2ba5_1767150508692_m-1767150508594-wb6abn_0_thumb.jpg",
+        "path": "rooms-meta/general 1/media-images/u_98172ae8f41f2ba5_1767150509323_m-1767150508594-wb6abn.jpg",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-images/u_98172ae8f41f2ba5_1767150509323_m-1767150508594-wb6abn.jpg"
+      }
+    ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767150330033,
+    "createdAt": 1767150508594,
     "status": "sending",
-    "replyTo": {
-      "msgId": "m-1767150216625-7u6ens",
-      "sender": "melvin",
-      "text": "",
-      "userId": "g-1767147501528-dn5ri9h3"
-    },
+    "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
