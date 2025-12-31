@@ -21,5 +21,33 @@
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
     "cell": 3
+  },
+  {
+    "id": "m-1767152402861-4uy3c1",
+    "room": "general 1",
+    "sender": "Melvin",
+    "userId": "u_08e486faf56b304c",
+    "ts": 1767152402861,
+    "text": "no quiero",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767152402861,
+    "status": "sending",
+    "replyTo": {
+      "msgId": "m-1767152364360-7p7qit",
+      "sender": "sotravil",
+      "text": "hola",
+      "userId": "u_98172ae8f41f2ba5"
+    },
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "Melvin",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 3
   }
 ]
