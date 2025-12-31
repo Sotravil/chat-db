@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "m-1767150216625-7u6ens",
+    "room": "general 1",
+    "sender": "melvin",
+    "userId": "g-1767147501528-dn5ri9h3",
+    "ts": 1767150216625,
+    "text": "",
+    "type": "media",
+    "attachments": [
+      {
+        "kind": "image",
+        "fileName": "Captura de pantalla (1).png",
+        "mime": "image/png",
+        "size": 1792002,
+        "caption": "",
+        "width": 480,
+        "height": 270,
+        "thumbPath": "rooms-meta/general 1/media-thumbs/g-1767147501528-dn5ri9h3_1767150216679_m-1767150216625-7u6ens_0_thumb.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-thumbs/g-1767147501528-dn5ri9h3_1767150216679_m-1767150216625-7u6ens_0_thumb.jpg",
+        "path": "rooms-meta/general 1/media-images/g-1767147501528-dn5ri9h3_1767150217447_m-1767150216625-7u6ens.png",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/general%201/media-images/g-1767147501528-dn5ri9h3_1767150217447_m-1767150216625-7u6ens.png"
+      }
+    ],
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767150216625,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "guest",
+      "sessionUsername": null,
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0"
+    },
+    "cell": 2
+  }
+]
