@@ -106,21 +106,21 @@
     "cell": 2
   },
   {
-    "id": "m-1767150826181-ntozdv",
+    "id": "m-1767150831318-1pppbo",
     "room": "general 1",
     "sender": "melvin",
     "userId": "g-1767150364084-1x62mjc3",
-    "ts": 1767150826181,
-    "text": "ño",
+    "ts": 1767150831318,
+    "text": "chi",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767150826181,
+    "createdAt": 1767150831318,
     "status": "sending",
     "replyTo": {
-      "msgId": "m-1767150508594-wb6abn",
+      "msgId": "m-1767150680377-s1tp2t",
       "sender": "sotravil",
-      "text": "cache",
+      "text": "no te aparece?",
       "userId": "u_98172ae8f41f2ba5"
     },
     "mentions": [],
