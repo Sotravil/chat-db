@@ -1,22 +1,17 @@
 [
   {
-    "id": "m-1767154910858-5499eu",
+    "id": "m-1767154842979-oe7xvu",
     "room": "Pene",
     "sender": "usertest#1",
     "userId": "u_a9c3f4a475798b2a",
-    "ts": 1767154910858,
-    "text": "Estoy escribiendo desde el celular",
+    "ts": 1767154842979,
+    "text": "Hola?",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767154910858,
+    "createdAt": 1767154842979,
     "status": "sending",
-    "replyTo": {
-      "msgId": "m-1767154885010-ljna67",
-      "sender": "Pereo",
-      "text": "No",
-      "userId": "g-1766880820125-xn47ox85"
-    },
+    "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
@@ -24,6 +19,29 @@
       "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
       "ip": null,
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 1
+  },
+  {
+    "id": "m-1767154923704-xi80cn",
+    "room": "Pene",
+    "sender": "melvin",
+    "userId": "g-1767154867919-s564pdd5",
+    "ts": 1767154923704,
+    "text": "esto es mi computadora",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767154923704,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "guest",
+      "sessionUsername": null,
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
     "cell": 1
   }
