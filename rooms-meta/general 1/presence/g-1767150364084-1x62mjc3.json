@@ -3,9 +3,9 @@
   "room": "general 1",
   "userId": "g-1767150364084-1x62mjc3",
   "username": "Guest",
-  "online": false,
-  "lastSeenAt": 1767150627268,
-  "lastActiveAt": 1767150619005,
+  "online": true,
+  "lastSeenAt": 1767150630094,
+  "lastActiveAt": 1767150630094,
   "lastReadTs": 1767150330033,
   "lastReadMsgId": "m-1767150330033-0sduyb",
   "device": {
