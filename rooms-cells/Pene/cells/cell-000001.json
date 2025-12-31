@@ -23,25 +23,25 @@
     "cell": 1
   },
   {
-    "id": "m-1767155122798-8zk2tt",
+    "id": "m-1767155123552-n3rp8c",
     "room": "Pene",
-    "sender": "melvin",
-    "userId": "u_a65011cce2471a71",
-    "ts": 1767155122798,
-    "text": "asd",
+    "sender": "melvin2",
+    "userId": "u_a67385b6588a60ce",
+    "ts": 1767155123552,
+    "text": "Hol",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767155122798,
+    "createdAt": 1767155123552,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
-      "sessionUsername": "Melvin12",
-      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "sessionUsername": "melvin2",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
       "ip": null,
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
     },
     "cell": 1
   }
