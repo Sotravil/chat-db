@@ -1,44 +1,21 @@
 [
   {
-    "id": "m-1767154842979-oe7xvu",
+    "id": "m-1767154899529-vn48z9",
     "room": "Pene",
     "sender": "usertest#1",
     "userId": "u_a9c3f4a475798b2a",
-    "ts": 1767154842979,
-    "text": "Hola?",
+    "ts": 1767154899529,
+    "text": "Hola",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767154842979,
+    "createdAt": 1767154899529,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
       "sessionUsername": "usertest#1",
-      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
-      "ip": null,
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
-    },
-    "cell": 1
-  },
-  {
-    "id": "m-1767154885010-ljna67",
-    "room": "Pene",
-    "sender": "Pereo",
-    "userId": "g-1766880820125-xn47ox85",
-    "ts": 1767154885010,
-    "text": "No",
-    "edited": false,
-    "editedAt": null,
-    "deleted": false,
-    "createdAt": 1767154885010,
-    "status": "sending",
-    "replyTo": null,
-    "mentions": [],
-    "meta": {
-      "sessionType": "guest",
-      "sessionUsername": null,
       "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
       "ip": null,
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
