@@ -45,7 +45,7 @@
     ],
     "edited": false,
     "editedAt": null,
-    "deleted": false,
+    "deleted": true,
     "createdAt": 1767156413882,
     "status": "sending",
     "replyTo": null,
@@ -56,6 +56,8 @@
       "ip": null,
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
-    "cell": 2
+    "cell": 2,
+    "deletedAt": 1767156858964,
+    "deletedBy": "u_a65011cce2471a71"
   }
 ]
