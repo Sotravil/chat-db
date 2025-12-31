@@ -46,41 +46,42 @@
     "cell": 1
   },
   {
-    "id": "m-1767155421161-k5l57n",
+    "id": "m-1767155481543-hjc5yg",
     "room": "Pene",
-    "sender": "usertest#1",
-    "userId": "u_a9c3f4a475798b2a",
-    "ts": 1767155421161,
+    "sender": "melvin",
+    "userId": "u_a65011cce2471a71",
+    "ts": 1767155481543,
     "text": "",
     "type": "media",
     "attachments": [
       {
-        "kind": "image",
-        "fileName": "Screenshot_20251230-202148.png",
-        "mime": "image/png",
-        "size": 453540,
+        "kind": "video",
+        "fileName": "YTDown.com_Shorts_Soy-bien-peruano_Media_G7f8hUUO_lM_001_480p.mp4",
+        "mime": "video/mp4",
+        "size": 1137323,
         "caption": "",
-        "width": 480,
-        "height": 1066.6666666666667,
-        "thumbPath": "rooms-meta/Pene/media-thumbs/u_a9c3f4a475798b2a_1767155421313_m-1767155421161-k5l57n_0_thumb.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/u_a9c3f4a475798b2a_1767155421313_m-1767155421161-k5l57n_0_thumb.jpg",
-        "path": "rooms-meta/Pene/media-images/u_a9c3f4a475798b2a_1767155422414_m-1767155421161-k5l57n.png",
-        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-images/u_a9c3f4a475798b2a_1767155422414_m-1767155421161-k5l57n.png"
+        "duration": 11.818957,
+        "posterPath": "rooms-meta/Pene/media-thumbs/u_a65011cce2471a71_1767155481653_m-1767155481543-hjc5yg_0_thumb.jpg",
+        "posterUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/u_a65011cce2471a71_1767155481653_m-1767155481543-hjc5yg_0_thumb.jpg",
+        "path": "rooms-meta/Pene/media-videos/u_a65011cce2471a71_1767155482331_m-1767155481543-hjc5yg.mp4",
+        "isChunked": true,
+        "chunkCount": 2,
+        "totalSize": 1137323
       }
     ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767155421161,
+    "createdAt": 1767155481543,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
-      "sessionUsername": "usertest#1",
-      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "sessionUsername": "Melvin12",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
       "ip": null,
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     },
     "cell": 1
   }
