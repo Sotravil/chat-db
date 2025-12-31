@@ -37,5 +37,33 @@
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0"
     },
     "cell": 2
+  },
+  {
+    "id": "m-1767150330033-0sduyb",
+    "room": "general 1",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1767150330033,
+    "text": "si",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767150330033,
+    "status": "sending",
+    "replyTo": {
+      "msgId": "m-1767150216625-7u6ens",
+      "sender": "melvin",
+      "text": "",
+      "userId": "g-1767147501528-dn5ri9h3"
+    },
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 2
   }
 ]
