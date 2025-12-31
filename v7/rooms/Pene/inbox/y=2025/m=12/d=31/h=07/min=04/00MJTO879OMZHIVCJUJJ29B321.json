@@ -1,0 +1,29 @@
+{
+  "id": "00MJTO879OMZHIVCJUJJ29B321",
+  "ts": 1767164687052,
+  "userId": "u_98172ae8f41f2ba5",
+  "username": "sotravil",
+  "type": "text",
+  "text": "TnT",
+  "status": "sending",
+  "room": "Pene",
+  "sender": "sotravil",
+  "edited": false,
+  "editedAt": null,
+  "deleted": false,
+  "createdAt": 1767164687052,
+  "replyTo": {
+    "msgId": "m-1767161456001-k9ccw0",
+    "sender": "sotravil",
+    "text": "xd",
+    "userId": "u_98172ae8f41f2ba5"
+  },
+  "mentions": [],
+  "meta": {
+    "sessionType": "registered",
+    "sessionUsername": "sotravil",
+    "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+    "ip": null,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+  }
+}
