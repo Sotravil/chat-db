@@ -3,9 +3,9 @@
   "room": "Pene",
   "userId": "u_98172ae8f41f2ba5",
   "username": "sotravil",
-  "online": false,
-  "lastSeenAt": 1767155367962,
-  "lastActiveAt": 1767155215707,
+  "online": true,
+  "lastSeenAt": 1767155369205,
+  "lastActiveAt": 1767155369205,
   "lastReadTs": 0,
   "lastReadMsgId": null,
   "device": {
