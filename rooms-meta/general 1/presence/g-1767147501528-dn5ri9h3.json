@@ -4,10 +4,10 @@
   "userId": "g-1767147501528-dn5ri9h3",
   "username": "Guest",
   "online": true,
-  "lastSeenAt": 1767150169410,
-  "lastActiveAt": 1767150169410,
-  "lastReadTs": 0,
-  "lastReadMsgId": null,
+  "lastSeenAt": 1767150171176,
+  "lastActiveAt": 1767150171176,
+  "lastReadTs": 1767147896732,
+  "lastReadMsgId": "m-1767147896732-9ounao",
   "device": {
     "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0",
     "platform": "Win32"
