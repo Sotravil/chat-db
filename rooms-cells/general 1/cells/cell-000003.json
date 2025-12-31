@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "m-1767152018696-2c0umf",
+    "room": "general 1",
+    "sender": "Melvin",
+    "userId": "u_08e486faf56b304c",
+    "ts": 1767152018696,
+    "text": "hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767152018696,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "Melvin",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 3
+  }
+]
