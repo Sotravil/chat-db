@@ -1,0 +1,15 @@
+{
+  "v": 1,
+  "room": "Pene",
+  "userId": "u_a67385b6588a60ce",
+  "username": "melvin2",
+  "online": true,
+  "lastSeenAt": 1767154972967,
+  "lastActiveAt": 1767154972967,
+  "lastReadTs": 0,
+  "lastReadMsgId": null,
+  "device": {
+    "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
+    "platform": "Linux armv81"
+  }
+}
