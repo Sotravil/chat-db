@@ -1,0 +1,13 @@
+{
+  "v": 3,
+  "room": "Pene",
+  "boxes": [
+    {
+      "box": 1,
+      "startCell": 1,
+      "endCell": 1,
+      "updatedAt": 1767154812845
+    }
+  ],
+  "updatedAt": 1767154812845
+}
