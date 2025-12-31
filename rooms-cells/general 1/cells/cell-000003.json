@@ -41,11 +41,6 @@
         "userId": "u_08e486faf56b304c",
         "username": "Melvin",
         "listenedAt": 1767153194610
-      },
-      {
-        "userId": "u_98172ae8f41f2ba5",
-        "username": "sotravil",
-        "listenedAt": 1767153594432
       }
     ],
     "edited": false,
@@ -95,6 +90,36 @@
     "status": "sending",
     "replyTo": null,
     "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 3
+  },
+  {
+    "id": "m-1767153684235-6rg1i1",
+    "room": "general 1",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1767153684235,
+    "text": "🎤 Voice message",
+    "type": "audio",
+    "audioPath": "rooms-meta/general 1/recorded-audios/u_98172ae8f41f2ba5_1767153684237_m-1767153684235-6rg1i1.webm",
+    "audioFileName": "u_98172ae8f41f2ba5_1767153684237_m-1767153684235-6rg1i1.webm",
+    "audioFolderType": "recorded-audios",
+    "audioDuration": 6.559,
+    "audioMimeType": "audio/webm;codecs=opus",
+    "audioSize": 92681,
+    "listenedBy": [],
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767153684235,
+    "status": "sending",
+    "replyTo": null,
     "meta": {
       "sessionType": "registered",
       "sessionUsername": "sotravil",
