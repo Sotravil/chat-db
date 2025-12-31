@@ -1,44 +1,37 @@
 [
   {
-    "id": "m-1767154842979-oe7xvu",
+    "id": "m-1767154948129-nikdmm",
     "room": "Pene",
     "sender": "usertest#1",
     "userId": "u_a9c3f4a475798b2a",
-    "ts": 1767154842979,
-    "text": "Hola?",
+    "ts": 1767154948129,
+    "text": "Se ve fea la ui en celular incluso en grande 😭",
+    "type": "media",
+    "attachments": [
+      {
+        "kind": "image",
+        "fileName": "Screenshot_20251230-202148.png",
+        "mime": "image/png",
+        "size": 453540,
+        "caption": "Se ve fea la ui en celular incluso en grande 😭",
+        "width": 480,
+        "height": 1066.6666666666667,
+        "thumbPath": "rooms-meta/Pene/media-thumbs/u_a9c3f4a475798b2a_1767154948535_m-1767154948129-nikdmm_0_thumb.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-thumbs/u_a9c3f4a475798b2a_1767154948535_m-1767154948129-nikdmm_0_thumb.jpg",
+        "path": "rooms-meta/Pene/media-images/u_a9c3f4a475798b2a_1767154949327_m-1767154948129-nikdmm.png",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/Pene/media-images/u_a9c3f4a475798b2a_1767154949327_m-1767154948129-nikdmm.png"
+      }
+    ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767154842979,
+    "createdAt": 1767154948129,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
       "sessionUsername": "usertest#1",
-      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
-      "ip": null,
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
-    },
-    "cell": 1
-  },
-  {
-    "id": "m-1767154926686-iixb0c",
-    "room": "Pene",
-    "sender": "Pereo",
-    "userId": "g-1766880820125-xn47ox85",
-    "ts": 1767154926686,
-    "text": "Esto es mi celuae",
-    "edited": false,
-    "editedAt": null,
-    "deleted": false,
-    "createdAt": 1767154926686,
-    "status": "sending",
-    "replyTo": null,
-    "mentions": [],
-    "meta": {
-      "sessionType": "guest",
-      "sessionUsername": null,
       "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
       "ip": null,
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
