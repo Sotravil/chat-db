@@ -1,17 +1,22 @@
 [
   {
-    "id": "m-1767147893156-zy583m",
+    "id": "m-1767147896732-9ounao",
     "room": "general 1",
     "sender": "asdsad",
     "userId": "g-1767147501528-dn5ri9h3",
-    "ts": 1767147893156,
-    "text": "dasdasd",
+    "ts": 1767147896732,
+    "text": "dasdas",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1767147893156,
+    "createdAt": 1767147896732,
     "status": "sending",
-    "replyTo": null,
+    "replyTo": {
+      "msgId": "m-1767147893156-zy583m",
+      "sender": "asdsad",
+      "text": "dasdasd",
+      "userId": "g-1767147501528-dn5ri9h3"
+    },
     "mentions": [],
     "meta": {
       "sessionType": "guest",
