@@ -59,5 +59,28 @@
     "cell": 2,
     "deletedAt": 1767156858964,
     "deletedBy": "u_a65011cce2471a71"
+  },
+  {
+    "id": "m-1767156876258-77vacl",
+    "room": "Pene",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1767156876258,
+    "text": "hola",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1767156876258,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    },
+    "cell": 2
   }
 ]
