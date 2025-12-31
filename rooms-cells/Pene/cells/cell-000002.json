@@ -36,7 +36,13 @@
     "audioDuration": 6.992,
     "audioMimeType": "audio/webm;codecs=opus",
     "audioSize": 96577,
-    "listenedBy": [],
+    "listenedBy": [
+      {
+        "userId": "u_a65011cce2471a71",
+        "username": "Melvin12",
+        "listenedAt": 1767156520321
+      }
+    ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
