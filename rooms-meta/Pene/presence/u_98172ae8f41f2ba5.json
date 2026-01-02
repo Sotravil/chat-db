@@ -3,11 +3,11 @@
   "room": "Pene",
   "userId": "u_98172ae8f41f2ba5",
   "username": "sotravil",
-  "online": false,
-  "lastSeenAt": 1767333935656,
-  "lastActiveAt": 1767333931764,
-  "lastReadTs": 1767164617479,
-  "lastReadMsgId": "m-1767164617479-f2ucjr",
+  "online": true,
+  "lastSeenAt": 1767359821033,
+  "lastActiveAt": 1767359821033,
+  "lastReadTs": 0,
+  "lastReadMsgId": null,
   "device": {
     "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
     "platform": "Win32"
