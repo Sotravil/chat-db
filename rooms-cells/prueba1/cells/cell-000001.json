@@ -81,23 +81,18 @@
     "cell": 1
   },
   {
-    "id": "m-1772839237642-55v0y1",
+    "id": "m-1772839508442-7j0j95",
     "room": "prueba1",
     "sender": "kevin",
     "userId": "u_85f5e10431f69bc2",
-    "ts": 1772839237642,
-    "text": "Jajajajaja perdona 😭 se me olvido eso querias?",
+    "ts": 1772839508442,
+    "text": "A chinga se borro la imagen que mandaste 😭😭😭",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1772839237642,
+    "createdAt": 1772839508442,
     "status": "sending",
-    "replyTo": {
-      "msgId": "m-1772838982296-tfw2lf",
-      "sender": "melvin2",
-      "text": "Awebo no hay gifs",
-      "userId": "u_a67385b6588a60ce"
-    },
+    "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
