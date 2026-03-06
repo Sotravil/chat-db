@@ -1,0 +1,20 @@
+{
+  "v": 3,
+  "room": "sotravil",
+  "visibility": "public",
+  "passwordHash": null,
+  "createdBy": "u_98172ae8f41f2ba5",
+  "createdByName": "sotravil",
+  "createdAt": 1772824097178,
+  "updatedAt": 1772824097178,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/sotravil/index.json",
+    "boxesIndex": "rooms-cells/sotravil/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/sotravil/cells/",
+    "boxesDir": "rooms-cells/sotravil/boxes/"
+  }
+}
