@@ -1,0 +1,19 @@
+{
+  "v": 1,
+  "userId": "u_98172ae8f41f2ba5",
+  "date": "2026-03-06",
+  "entries": [
+    {
+      "ts": 1772807776809,
+      "type": "join_room",
+      "room": "Pene",
+      "displayName": "sotravil"
+    }
+  ],
+  "summary": {
+    "messagesSent": 0,
+    "roomsJoined": 1,
+    "sessionCount": 0
+  },
+  "updatedAt": 1772807777252
+}
