@@ -1,0 +1,16 @@
+{
+  "v": 3,
+  "room": "pene",
+  "createdAt": 1772819072190,
+  "updatedAt": 1772819072190,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/pene/index.json",
+    "boxesIndex": "rooms-cells/pene/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/pene/cells/",
+    "boxesDir": "rooms-cells/pene/boxes/"
+  }
+}
