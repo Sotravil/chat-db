@@ -5,14 +5,14 @@
   "months": {
     "2026-03": {
       "messagesSent": 0,
-      "roomsJoined": 1,
+      "roomsJoined": 2,
       "sessionCount": 0
     }
   },
   "totals": {
     "messagesSent": 0,
-    "roomsJoined": 1,
+    "roomsJoined": 2,
     "sessionCount": 0
   },
-  "updatedAt": 1772807779495
+  "updatedAt": 1772810578200
 }
