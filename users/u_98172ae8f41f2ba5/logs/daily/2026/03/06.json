@@ -52,15 +52,17 @@
       "displayName": "sotravil"
     },
     {
-      "ts": 1772823063322,
-      "type": "logout",
-      "sessionDuration": 56966
+      "ts": 1772823080395,
+      "type": "login",
+      "username": "sotravil",
+      "platform": "Win32",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
     }
   ],
   "summary": {
     "messagesSent": 0,
     "roomsJoined": 8,
-    "sessionCount": 0
+    "sessionCount": 1
   },
-  "updatedAt": 1772823063524
+  "updatedAt": 1772823080397
 }
