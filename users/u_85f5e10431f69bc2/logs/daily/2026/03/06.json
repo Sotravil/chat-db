@@ -27,12 +27,18 @@
       "type": "join_room",
       "room": "prueba1",
       "displayName": "kevin"
+    },
+    {
+      "ts": 1772839223552,
+      "type": "join_room",
+      "room": "prueba1",
+      "displayName": "kevin"
     }
   ],
   "summary": {
     "messagesSent": 0,
-    "roomsJoined": 3,
+    "roomsJoined": 4,
     "sessionCount": 1
   },
-  "updatedAt": 1772838097356
+  "updatedAt": 1772839223710
 }
