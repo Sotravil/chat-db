@@ -5,14 +5,14 @@
   "days": {
     "2026-03-06": {
       "messagesSent": 0,
-      "roomsJoined": 1,
+      "roomsJoined": 2,
       "sessionCount": 1
     }
   },
   "totals": {
     "messagesSent": 0,
-    "roomsJoined": 1,
+    "roomsJoined": 2,
     "sessionCount": 1
   },
-  "updatedAt": 1772836975810
+  "updatedAt": 1772837028456
 }
