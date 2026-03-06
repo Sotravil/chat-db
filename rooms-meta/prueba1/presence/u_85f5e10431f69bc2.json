@@ -3,11 +3,11 @@
   "room": "prueba1",
   "userId": "u_85f5e10431f69bc2",
   "username": "kevin",
-  "online": false,
-  "lastSeenAt": 1772838281769,
-  "lastActiveAt": 1772838275601,
-  "lastReadTs": 1772838212823,
-  "lastReadMsgId": "m-1772838212823-qwvh5a",
+  "online": true,
+  "lastSeenAt": 1772838292438,
+  "lastActiveAt": 1772838292438,
+  "lastReadTs": 0,
+  "lastReadMsgId": null,
   "device": {
     "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",
     "platform": "Linux armv81"
