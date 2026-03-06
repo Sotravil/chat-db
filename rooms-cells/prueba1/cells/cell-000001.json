@@ -56,5 +56,35 @@
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
     },
     "cell": 1
+  },
+  {
+    "id": "m-1772838873170-eptfmm",
+    "room": "prueba1",
+    "sender": "melvin2",
+    "userId": "u_a67385b6588a60ce",
+    "ts": 1772838873170,
+    "text": "🎤 Voice message",
+    "type": "audio",
+    "audioPath": "rooms-meta/prueba1/recorded-audios/u_a67385b6588a60ce_1772838873186_m-1772838873170-eptfmm.webm",
+    "audioFileName": "u_a67385b6588a60ce_1772838873186_m-1772838873170-eptfmm.webm",
+    "audioFolderType": "recorded-audios",
+    "audioDuration": 6.942,
+    "audioMimeType": "audio/webm;codecs=opus",
+    "audioSize": 85781,
+    "listenedBy": [],
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1772838873170,
+    "status": "sending",
+    "replyTo": null,
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "melvin2",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 1
   }
 ]
