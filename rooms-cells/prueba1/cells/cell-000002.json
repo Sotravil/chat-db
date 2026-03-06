@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "m-1772839602974-ywxs8c",
+    "room": "prueba1",
+    "sender": "melvin2",
+    "userId": "u_a67385b6588a60ce",
+    "ts": 1772839602974,
+    "text": "Nop borre nada",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1772839602974,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "melvin2",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 2
+  }
+]
