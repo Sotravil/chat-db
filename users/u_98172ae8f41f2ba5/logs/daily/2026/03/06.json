@@ -22,7 +22,7 @@
       "displayName": "sotravil"
     },
     {
-      "ts": 1772818937527,
+      "ts": 1772818994675,
       "type": "join_room",
       "room": "Pene",
       "displayName": "sotravil"
@@ -33,5 +33,5 @@
     "roomsJoined": 4,
     "sessionCount": 0
   },
-  "updatedAt": 1772818937714
+  "updatedAt": 1772818994763
 }
