@@ -113,7 +113,7 @@
       "displayName": "sotravil"
     },
     {
-      "ts": 1772832809194,
+      "ts": 1772832837064,
       "type": "join_room",
       "room": "sotravil",
       "displayName": "sotravil"
@@ -124,5 +124,5 @@
     "roomsJoined": 18,
     "sessionCount": 1
   },
-  "updatedAt": 1772832809400
+  "updatedAt": 1772832837141
 }
