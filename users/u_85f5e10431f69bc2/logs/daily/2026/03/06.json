@@ -1,0 +1,20 @@
+{
+  "v": 1,
+  "userId": "u_85f5e10431f69bc2",
+  "date": "2026-03-06",
+  "entries": [
+    {
+      "ts": 1772836794724,
+      "type": "register",
+      "username": "kevin",
+      "platform": "Linux armv81",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome"
+    }
+  ],
+  "summary": {
+    "messagesSent": 0,
+    "roomsJoined": 0,
+    "sessionCount": 1
+  },
+  "updatedAt": 1772836795206
+}
