@@ -3,9 +3,9 @@
   "room": "closet--u_08e486faf56b304c--u_98172ae8f41f2ba5",
   "userId": "u_98172ae8f41f2ba5",
   "username": "sotravil",
-  "online": false,
-  "lastSeenAt": 1772828706760,
-  "lastActiveAt": 1772828704759,
+  "online": true,
+  "lastSeenAt": 1772828754064,
+  "lastActiveAt": 1772828754064,
   "lastReadTs": 0,
   "lastReadMsgId": null,
   "device": {
