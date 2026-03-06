@@ -3,13 +3,13 @@
   "room": "nigga",
   "userId": "u_98172ae8f41f2ba5",
   "username": "sotravil",
-  "online": false,
-  "lastSeenAt": 1772787010402,
-  "lastActiveAt": 1772787008396,
-  "lastReadTs": 1766806102731,
-  "lastReadMsgId": "m-1766806102731-gpg815",
+  "online": true,
+  "lastSeenAt": 1772807490729,
+  "lastActiveAt": 1772807490729,
+  "lastReadTs": 1766876460065,
+  "lastReadMsgId": "m-1766876460065-hfsftk",
   "device": {
-    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
     "platform": "Win32"
   }
 }
