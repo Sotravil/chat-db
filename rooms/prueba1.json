@@ -1,0 +1,20 @@
+{
+  "v": 3,
+  "room": "prueba1",
+  "visibility": "public",
+  "passwordHash": null,
+  "createdBy": "u_a67385b6588a60ce",
+  "createdByName": "melvin2",
+  "createdAt": 1772838062920,
+  "updatedAt": 1772838062920,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/prueba1/index.json",
+    "boxesIndex": "rooms-cells/prueba1/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/prueba1/cells/",
+    "boxesDir": "rooms-cells/prueba1/boxes/"
+  }
+}
