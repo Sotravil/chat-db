@@ -5,5 +5,7 @@
   "usernameLower": "sotravil",
   "createdAt": 1766800218931,
   "salt": "yN/xH8yKyySfqjrCqKHSUg==",
-  "authChunks": 1
+  "authChunks": 1,
+  "bio": "",
+  "bioUpdatedAt": 1772810340617
 }
