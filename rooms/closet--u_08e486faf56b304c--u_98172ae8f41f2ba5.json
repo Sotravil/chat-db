@@ -16,5 +16,7 @@
     "boxesIndex": "rooms-cells/closet--u_08e486faf56b304c--u_98172ae8f41f2ba5/boxes/boxes-index.json",
     "cellsDir": "rooms-cells/closet--u_08e486faf56b304c--u_98172ae8f41f2ba5/cells/",
     "boxesDir": "rooms-cells/closet--u_08e486faf56b304c--u_98172ae8f41f2ba5/boxes/"
-  }
+  },
+  "deleted": true,
+  "deletedAt": 1772835869800
 }
