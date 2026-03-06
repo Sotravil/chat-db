@@ -22,9 +22,9 @@
       "displayName": "sotravil"
     },
     {
-      "ts": 1772819052192,
+      "ts": 1772819081765,
       "type": "join_room",
-      "room": "closet--u_98172ae8f41f2ba5--u_a65011cce2471a71",
+      "room": "pene",
       "displayName": "sotravil"
     }
   ],
@@ -33,5 +33,5 @@
     "roomsJoined": 4,
     "sessionCount": 0
   },
-  "updatedAt": 1772819052196
+  "updatedAt": 1772819081768
 }
