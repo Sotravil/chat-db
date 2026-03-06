@@ -1,0 +1,18 @@
+{
+  "v": 1,
+  "userId": "u_98172ae8f41f2ba5",
+  "month": "2026-03",
+  "days": {
+    "2026-03-06": {
+      "messagesSent": 0,
+      "roomsJoined": 1,
+      "sessionCount": 0
+    }
+  },
+  "totals": {
+    "messagesSent": 0,
+    "roomsJoined": 1,
+    "sessionCount": 0
+  },
+  "updatedAt": 1772807778361
+}
