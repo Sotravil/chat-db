@@ -79,5 +79,33 @@
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
     },
     "cell": 1
+  },
+  {
+    "id": "m-1772839237642-55v0y1",
+    "room": "prueba1",
+    "sender": "kevin",
+    "userId": "u_85f5e10431f69bc2",
+    "ts": 1772839237642,
+    "text": "Jajajajaja perdona 😭 se me olvido eso querias?",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1772839237642,
+    "status": "sending",
+    "replyTo": {
+      "msgId": "m-1772838982296-tfw2lf",
+      "sender": "melvin2",
+      "text": "Awebo no hay gifs",
+      "userId": "u_a67385b6588a60ce"
+    },
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "kevin",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 1
   }
 ]
