@@ -65,16 +65,22 @@
       "displayName": "sotravil"
     },
     {
-      "ts": 1772828542490,
+      "ts": 1772828657498,
       "type": "join_room",
-      "room": "sotravil",
+      "room": "closet--u_08e486faf56b304c--u_98172ae8f41f2ba5",
       "displayName": "sotravil"
+    },
+    {
+      "ts": 1772828657498,
+      "type": "messages_sent",
+      "count": 1,
+      "room": "closet--u_08e486faf56b304c--u_98172ae8f41f2ba5"
     }
   ],
   "summary": {
-    "messagesSent": 0,
+    "messagesSent": 1,
     "roomsJoined": 10,
     "sessionCount": 1
   },
-  "updatedAt": 1772828542675
+  "updatedAt": 1772828657502
 }
