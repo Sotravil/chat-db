@@ -50,6 +50,11 @@
       "type": "join_room",
       "room": "closet--u_08e486faf56b304c--u_98172ae8f41f2ba5",
       "displayName": "sotravil"
+    },
+    {
+      "ts": 1772823063322,
+      "type": "logout",
+      "sessionDuration": 56966
     }
   ],
   "summary": {
@@ -57,5 +62,5 @@
     "roomsJoined": 8,
     "sessionCount": 0
   },
-  "updatedAt": 1772822005930
+  "updatedAt": 1772823063524
 }
