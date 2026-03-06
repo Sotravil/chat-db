@@ -1,0 +1,19 @@
+{
+  "version": "9.1.0",
+  "date": "2026-03-06",
+  "title": "Recovery Keys · Clean UI · Friends System",
+  "entries": [
+    { "type": "new",      "text": "Password recovery with QR code & backup key — never get locked out again" },
+    { "type": "new",      "text": "Complete friends system: send, accept, remove, and manage friend requests" },
+    { "type": "new",      "text": "Clean minimal header: @username · avatar · ☰ hamburger only" },
+    { "type": "new",      "text": "Changelog system: see what changed on every new version" },
+    { "type": "new",      "text": "What's New modal fetches updates live from the repo" },
+    { "type": "improved", "text": "All navigation options moved inside the profile dropdown" },
+    { "type": "improved", "text": "Loading progress bars on every async operation with milestone labels" },
+    { "type": "improved", "text": "Enter-key support flows through login, register, and recovery forms" },
+    { "type": "improved", "text": "Smart friend hover-card shows live state: Friends / Pending / Accept" },
+    { "type": "fixed",    "text": "DM / Closet list now opens the correct conversation on tap" },
+    { "type": "fixed",    "text": "Friend-request badge refreshes after accepting a request" },
+    { "type": "fixed",    "text": "Room browser loading and empty states now display correctly" }
+  ]
+}
