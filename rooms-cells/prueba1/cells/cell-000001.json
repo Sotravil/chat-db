@@ -1,31 +1,15 @@
 [
   {
-    "id": "m-1772838112011-c5wlv2",
+    "id": "m-1772838131669-726t7o",
     "room": "prueba1",
     "sender": "melvin2",
     "userId": "u_a67385b6588a60ce",
-    "ts": 1772838112011,
-    "text": "",
-    "type": "media",
-    "attachments": [
-      {
-        "kind": "image",
-        "fileName": "IMG-20260305-WA0023.jpg",
-        "mime": "image/jpeg",
-        "size": 113014,
-        "caption": "",
-        "width": 480,
-        "height": 853.3333333333334,
-        "thumbPath": "rooms-meta/prueba1/media-thumbs/u_a67385b6588a60ce_1772838112575_m-1772838112011-c5wlv2_0_thumb.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/prueba1/media-thumbs/u_a67385b6588a60ce_1772838112575_m-1772838112011-c5wlv2_0_thumb.jpg",
-        "path": "rooms-meta/prueba1/media-images/u_a67385b6588a60ce_1772838114749_m-1772838112011-c5wlv2.jpg",
-        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/prueba1/media-images/u_a67385b6588a60ce_1772838114749_m-1772838112011-c5wlv2.jpg"
-      }
-    ],
+    "ts": 1772838131669,
+    "text": "Prueba",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1772838112011,
+    "createdAt": 1772838131669,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
