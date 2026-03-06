@@ -35,22 +35,16 @@
       "displayName": "kevin"
     },
     {
-      "ts": 1772839553490,
+      "ts": 1772839579548,
       "type": "join_room",
       "room": "dm-u_a67385b6588a60ce/conv-u_85f5e10431f69bc2--u_a67385b6588a60ce",
       "displayName": "kevin"
-    },
-    {
-      "ts": 1772839553490,
-      "type": "messages_sent",
-      "count": 2,
-      "room": "dm-u_a67385b6588a60ce/conv-u_85f5e10431f69bc2--u_a67385b6588a60ce"
     }
   ],
   "summary": {
-    "messagesSent": 2,
+    "messagesSent": 0,
     "roomsJoined": 5,
     "sessionCount": 1
   },
-  "updatedAt": 1772839553641
+  "updatedAt": 1772839579555
 }
