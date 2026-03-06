@@ -1,0 +1,20 @@
+{
+  "v": 3,
+  "room": "closet--u_08e486faf56b304c--u_98172ae8f41f2ba5",
+  "visibility": "unlisted",
+  "passwordHash": null,
+  "createdBy": "u_98172ae8f41f2ba5",
+  "createdByName": "sotravil",
+  "createdAt": 1772828647615,
+  "updatedAt": 1772828647615,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/closet--u_08e486faf56b304c--u_98172ae8f41f2ba5/index.json",
+    "boxesIndex": "rooms-cells/closet--u_08e486faf56b304c--u_98172ae8f41f2ba5/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/closet--u_08e486faf56b304c--u_98172ae8f41f2ba5/cells/",
+    "boxesDir": "rooms-cells/closet--u_08e486faf56b304c--u_98172ae8f41f2ba5/boxes/"
+  }
+}
