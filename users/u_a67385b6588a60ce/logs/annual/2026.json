@@ -1,0 +1,18 @@
+{
+  "v": 1,
+  "userId": "u_a67385b6588a60ce",
+  "year": "2026",
+  "months": {
+    "2026-03": {
+      "messagesSent": 0,
+      "roomsJoined": 1,
+      "sessionCount": 0
+    }
+  },
+  "totals": {
+    "messagesSent": 0,
+    "roomsJoined": 1,
+    "sessionCount": 0
+  },
+  "updatedAt": 1772838073720
+}
