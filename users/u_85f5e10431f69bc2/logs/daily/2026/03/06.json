@@ -9,12 +9,18 @@
       "username": "kevin",
       "platform": "Linux armv81",
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome"
+    },
+    {
+      "ts": 1772836974377,
+      "type": "join_room",
+      "room": "sotravil",
+      "displayName": "kevin"
     }
   ],
   "summary": {
     "messagesSent": 0,
-    "roomsJoined": 0,
+    "roomsJoined": 1,
     "sessionCount": 1
   },
-  "updatedAt": 1772836792910
+  "updatedAt": 1772836974767
 }
