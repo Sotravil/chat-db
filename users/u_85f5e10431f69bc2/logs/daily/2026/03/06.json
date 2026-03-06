@@ -35,16 +35,22 @@
       "displayName": "kevin"
     },
     {
-      "ts": 1772839622326,
+      "ts": 1772839649305,
       "type": "join_room",
-      "room": "dm-u_a67385b6588a60ce/conv-u_85f5e10431f69bc2--u_a67385b6588a60ce",
+      "room": "sotravil",
       "displayName": "kevin"
+    },
+    {
+      "ts": 1772839649305,
+      "type": "messages_sent",
+      "count": 1,
+      "room": "sotravil"
     }
   ],
   "summary": {
-    "messagesSent": 0,
+    "messagesSent": 1,
     "roomsJoined": 5,
     "sessionCount": 1
   },
-  "updatedAt": 1772839622330
+  "updatedAt": 1772839649310
 }
