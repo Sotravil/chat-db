@@ -1,26 +1,21 @@
 [
   {
-    "id": "m-1772838134546-7ktlsm",
+    "id": "m-1772838140967-x23x33",
     "room": "prueba1",
-    "sender": "kevin",
-    "userId": "u_85f5e10431f69bc2",
-    "ts": 1772838134546,
-    "text": "Simon xd ví tu camisa",
+    "sender": "melvin2",
+    "userId": "u_a67385b6588a60ce",
+    "ts": 1772838140967,
+    "text": "Awebo",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1772838134546,
+    "createdAt": 1772838140967,
     "status": "sending",
-    "replyTo": {
-      "msgId": "m-1772838112011-c5wlv2",
-      "sender": "melvin2",
-      "text": "",
-      "userId": "u_a67385b6588a60ce"
-    },
+    "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
-      "sessionUsername": "kevin",
+      "sessionUsername": "melvin2",
       "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
       "ip": null,
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
