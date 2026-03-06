@@ -1,13 +1,13 @@
 {
   "v": 1,
-  "room": "Pene",
+  "room": "closet--u_08e486faf56b304c--u_98172ae8f41f2ba5",
   "userId": "u_98172ae8f41f2ba5",
   "username": "sotravil",
-  "online": false,
-  "lastSeenAt": 1772821954291,
-  "lastActiveAt": 1772821951584,
-  "lastReadTs": 1772819695463,
-  "lastReadMsgId": "m-1772819695463-86gozi",
+  "online": true,
+  "lastSeenAt": 1772822000581,
+  "lastActiveAt": 1772822000581,
+  "lastReadTs": 0,
+  "lastReadMsgId": null,
   "device": {
     "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
     "platform": "Win32"
