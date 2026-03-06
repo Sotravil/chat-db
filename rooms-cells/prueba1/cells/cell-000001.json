@@ -1,21 +1,37 @@
 [
   {
-    "id": "m-1772838156511-2g8zc6",
+    "id": "m-1772838212823-qwvh5a",
     "room": "prueba1",
-    "sender": "melvin2",
-    "userId": "u_a67385b6588a60ce",
-    "ts": 1772838156511,
-    "text": "Sale que no hay nadie activo",
+    "sender": "kevin",
+    "userId": "u_85f5e10431f69bc2",
+    "ts": 1772838212823,
+    "text": "A mi si me salen activos",
+    "type": "media",
+    "attachments": [
+      {
+        "kind": "image",
+        "fileName": "Screenshot_20260306-150257.png",
+        "mime": "image/png",
+        "size": 197693,
+        "caption": "A mi si me salen activos",
+        "width": 480,
+        "height": 1068.5714285714287,
+        "thumbPath": "rooms-meta/prueba1/media-thumbs/u_85f5e10431f69bc2_1772838213054_m-1772838212823-qwvh5a_0_thumb.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/prueba1/media-thumbs/u_85f5e10431f69bc2_1772838213054_m-1772838212823-qwvh5a_0_thumb.jpg",
+        "path": "rooms-meta/prueba1/media-images/u_85f5e10431f69bc2_1772838213903_m-1772838212823-qwvh5a.png",
+        "url": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/prueba1/media-images/u_85f5e10431f69bc2_1772838213903_m-1772838212823-qwvh5a.png"
+      }
+    ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1772838156511,
+    "createdAt": 1772838212823,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
     "meta": {
       "sessionType": "registered",
-      "sessionUsername": "melvin2",
+      "sessionUsername": "kevin",
       "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
       "ip": null,
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
