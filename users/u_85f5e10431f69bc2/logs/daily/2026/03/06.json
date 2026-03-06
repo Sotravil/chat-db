@@ -15,12 +15,18 @@
       "type": "join_room",
       "room": "sotravil",
       "displayName": "kevin"
+    },
+    {
+      "ts": 1772837026511,
+      "type": "join_room",
+      "room": "dm-u_98172ae8f41f2ba5/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5",
+      "displayName": "kevin"
     }
   ],
   "summary": {
     "messagesSent": 0,
-    "roomsJoined": 1,
+    "roomsJoined": 2,
     "sessionCount": 1
   },
-  "updatedAt": 1772836974767
+  "updatedAt": 1772837026950
 }
