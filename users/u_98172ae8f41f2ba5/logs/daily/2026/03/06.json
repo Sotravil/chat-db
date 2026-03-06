@@ -38,12 +38,18 @@
       "type": "join_room",
       "room": "hello",
       "displayName": "sotravil"
+    },
+    {
+      "ts": 1772820662988,
+      "type": "join_room",
+      "room": "Pene",
+      "displayName": "sotravil"
     }
   ],
   "summary": {
     "messagesSent": 0,
-    "roomsJoined": 6,
+    "roomsJoined": 7,
     "sessionCount": 0
   },
-  "updatedAt": 1772820161447
+  "updatedAt": 1772820663185
 }
