@@ -75,12 +75,18 @@
       "type": "join_room",
       "room": "closet--u_08e486faf56b304c--u_98172ae8f41f2ba5",
       "displayName": "sotravil"
+    },
+    {
+      "ts": 1772829760689,
+      "type": "join_room",
+      "room": "closet--u_08e486faf56b304c--u_98172ae8f41f2ba5",
+      "displayName": "sotravil"
     }
   ],
   "summary": {
     "messagesSent": 0,
-    "roomsJoined": 11,
+    "roomsJoined": 12,
     "sessionCount": 1
   },
-  "updatedAt": 1772829193312
+  "updatedAt": 1772829760826
 }
