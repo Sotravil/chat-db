@@ -58,33 +58,16 @@
     "cell": 1
   },
   {
-    "id": "m-1772838933822-eza7qd",
+    "id": "m-1772838982296-tfw2lf",
     "room": "prueba1",
     "sender": "melvin2",
     "userId": "u_a67385b6588a60ce",
-    "ts": 1772838933822,
-    "text": "Videos",
-    "type": "media",
-    "attachments": [
-      {
-        "kind": "video",
-        "fileName": "VID-20260305-WA0031.mp4",
-        "mime": "video/mp4",
-        "size": 2516326,
-        "caption": "Videos",
-        "duration": 22.9,
-        "posterPath": "rooms-meta/prueba1/media-thumbs/u_a67385b6588a60ce_1772838936650_m-1772838933822-eza7qd_0_thumb.jpg",
-        "posterUrl": "https://raw.githubusercontent.com/Sotravil/chat-db/main/rooms-meta/prueba1/media-thumbs/u_a67385b6588a60ce_1772838936650_m-1772838933822-eza7qd_0_thumb.jpg",
-        "path": "rooms-meta/prueba1/media-videos/u_a67385b6588a60ce_1772838937686_m-1772838933822-eza7qd.mp4",
-        "isChunked": true,
-        "chunkCount": 4,
-        "totalSize": 2516326
-      }
-    ],
+    "ts": 1772838982296,
+    "text": "Awebo no hay gifs",
     "edited": false,
     "editedAt": null,
     "deleted": false,
-    "createdAt": 1772838933822,
+    "createdAt": 1772838982296,
     "status": "sending",
     "replyTo": null,
     "mentions": [],
