@@ -28,5 +28,35 @@
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
     },
     "cell": 1
+  },
+  {
+    "id": "m-1772838409739-nrawch",
+    "room": "prueba1",
+    "sender": "kevin",
+    "userId": "u_85f5e10431f69bc2",
+    "ts": 1772838409739,
+    "text": "🎤 Voice message",
+    "type": "audio",
+    "audioPath": "rooms-meta/prueba1/recorded-audios/u_85f5e10431f69bc2_1772838409739_m-1772838409739-nrawch.webm",
+    "audioFileName": "u_85f5e10431f69bc2_1772838409739_m-1772838409739-nrawch.webm",
+    "audioFolderType": "recorded-audios",
+    "audioDuration": 56.835,
+    "audioMimeType": "audio/webm;codecs=opus",
+    "audioSize": 921547,
+    "listenedBy": [],
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1772838409739,
+    "status": "sending",
+    "replyTo": null,
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "kevin",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 1
   }
 ]
