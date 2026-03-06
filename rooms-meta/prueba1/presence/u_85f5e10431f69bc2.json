@@ -3,9 +3,9 @@
   "room": "prueba1",
   "userId": "u_85f5e10431f69bc2",
   "username": "kevin",
-  "online": false,
-  "lastSeenAt": 1772838407574,
-  "lastActiveAt": 1772838405415,
+  "online": true,
+  "lastSeenAt": 1772838408891,
+  "lastActiveAt": 1772838408891,
   "lastReadTs": 0,
   "lastReadMsgId": null,
   "device": {
