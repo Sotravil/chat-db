@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "m-1772839563667-2ug6k8",
+    "room": "dm-u_a67385b6588a60ce/conv-u_85f5e10431f69bc2--u_a67385b6588a60ce",
+    "sender": "kevin",
+    "userId": "u_85f5e10431f69bc2",
+    "ts": 1772839563667,
+    "text": "Te envio un DM mierda xD",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1772839563667,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "kevin",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 1
+  }
+]
