@@ -1,0 +1,20 @@
+{
+  "v": 1,
+  "userId": "u_03197f43062090e8",
+  "date": "2026-03-06",
+  "entries": [
+    {
+      "ts": 1772838901621,
+      "type": "register",
+      "username": "liescobarhn@hotmail.com",
+      "platform": "iPhone",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHT"
+    }
+  ],
+  "summary": {
+    "messagesSent": 0,
+    "roomsJoined": 0,
+    "sessionCount": 1
+  },
+  "updatedAt": 1772838901847
+}
