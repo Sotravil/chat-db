@@ -1,0 +1,26 @@
+{
+  "v": 1,
+  "room": "meramerdoll",
+  "admission": "open",
+  "showReadBy": true,
+  "allowUserAdds": true,
+  "showDeletedDisclosure": true,
+  "rules": "",
+  "description": "",
+  "showMemberCount": true,
+  "showMessageCount": true,
+  "createdAt": 1772915453089,
+  "contentRating": "all",
+  "bannedWords": [],
+  "banThreshold": 3,
+  "permissions": {
+    "canSendImages": "all",
+    "canSendVideos": "all",
+    "canSendAudio": "all",
+    "canReact": "all",
+    "canReply": "all",
+    "canSendLinks": "all"
+  },
+  "photoUrl": null,
+  "ownerUid": "u_719c5852b38d0698"
+}
