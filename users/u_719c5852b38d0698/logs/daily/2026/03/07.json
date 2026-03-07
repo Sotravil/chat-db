@@ -9,12 +9,18 @@
       "username": "Meramer",
       "platform": "iPhone",
       "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHT"
+    },
+    {
+      "ts": 1772915669408,
+      "type": "join_room",
+      "room": "meramerdoll",
+      "displayName": "Mares"
     }
   ],
   "summary": {
     "messagesSent": 0,
-    "roomsJoined": 0,
+    "roomsJoined": 1,
     "sessionCount": 1
   },
-  "updatedAt": 1772915365824
+  "updatedAt": 1772915669532
 }
