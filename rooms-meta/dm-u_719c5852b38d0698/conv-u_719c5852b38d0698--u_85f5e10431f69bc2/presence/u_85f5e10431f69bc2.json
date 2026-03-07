@@ -3,9 +3,9 @@
   "room": "meramerdoll",
   "userId": "u_85f5e10431f69bc2",
   "username": "kevin",
-  "online": false,
-  "lastSeenAt": 1772916180992,
-  "lastActiveAt": 1772916180491,
+  "online": true,
+  "lastSeenAt": 1772916208587,
+  "lastActiveAt": 1772916208587,
   "lastReadTs": 1772916177193,
   "lastReadMsgId": "m-1772916177193-waebki",
   "device": {
