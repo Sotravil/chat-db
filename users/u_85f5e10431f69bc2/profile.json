@@ -5,5 +5,7 @@
   "usernameLower": "kevin",
   "createdAt": 1772836792202,
   "salt": "r701tAqkdo/wdNM2dLZPDw==",
-  "authChunks": 1
+  "authChunks": 1,
+  "bio": "",
+  "bioUpdatedAt": 1772916171050
 }
