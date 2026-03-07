@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "m-1772906886100-gij40y",
+    "room": "sotravil",
+    "sender": "sotravil",
+    "userId": "u_98172ae8f41f2ba5",
+    "ts": 1772906886100,
+    "text": "testing 3",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1772906886100,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "sotravil",
+      "device": "Win32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    },
+    "cell": 3
+  }
+]
