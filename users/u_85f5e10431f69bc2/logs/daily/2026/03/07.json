@@ -1,0 +1,19 @@
+{
+  "v": 1,
+  "userId": "u_85f5e10431f69bc2",
+  "date": "2026-03-07",
+  "entries": [
+    {
+      "ts": 1772913051735,
+      "type": "join_room",
+      "room": "prueba1",
+      "displayName": "kevin"
+    }
+  ],
+  "summary": {
+    "messagesSent": 0,
+    "roomsJoined": 1,
+    "sessionCount": 0
+  },
+  "updatedAt": 1772913052492
+}
