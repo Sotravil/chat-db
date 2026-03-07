@@ -1,0 +1,20 @@
+{
+  "v": 1,
+  "userId": "u_719c5852b38d0698",
+  "date": "2026-03-07",
+  "entries": [
+    {
+      "ts": 1772915365686,
+      "type": "register",
+      "username": "Meramer",
+      "platform": "iPhone",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHT"
+    }
+  ],
+  "summary": {
+    "messagesSent": 0,
+    "roomsJoined": 0,
+    "sessionCount": 1
+  },
+  "updatedAt": 1772915365824
+}
