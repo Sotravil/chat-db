@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "m-1772841958551-e58dso",
+    "room": "prueba1",
+    "sender": "kevin",
+    "userId": "u_85f5e10431f69bc2",
+    "ts": 1772841958551,
+    "text": "Ahhh esque esta cargando solamente 1 celula por chat",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1772841958551,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "kevin",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 2
+  }
+]
