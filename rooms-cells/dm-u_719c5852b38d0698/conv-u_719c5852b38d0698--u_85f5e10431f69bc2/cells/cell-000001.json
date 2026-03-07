@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "m-1772916077912-04xm2i",
+    "room": "dm-u_719c5852b38d0698/conv-u_719c5852b38d0698--u_85f5e10431f69bc2",
+    "sender": "kevin",
+    "userId": "u_85f5e10431f69bc2",
+    "ts": 1772916077912,
+    "text": "Hola bueno",
+    "edited": false,
+    "editedAt": null,
+    "deleted": false,
+    "createdAt": 1772916077912,
+    "status": "sending",
+    "replyTo": null,
+    "mentions": [],
+    "meta": {
+      "sessionType": "registered",
+      "sessionUsername": "kevin",
+      "device": "Linux armv81 - Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537",
+      "ip": null,
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+    },
+    "cell": 1
+  }
+]
