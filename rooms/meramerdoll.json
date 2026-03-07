@@ -1,0 +1,23 @@
+{
+  "v": 3,
+  "room": "meramerdoll",
+  "visibility": "public",
+  "passwordHash": null,
+  "createdBy": "u_719c5852b38d0698",
+  "createdByName": "Meramer",
+  "createdAt": 1772915453089,
+  "ownerUid": "u_719c5852b38d0698",
+  "ownerUsername": "Meramer",
+  "ownerToken": "40a1c3aa01b1239a6746124eef85f08a2f1c1f65af38d20f13601801db72f973",
+  "updatedAt": 1772915453089,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/meramerdoll/index.json",
+    "boxesIndex": "rooms-cells/meramerdoll/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/meramerdoll/cells/",
+    "boxesDir": "rooms-cells/meramerdoll/boxes/"
+  }
+}
