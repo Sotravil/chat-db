@@ -54,7 +54,7 @@
     "text": "Type shiiiiiiiiii",
     "edited": false,
     "editedAt": null,
-    "deleted": false,
+    "deleted": true,
     "createdAt": 1772915757881,
     "status": "sending",
     "replyTo": null,
@@ -66,7 +66,9 @@
       "ip": null,
       "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23D127 Instagram 418.2.0.34.75 (iPhone17,2; iOS 26_3; en_US; en; scale=3.00; 1320x2868; IABMV/1; 893787717) Safari/604.1"
     },
-    "cell": 1
+    "cell": 1,
+    "deletedAt": 1772916023859,
+    "deletedBy": "u_719c5852b38d0698"
   },
   {
     "id": "m-1772915771461-xnryeb",
