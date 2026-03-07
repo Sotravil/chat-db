@@ -22,9 +22,9 @@
       "displayName": "kevin"
     },
     {
-      "ts": 1772916020474,
+      "ts": 1772916073381,
       "type": "join_room",
-      "room": "meramerdoll",
+      "room": "dm-u_719c5852b38d0698/conv-u_719c5852b38d0698--u_85f5e10431f69bc2",
       "displayName": "kevin"
     }
   ],
@@ -33,5 +33,5 @@
     "roomsJoined": 4,
     "sessionCount": 0
   },
-  "updatedAt": 1772916020602
+  "updatedAt": 1772916073387
 }
