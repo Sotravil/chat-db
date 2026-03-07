@@ -8,7 +8,7 @@
     "text": "testing 3",
     "edited": false,
     "editedAt": null,
-    "deleted": true,
+    "deleted": false,
     "createdAt": 1772906886100,
     "status": "sending",
     "replyTo": null,
@@ -20,9 +20,7 @@
       "ip": null,
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
     },
-    "cell": 3,
-    "deletedAt": 1772907345551,
-    "deletedBy": "u_98172ae8f41f2ba5"
+    "cell": 3
   },
   {
     "id": "m-1772906895719-9ha01j",
@@ -33,7 +31,7 @@
     "text": "testing 4",
     "edited": false,
     "editedAt": null,
-    "deleted": false,
+    "deleted": true,
     "createdAt": 1772906895719,
     "status": "sending",
     "replyTo": null,
@@ -45,7 +43,9 @@
       "ip": null,
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
     },
-    "cell": 3
+    "cell": 3,
+    "deletedAt": 1772907349942,
+    "deletedBy": "u_98172ae8f41f2ba5"
   },
   {
     "id": "m-1772906902264-28b9qt",
