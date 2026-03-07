@@ -26,12 +26,18 @@
       "type": "join_room",
       "room": "meramerdoll",
       "displayName": "kevin"
+    },
+    {
+      "ts": 1772920994644,
+      "type": "join_room",
+      "room": "meramerdoll",
+      "displayName": "kevin"
     }
   ],
   "summary": {
     "messagesSent": 0,
-    "roomsJoined": 4,
+    "roomsJoined": 5,
     "sessionCount": 0
   },
-  "updatedAt": 1772916252424
+  "updatedAt": 1772920994821
 }
