@@ -1,0 +1,15 @@
+{
+  "v": 1,
+  "room": "meramerdoll",
+  "userId": "u_85f5e10431f69bc2",
+  "username": "kevin",
+  "online": true,
+  "lastSeenAt": 1772916071530,
+  "lastActiveAt": 1772916071530,
+  "lastReadTs": 1772915771461,
+  "lastReadMsgId": "m-1772915771461-xnryeb",
+  "device": {
+    "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",
+    "platform": "Linux armv81"
+  }
+}
