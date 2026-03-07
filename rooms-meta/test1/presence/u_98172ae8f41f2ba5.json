@@ -1,0 +1,15 @@
+{
+  "v": 1,
+  "room": "sotravil",
+  "userId": "u_98172ae8f41f2ba5",
+  "username": "sotravil",
+  "online": true,
+  "lastSeenAt": 1772909770333,
+  "lastActiveAt": 1772909770333,
+  "lastReadTs": 1772906902264,
+  "lastReadMsgId": "m-1772906902264-28b9qt",
+  "device": {
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "platform": "Win32"
+  }
+}
