@@ -11,22 +11,16 @@
       "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHT"
     },
     {
-      "ts": 1772915866546,
+      "ts": 1772915873434,
       "type": "join_room",
       "room": "meramerdoll",
-      "displayName": "Mares"
-    },
-    {
-      "ts": 1772915866546,
-      "type": "messages_sent",
-      "count": 2,
-      "room": "meramerdoll"
+      "displayName": "Meramer"
     }
   ],
   "summary": {
-    "messagesSent": 2,
+    "messagesSent": 0,
     "roomsJoined": 1,
     "sessionCount": 1
   },
-  "updatedAt": 1772915866547
+  "updatedAt": 1772915873436
 }
