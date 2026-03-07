@@ -1,0 +1,24 @@
+{
+  "v": 1,
+  "room": "sotravil",
+  "admission": "open",
+  "showReadBy": true,
+  "allowUserAdds": true,
+  "showDeletedDisclosure": false,
+  "rules": "",
+  "createdAt": 1772907322848,
+  "contentRating": "all",
+  "bannedWords": [],
+  "banThreshold": 3,
+  "permissions": {
+    "canSendImages": "all",
+    "canSendVideos": "all",
+    "canSendAudio": "all",
+    "canReact": "all",
+    "canReply": "all",
+    "canSendLinks": "all"
+  },
+  "photoUrl": null,
+  "visibility": "public",
+  "updatedAt": 1772907330236
+}
