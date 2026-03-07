@@ -1,0 +1,23 @@
+{
+  "v": 3,
+  "room": "sotravil2",
+  "visibility": "public",
+  "passwordHash": null,
+  "createdBy": "u_85f5e10431f69bc2",
+  "createdByName": "kevin",
+  "createdAt": 1772913081204,
+  "ownerUid": "u_85f5e10431f69bc2",
+  "ownerUsername": "kevin",
+  "ownerToken": "0aae9997c51a131204f71d86c4faac5f2af1a3a85f7c761f38872f60e2edadc2",
+  "updatedAt": 1772913081204,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/sotravil2/index.json",
+    "boxesIndex": "rooms-cells/sotravil2/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/sotravil2/cells/",
+    "boxesDir": "rooms-cells/sotravil2/boxes/"
+  }
+}
