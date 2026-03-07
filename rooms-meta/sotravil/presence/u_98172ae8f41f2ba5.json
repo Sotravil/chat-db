@@ -3,9 +3,9 @@
   "room": "sotravil",
   "userId": "u_98172ae8f41f2ba5",
   "username": "sotravil",
-  "online": false,
-  "lastSeenAt": 1772906923552,
-  "lastActiveAt": 1772906916351,
+  "online": true,
+  "lastSeenAt": 1772906924768,
+  "lastActiveAt": 1772906924768,
   "lastReadTs": 1772906912445,
   "lastReadMsgId": "m-1772906912445-w26xcx",
   "device": {
