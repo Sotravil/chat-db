@@ -14,12 +14,18 @@
       "type": "join_room",
       "room": "sotravil2",
       "displayName": "kevin"
+    },
+    {
+      "ts": 1772915565527,
+      "type": "join_room",
+      "room": "meramerdoll",
+      "displayName": "kevin"
     }
   ],
   "summary": {
     "messagesSent": 0,
-    "roomsJoined": 2,
+    "roomsJoined": 3,
     "sessionCount": 0
   },
-  "updatedAt": 1772913104854
+  "updatedAt": 1772915565675
 }
