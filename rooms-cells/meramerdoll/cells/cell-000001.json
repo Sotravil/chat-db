@@ -81,7 +81,7 @@
     "text": "https://sotravil.github.io/Chat-p2p/?room=meramerdoll&msg=m-1772915713752-ogg7ny&lnk=lnk-1772915740676-jv94t&lowner=u_85f5e10431f69bc2",
     "edited": false,
     "editedAt": null,
-    "deleted": false,
+    "deleted": true,
     "createdAt": 1772915771461,
     "status": "sending",
     "replyTo": null,
@@ -93,6 +93,8 @@
       "ip": null,
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
     },
-    "cell": 1
+    "cell": 1,
+    "deletedAt": 1772916276333,
+    "deletedBy": "u_85f5e10431f69bc2"
   }
 ]
