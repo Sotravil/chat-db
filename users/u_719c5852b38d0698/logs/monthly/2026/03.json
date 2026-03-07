@@ -4,15 +4,15 @@
   "month": "2026-03",
   "days": {
     "2026-03-07": {
-      "messagesSent": 2,
+      "messagesSent": 0,
       "roomsJoined": 1,
       "sessionCount": 1
     }
   },
   "totals": {
-    "messagesSent": 2,
+    "messagesSent": 0,
     "roomsJoined": 1,
     "sessionCount": 1
   },
-  "updatedAt": 1772915867589
+  "updatedAt": 1772915874323
 }
