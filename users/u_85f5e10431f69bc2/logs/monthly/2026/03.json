@@ -14,15 +14,15 @@
       "sessionCount": 0
     },
     "2026-03-08": {
-      "messagesSent": 2,
+      "messagesSent": 0,
       "roomsJoined": 3,
       "sessionCount": 1
     }
   },
   "totals": {
-    "messagesSent": 2,
+    "messagesSent": 0,
     "roomsJoined": 14,
     "sessionCount": 2
   },
-  "updatedAt": 1772968059998
+  "updatedAt": 1772968077745
 }
