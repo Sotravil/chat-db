@@ -1,7 +1,7 @@
 {
   "version": "1.0.0.32",
   "title": "DOM Dialog System Overhaul & UI Refinements",
-  "date": "2025-07-27",
+  "date": "2026-03-08",
   "summary": "Replaced all native browser alert/confirm/prompt calls with fully custom DOM dialogs featuring glass-morphic design, animated entry/exit, keyboard support, and a danger variant. Also adds GIF upload support for room and avatar photos, and a global modern scrollbar style.",
   "changes": [
     {
