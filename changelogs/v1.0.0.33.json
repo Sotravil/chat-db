@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0.33",
+  "date": "2026-03-08",
+  "title": "Audio System Overhaul — Real-Time Spectral Sync, Speed Control & Recording UX",
+  "summary": "Complete overhaul of the audio recording visualizer and playback waveform. Recording now uses a faster logarithmic-mapped analyser that reacts in real time to voice frequencies. The pause/resume animation freeze bug is fixed. Playback waveforms are now driven by a per-message Web Audio AnalyserNode so the bars react to actual spectral content as audio plays. A speed button (1× → 1.25× → 1.5× → 2× → 0.75×) is added to every audio message. The recording modal gains a live REC / PAUSED status indicator.",
+  "changes": [
+    {
+      "area": "Recording Visualizer — Analyser Tuning",
+      "type": "fix",
+      "description": "Changed analyser.fftSize from 256 to 128 (halves bin count, doubles time resolution) and set smoothingTimeConstant to 0.4 (was browser default 0.8). Result: bars react ~4× faster to voice transients, making the visualizer feel live instead of sluggish."
+    },
+    {
+      "area": "Recording Visualizer — Logarithmic Frequency Mapping",
+      "type": "feature",
+      "description": "updateVisualizer() now maps bars to frequency bins using a logarithmic distribution (Math.exp / Math.log) instead of a linear step. This concentrates more bars on the 300–3000 Hz voice range that matters most, and fewer bars on the high-frequency tail. Each bar also averages its adjacent neighbours for a smooth, organic curve. Bars above 75% amplitude gain a .peak class with an orange-yellow glow."
+    },
+    {
+      "area": "Recording Visualizer — Pause/Resume Animation Fix",
+      "type": "fix",
+      "description": "Previously, resuming a paused recording never restarted the rAF loop, leaving the visualizer frozen indefinitely. Fixed: togglePauseRecording() now calls requestAnimationFrame(updateVisualizer) when resuming if no loop is already running. On pause, the rAF loop self-terminates on its next tick via the audioPaused guard, and bar heights are left frozen at their current position rather than being reset."
+    },
+    {
+      "area": "Recording Modal — REC / PAUSED Status Indicator",
+      "type": "feature",
+      "description": "Added an #audioRecordStatus element below the timer in the recording modal. Shows a blinking red '● REC' label while recording and a static amber '⏸ PAUSED' label while paused. CSS uses rec-blink keyframe animation (0.7→0.25 opacity, 1.1s) for the live recording state."
+    },
+    {
+      "area": "Recording Visualizer CSS — Improved Design",
+      "type": "feature",
+      "description": "Visualizer container is now 96px tall (was 80px) with an inner box-shadow glow. Bars are 3px wide (was 4px) with a 0.06s cubic-bezier transition (was 0.1s ease). Bar count increased from 40 to 50 for higher resolution. Peak bars glow orange-yellow via the .audio-bar.peak class."
+    },
+    {
+      "area": "Playback — Real-Time Spectral Visualization",
+      "type": "feature",
+      "description": "Each audio message now creates its own AudioContext + AnalyserNode (fftSize=128, smoothingTimeConstant=0.55) connected to the audio element via MediaElementSourceNode on first play. The updatePlaybackProgress loop reads getByteFrequencyData every ~33ms (~30fps) and updates the height of played bars using a logarithmic frequency-to-bar mapping blended with the bar's original static shape. Bars to the right of the playhead keep their static height. The current playhead bar receives a purple .playhead class for clear position indication."
+    },
+    {
+      "area": "Playback — Speed Button",
+      "type": "feature",
+      "description": "A compact speed toggle button (audio-speed-btn) is added to every audio message bubble. Clicking cycles through 1× → 1.25× → 1.5× → 2× → 0.75× → 1×, setting audioElement.playbackRate accordingly. The button is styled as a muted chip with a teal hover state."
+    },
+    {
+      "area": "Playback Waveform CSS — Improved Layout",
+      "type": "feature",
+      "description": "msg-audio now uses an audio-waveform-area wrapper (flex column) containing the waveform row and a new audio-meta-row (flex row with space-between) holding the duration counter and speed button. Bar width is flex:1/max-width:4px for proportional scaling. The .audio-wave-bar transition is 0.055s cubic-bezier. Active bars use a teal gradient + soft glow; playhead bar uses purple. The audio-play-btn.playing class adds a pulsing box-shadow animation while audio is running."
+    },
+    {
+      "area": "Playback Waveform — Waveform Shape",
+      "type": "feature",
+      "description": "Static waveform bars are now generated with a sine-envelope shape (taller in the middle, tapered at both ends) combined with random noise, producing a natural voice-message appearance. Each bar stores its static height in data-static-height so it can be fully restored after playback ends."
+    },
+    {
+      "area": "Playback — Seek on Paused Audio",
+      "type": "fix",
+      "description": "Clicking a waveform to seek while audio is paused now immediately calls updatePlaybackProgress() to refresh bar colors and the timer without needing to resume playback first."
+    },
+    {
+      "area": "Playback — Stop Other Players",
+      "type": "fix",
+      "description": "When starting a new audio message, other playing messages now correctly have their .playing CSS class removed in addition to their play/pause state being reset, preventing the ghost pulse animation from staying active on stopped players."
+    }
+  ]
+}
