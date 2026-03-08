@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0.18",
+  "date": "2026-03-08",
+  "type": "feature",
+  "summary": "Persistent System Message Architecture",
+  "subsystems": ["sysmsg", "poll", "room-appearance"],
+  "changes": [
+    "Added rand4() utility — 4-char random alphanumeric suffix for sysmsg IDs",
+    "Added DEFAULT_SYSMSG_RULES constant with all default persistence flags",
+    "Added SYSMSG_ICONS map — emoji icons per system message type",
+    "_lastSysMsgTs, _sysmsgDirCache module-level state for per-room tracking",
+    "Added buildCompactGroup(type) — maps types to compact-group keys",
+    "Added buildSysMsgText(type, actor, target, payload) — human-readable text",
+    "Added shouldPersistSysMsg(type, rules) — checks room sysMsg rules before persisting",
+    "Added createSysMsg(room, type, ...) — fully implemented: checks rules, writes rooms-meta/{room}/sysmsg/{id}.json, shows toast if showToastAlso",
+    "Added fetchNewSysMsgs(room, sinceTs) — lists sysmsg dir (cached 30s), fetches new files in parallel batches of 5",
+    "Added buildSysMsgRow(obj, rules) — builds .sys-msg-row DOM element with icon, text, timestamp; respects visibility rules",
+    "Added insertIntoTimeline(row, createdAt) — inserts row at correct chronological position in #messages",
+    "Added _SYSMSG_CSS injected via _applyOnceCSS on first buildSysMsgRow call",
+    "Added fetchAndRenderNewSysMsgs(room) — poll integration function",
+    "Hooked fetchAndRenderNewSysMsgs into syncLatestFromStorage final exit path"
+  ],
+  "breaking": false,
+  "migrationRequired": false
+}

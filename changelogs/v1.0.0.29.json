@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0.29",
+  "date": "2026-03-08",
+  "title": "Reset Button — Full Live Re-Render",
+  "summary": "Reset Everything to Default now re-renders group-chat rooms, DM closets, ambient particles, and the header-avatar ring particles immediately after wiping settings — not just on next navigation.",
+  "changes": [
+    {
+      "area": "Style / Reset",
+      "type": "fix",
+      "description": "After clearing cp2p_room_bg_* localStorage keys, _applyRoomBg(currentRoom) is now explicitly called so the active room's background reverts to default in the live DOM without requiring a page reload or room switch."
+    },
+    {
+      "area": "Style / Reset",
+      "type": "fix",
+      "description": "After clearing cp2p_closet_tint_* localStorage keys, _applyClosetTint(currentRoom) is now explicitly called so the active DM closet tint is removed from #messages instantly."
+    },
+    {
+      "area": "Style / Reset",
+      "type": "fix",
+      "description": "_destroyParticlesForKey('room_ambient_' + currentRoom) is now called during reset to immediately cancel any running ambient particle canvas in the active room."
+    },
+    {
+      "area": "Style / Reset",
+      "type": "fix",
+      "description": "_handleOwnRingParticles('none') is now called during reset to cancel the header-avatar ring-particles canvas if the ring-particles preset was previously active."
+    }
+  ]
+}

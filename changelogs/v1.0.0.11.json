@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0.11",
+  "date": "2025-07-24",
+  "title": "Room Appearance Settings UI",
+  "summary": "Adds a Room Visual Theme section to the Room Settings panel, letting room admins set header/messages background colours and decorations policy. Settings are persisted to the room appearance file.",
+  "changes": [
+    {
+      "type": "feat",
+      "scope": "openRoomSettingsPanel",
+      "description": "Added _rspRoomAppearance state variable (reset on closeRoomSettings). Room appearance is pre-loaded via loadRoomAppearance at panel open time."
+    },
+    {
+      "type": "feat",
+      "scope": "openRoomSettingsPanel",
+      "description": "Added 'Room Visual Theme' section with colour pickers + hex text inputs for: headerBg, headerTextColor, msgsBg. Colour picker and hex input stay in sync; Clear buttons empty the hex field."
+    },
+    {
+      "type": "feat",
+      "scope": "openRoomSettingsPanel",
+      "description": "Added 'Allow user decorations' toggle (rsbAllowUserDecorations) in the Room Visual Theme section — controls whether user cosmetics (name glow, bubble effects) render in the room."
+    },
+    {
+      "type": "feat",
+      "scope": "roomSettingsSave",
+      "description": "Save handler now reads rsbHeaderBgHex, rsbHeaderTextColorHex, rsbMsgsBgHex, rsbAllowUserDecorations and writes them to roomAppearancePath(room) via ghPutJson."
+    },
+    {
+      "type": "feat",
+      "scope": "roomSettingsSave",
+      "description": "After saving, _roomAppearanceCache[room] is updated and applyRoomAppearance is called so changes take effect immediately for the saving admin."
+    }
+  ]
+}

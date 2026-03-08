@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0.28",
+  "date": "2026-03-08",
+  "title": "Reset to Defaults — Full Coverage",
+  "changes": [
+    "Reset handler now scans all localStorage keys starting with 'cp2p_closet_tint_' and 'cp2p_room_bg_' and removes every one — previously only the three fixed keys (particles/bubble/chatBg) were cleared so per-DM closet tints and per-room backgrounds all persisted after reset",
+    "After clearing closet/room-bg keys, #messages background, border-left, and backgroundAttachment are explicitly reset to '' so the live chat background matches default immediately without requiring a room rejoin",
+    "Reset button label and disabled state are now restored to '🔄 Reset Everything to Default' after a successful reset — previously the button remained disabled and showed 'Resetting…' indefinitely after success (error path already restored it)",
+    "_appearanceCache[uid] is now set to the clean appNew object rather than spreading over the previous stale cache — prevents old appearance fields from surviving the reset in-memory",
+    "_profileFetchedAt[uid] and _appearanceFetchedAt[uid] are both zeroed after reset so the next message render re-fetches from the freshly written cloud data rather than serving the stale TTL cache",
+    "_APP_DEFAULTS: nameGlowPreset, bubbleGlowPreset, and bubbleEffect now default to 'none' (string) instead of null to match what the UI expects when loading the tab post-reset"
+  ]
+}

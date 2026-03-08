@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0.1",
+  "title": "Appearance Foundation — Caches, Loaders, Diagnostics",
+  "releasedAt": 1752278400000,
+  "changes": [
+    {
+      "type": "internal",
+      "emoji": "🗂️",
+      "title": "Appearance path constants",
+      "description": "Added userAppearancePath(uid) and roomAppearancePath(room) path resolver constants that map to users/{uid}/appearance.json and rooms-meta/{room}/appearance.json respectively. These serve as the single source of truth for all future appearance read/write operations."
+    },
+    {
+      "type": "internal",
+      "emoji": "⚡",
+      "title": "Appearance TTL caches",
+      "description": "Added _appearanceCache, _appearanceFetchedAt, and _APPEARANCE_TTL (5 min) for per-user appearance objects, and _roomAppearanceCache, _roomAppearanceFetchedAt, _ROOM_APPEARANCE_TTL (60 s) for per-room appearance objects. These follow the same TTL-gated pattern as the existing profile and room-settings caches to avoid redundant GitHub API fetches."
+    },
+    {
+      "type": "internal",
+      "emoji": "🎛️",
+      "title": "DOM injection and particle trackers",
+      "description": "Added _injectedStyleTags (Set), _particleCanvases (Map), _observers (Array), and _previewCleanups (Array). These trackers provide centralized lifecycle management for dynamically injected style elements, particle canvas contexts, IntersectionObserver/MutationObserver instances, and preview teardown callbacks."
+    },
+    {
+      "type": "internal",
+      "emoji": "🔬",
+      "title": "Structured diagnostics ring buffer",
+      "description": "Implemented diagLog(subsystem, level, msg, ctx) — a color-coded, structured logger that appends to _diagBuffer (max 500 entries, FIFO). The buffer is loaded from localStorage on init, saved to localStorage on beforeunload via persistDiagnostics(), and can be exported as a HAR-style JSON download via exportDiagnosticsAsJson(). Supports levels: debug, info, warn, error, perf."
+    },
+    {
+      "type": "internal",
+      "emoji": "👤",
+      "title": "User appearance loader stub",
+      "description": "Added _maybeLoadUserAppearance(uid, forceRefresh) — a TTL-gated async loader that fetches users/{uid}/appearance.json from the GitHub repo and populates _appearanceCache. Returns the cached object if within TTL, skips pending re-fetches. Full DOM application is deferred to v1.0.0.5+."
+    },
+    {
+      "type": "internal",
+      "emoji": "🏠",
+      "title": "Room appearance loader and apply stubs",
+      "description": "Added loadRoomAppearance(room, forceRefresh), applyRoomAppearance(room), and cleanupRoomAppearance(room) stubs. The loader is TTL-gated and populates _roomAppearanceCache. The apply and cleanup functions are diagnostic stubs only — full implementation lands in v1.0.0.10."
+    },
+    {
+      "type": "internal",
+      "emoji": "📡",
+      "title": "Appearance propagation stub",
+      "description": "Added _propagateAppearanceChange(uid, appearanceObj) stub that updates _appearanceCache and logs via diagLog. DOM propagation (badges, glows, outlines, bubble effects) is deferred to v1.0.0.5+."
+    }
+  ]
+}

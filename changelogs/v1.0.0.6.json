@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0.6",
+  "title": "Name Glow, Outline, and Highlight",
+  "releasedAt": 1752710400000,
+  "changes": [
+    {
+      "type": "feature",
+      "emoji": "✨",
+      "title": "Name glow",
+      "description": "Sender names now render a CSS text-shadow glow when nameGlowColor and/or nameGlowPreset are set in appearance.json. Four presets available: soft (single diffuse glow), strong (tight core + wide diffuse), halo (ambient bloom), bloom (three-layer spread). Glow thickness is controlled by nameGlowThickness (default 8px). Presets override individual nameGlowColor if both are set."
+    },
+    {
+      "type": "feature",
+      "emoji": "🖊️",
+      "title": "Name text-stroke outline",
+      "description": "Sender names render a -webkit-text-stroke outline when nameOutlineColor and nameOutlineStyle (solid only in this version) are set. Thickness is controlled by nameOutlineThickness. Complex styles (double, gradient, dashed-anim) are logged via diagLog and deferred to a future version."
+    },
+    {
+      "type": "feature",
+      "emoji": "🎨",
+      "title": "Name highlight background",
+      "description": "Sender names render a colored background pill when nameHighlightColor is set. The pill uses border-radius:3px and 0 2px padding for a subtle tag-like appearance. Useful for VIP, staff, or event participants."
+    },
+    {
+      "type": "internal",
+      "emoji": "🔧",
+      "title": "_applyNameDecorations(spanEl, uid) helper",
+      "description": "New helper function that resets and re-applies all name decorations (glow, outline, highlight) from the appearance cache. Idempotent — always resets CSS properties before applying to avoid stale compound styles. Called from both createMessageElement (initial render) and _propagateAppearanceChange (real-time propagation)."
+    }
+  ]
+}

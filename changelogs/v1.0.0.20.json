@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0.20",
+  "date": "2026-03-08",
+  "type": "feature",
+  "summary": "Diagnostics Panel, Exportable Trace, and HAR-Style Issue Log",
+  "subsystems": ["diagnostics"],
+  "changes": [
+    "Added #diagPanel fixed-position overlay HTML — rendered in body, hidden by default",
+    "Panel contains: subsystem dropdown filter, level filter (All/Warn+Error/Error Only), Export JSON button, Clear button, Close button",
+    "Added _diagModeEnabled module-level boolean",
+    "Added renderDiagPanel() — reads _diagBuffer, applies filters, renders color-coded rows with timestamp/subsystem/msg/ctx",
+    "Added openDiagnosticsPanel() — shows panel, wires filter and button handlers",
+    "Added closeDiagnosticsPanel() — hides panel, resets _diagModeEnabled",
+    "Added Ctrl+Shift+D keyboard shortcut to toggle the diagnostics panel",
+    "Panel auto-scrolls to bottom on render (newest entries visible)",
+    "_diagBuffer already pre-seeded from cp2p_diagnostics localStorage (v1.0.0.1)",
+    "persistDiagnostics() already wired to beforeunload (v1.0.0.1)",
+    "exportDiagnosticsAsJson() downloads cp2p_diag_{ts}.json",
+    "Clear button empties _diagBuffer and removes cp2p_diagnostics from localStorage"
+  ],
+  "breaking": false,
+  "migrationRequired": false
+}

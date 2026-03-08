@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0.23",
+  "date": "2026-03-08",
+  "title": "Scroll-Fixed Bubble-Origin Chat Particles",
+  "summary": "Local chat particles now stay visible while scrolling (canvas mounted on .msgs-wrap instead of #messages) and originate from message bubble positions instead of being scattered randomly.",
+  "changes": [
+    "Added _spawnChatParticles(config, key): mounts an absolute-position canvas on .msgs-wrap (the fixed viewport wrapper) — canvas doesn't scroll with messages, particles remain visible at all times",
+    "Bubble origin sampling: _sampleOrigins() queries all visible .msg elements, computes their centre positions relative to .msgs-wrap via getBoundingClientRect delta, and returns them as spawn origins",
+    "Origins are re-sampled every 120 frames (~2 s at 60 fps) to reflect newly scrolled-in bubbles without missing newly loaded messages",
+    "Each particle spawns inside a random visible bubble rectangle and drifts upward/outward (or downward for snow type), fades in quickly, then fades out gently before respawning at another bubble",
+    "Particles that exit the canvas bounds are immediately respawned at a fresh bubble origin; initial life is staggered so all particles don't burst at once on activation",
+    "All five types (sparkle, snow, bubble, firefly, dust) work with the new bubble-origin system; sparkle/firefly still have twinkle alpha modulation",
+    "_applyLocalParticles(uid) updated to call _spawnChatParticles instead of _spawnParticleCanvas — room ambient particles are unaffected and still use the original system",
+    "_destroyParticlesForKey still works identically since _spawnChatParticles registers canvases in the same _particleCanvases registry"
+  ]
+}

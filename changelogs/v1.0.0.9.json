@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0.9",
+  "date": "2025-07-24",
+  "title": "Preset Manager UI",
+  "summary": "Adds a Preset Manager section to the Style tab for saving, applying and deleting appearance presets.",
+  "changes": [
+    {
+      "type": "feat",
+      "scope": "style-tab",
+      "description": "Added <div id=\"stylePresetsSection\"> placeholder in the Style tab HTML, rendered before the draft bar."
+    },
+    {
+      "type": "feat",
+      "scope": "loadStyleTab",
+      "description": "loadPresetsSection(uid) is now called at the end of loadStyleTab so the preset section is populated every time the Style tab opens."
+    },
+    {
+      "type": "feat",
+      "scope": "presets",
+      "description": "Added async loadPresetsSection(uid): renders preset cards (name + Apply + Delete), a Save-current row with name input, and enforces MAX_APPEARANCE_PRESETS limit."
+    },
+    {
+      "type": "feat",
+      "scope": "presets",
+      "description": "Apply button calls applyAppearancePreset then reloads loadStyleTab for instant preview."
+    },
+    {
+      "type": "feat",
+      "scope": "presets",
+      "description": "Delete button calls deleteAppearancePreset then refreshes the section in-place."
+    },
+    {
+      "type": "feat",
+      "scope": "presets",
+      "description": "Save button reads name input, calls createAppearancePreset + saveAppearancePreset, then refreshes section and shows a toast."
+    }
+  ]
+}

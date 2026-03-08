@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0.12",
+  "date": "2025-07-24",
+  "title": "DM Shared Appearance",
+  "summary": "Enables shared cloud-saved appearance themes for DM (closet) rooms. Both participants load and see the same header/messages colour theme.",
+  "changes": [
+    {
+      "type": "feat",
+      "scope": "_doJoinRoom",
+      "description": "Removed the !_isDm guard on loadRoomAppearance+applyRoomAppearance so DM rooms also load and apply their shared appearance on join."
+    },
+    {
+      "type": "feat",
+      "scope": "style-tab HTML",
+      "description": "Added <div id=\"styleDmAppearanceSection\"> placeholder in the Style tab HTML, shown only when chatting in a DM."
+    },
+    {
+      "type": "feat",
+      "scope": "loadStyleTab",
+      "description": "Added DM Shared Appearance section: colour pickers + hex inputs for headerBg, headerTextColor, msgsBg. Rendered only when in a DM room."
+    },
+    {
+      "type": "feat",
+      "scope": "loadStyleTab",
+      "description": "Save Shared Theme button reads the hex inputs, writes to roomAppearancePath(currentRoom) via ghPutJson, refreshes _roomAppearanceCache, calls applyRoomAppearance, and shows a toast."
+    }
+  ]
+}
