@@ -1,13 +1,13 @@
 {
   "v": 1,
-  "room": "dm-u_85f5e10431f69bc2/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5",
+  "room": "test1",
   "userId": "u_85f5e10431f69bc2",
   "username": "kevin",
   "online": true,
-  "lastSeenAt": 1772968064748,
-  "lastActiveAt": 1772968064748,
-  "lastReadTs": 1772968060753,
-  "lastReadMsgId": "m-1772968060753-4abwjk",
+  "lastSeenAt": 1772968074737,
+  "lastActiveAt": 1772968074737,
+  "lastReadTs": 0,
+  "lastReadMsgId": null,
   "device": {
     "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",
     "platform": "Linux armv81"
