@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0.31",
+  "date": "2026-03-09",
+  "title": "Mega Style Overhaul — Holiday Presets, New Particles, Shape-Adaptive Rings & Live Appearance Profile",
+  "summary": "v1.0.0.31 is the largest cosmetic update yet. Adds 7 holiday/seasonal ring types (Halloween, Xmas, Valentine, Easter, Ocean, Galaxy, Lightning), 5 new particle effect types (heart ❤️, confetti 🎊, meteor 🌠, cherry 🌸, ghost 👻), 6 holiday bubble presets, 6 chat background presets, 7 holiday personal themes (Halloween → Galaxy), fixes shape-adaptive ring rendering so hexagon/diamond/squircle rings follow the avatar shape, and enhances the profile panel to load and display a user's live style settings (ring, name color, bubble theme, geometry).",
+  "changes": [
+    {
+      "area": "Ring CSS — Shape-Adaptive Fix",
+      "type": "fix",
+      "description": "av-ring-wrap::before now uses CSS custom properties `--ring-r` (border-radius) and `--ring-cp` (clip-path) instead of hardcoded 50%. Combined with _applyProfileDecorations propagating these vars to the parent av-ring-wrap and member-ring-wrap, all conic-gradient ring animations now match the avatar shape — hexagon ring looks like a hexagon, diamond ring like a diamond, etc."
+    },
+    {
+      "area": "_applyProfileDecorations",
+      "type": "fix",
+      "description": "After applying geometry to the image element, the function now finds the parent av-ring-wrap or member-ring-wrap and sets --ring-r / --ring-cp CSS custom properties so the ::before ring animation tracks the avatar shape exactly. Also clears those vars in the reset path."
+    },
+    {
+      "area": "Ring Presets — 7 New Seasonal Types",
+      "type": "feature",
+      "description": "Added: 🎃 Halloween (orange/purple/black conic), 🎄 Xmas (red/green/gold), 💕 Love/Valentine (pink/rose gradient), 🐣 Easter (pastel rainbow conic), 🌊 Ocean (blue/cyan), 🌌 Galaxy (deep purple/indigo, blur), ⚡ Lightning (white/electric-blue fast 0.8s). Each type includes ::before conic-gradient rule (av-ring-wrap, member-ring-wrap), msg-avatar-circle border/animation, ring-card-av picker preview, and profile-header-img rule. Seven new keyframe animations: av-halloween-ring, av-xmas-ring, av-valentine-ring, av-easter-ring, av-ocean-ring, av-galaxy-ring, av-lightning-ring."
+    },
+    {
+      "area": "Particle System — 5 New Types",
+      "type": "feature",
+      "description": "PARTICLE_TYPES extended: 'heart' (bezier heart path, falls like snow, pink tint), 'confetti' (rotating coloured rectangles with per-particle random hue, falls), 'meteor' (gradient streak shoots diagonally fast across canvas, wraps from left), 'cherry' (soft rotating ellipse petals, slow fall), 'ghost' (renders 👻 emoji via fillText). _makeParticle now initialises rot and hue fields; meteor starts at x=-20 and uses fast diagonal velocity. _tickParticles adds rotation update (p.rot) each frame and five new canvas draw branches."
+    },
+    {
+      "area": "Bubble Presets — 6 Holiday Presets",
+      "type": "feature",
+      "description": "Added to STYLE_BUBBLE_PRESETS: 🎃 Halloween (orange→purple), 🎄 Xmas (red→green), 💕 Love (pink→rose), 🐣 Easter (lavender→cyan), 🌊 Ocean (blue→teal), 🌌 Galaxy (dark purple→violet)."
+    },
+    {
+      "area": "Chat Background Presets — 6 Holiday Presets",
+      "type": "feature",
+      "description": "Added to STYLE_CHAT_BG_PRESETS: 🎃 Halloween (dark orange-black), 🎄 Xmas (dark red-green), 💕 Valentine (deep rose), 🐣 Easter (twilight pastel), ☀️ Summer (warm dusk-navy), 🌌 Galaxy (near-black deep purple)."
+    },
+    {
+      "area": "Personal Themes — 7 Holiday Themes",
+      "type": "feature",
+      "description": "Added to STYLE_PERSONAL_THEMES: 🎃 Halloween (orange name, halloween ring, halloween bubbles/bg), 🎄 Christmas (red name, xmas ring), 💕 Valentine (pink name, valentine ring), 🐣 Easter (lavender name, easter ring), 🎆 New Year (gold name, gold ring), ☀️ Summer (orange name, ocean ring), 🌌 Galaxy (violet name, galaxy ring). All 7 themes have matching bubbleId and chatBgId for instant full-look presets."
+    },
+    {
+      "area": "User Profile Panel (UPS)",
+      "type": "feature",
+      "description": "openUserProfileScreen now fetches appearance.json in parallel with profile.json. The avatar is rendered inside an av-ring-wrap with the user's actual ring class — full conic-gradient and glow ring animations appear live in the panel. The display name is colored with the user's nameColor. A new '✨ Style' row shows appearance chips (ring name, name color, bubble preset, personal theme, avatar shape) when set. All 7 new rings work in the profile panel without extra CSS."
+    },
+    {
+      "area": "CSS — member-ring-wrap",
+      "type": "feature",
+      "description": "All 7 new holiday ring types (halloween, xmas, valentine, easter, ocean, galaxy, lightning) added to member-ring-wrap::before + member-ring-wrap>.member-avatar selector pairs so they display correctly in the members/roommates panel."
+    }
+  ]
+}
