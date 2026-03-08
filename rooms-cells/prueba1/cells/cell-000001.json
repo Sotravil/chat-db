@@ -13,7 +13,13 @@
     "audioDuration": 9.12,
     "audioMimeType": "audio/webm;codecs=opus",
     "audioSize": 132607,
-    "listenedBy": [],
+    "listenedBy": [
+      {
+        "userId": "u_98172ae8f41f2ba5",
+        "username": "sotravil",
+        "listenedAt": 1773008749344
+      }
+    ],
     "edited": false,
     "editedAt": null,
     "deleted": false,
