@@ -1,0 +1,16 @@
+{
+  "v": 3,
+  "room": "dm-u_85f5e10431f69bc2/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5",
+  "createdAt": 1772963957080,
+  "updatedAt": 1772963957080,
+  "storage": {
+    "cellMaxMessages": 4,
+    "cellsPerBox": 100
+  },
+  "paths": {
+    "roomIndex": "rooms-cells/dm-u_85f5e10431f69bc2/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5/index.json",
+    "boxesIndex": "rooms-cells/dm-u_85f5e10431f69bc2/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5/boxes/boxes-index.json",
+    "cellsDir": "rooms-cells/dm-u_85f5e10431f69bc2/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5/cells/",
+    "boxesDir": "rooms-cells/dm-u_85f5e10431f69bc2/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5/boxes/"
+  }
+}
