@@ -8,12 +8,24 @@
       "type": "join_room",
       "room": "dm-u_98172ae8f41f2ba5/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5",
       "displayName": "kevin"
+    },
+    {
+      "ts": 1772964092295,
+      "type": "logout",
+      "sessionDuration": 53623
+    },
+    {
+      "ts": 1772964100038,
+      "type": "login",
+      "username": "kevin",
+      "platform": "Linux armv81",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome"
     }
   ],
   "summary": {
     "messagesSent": 0,
     "roomsJoined": 1,
-    "sessionCount": 0
+    "sessionCount": 1
   },
-  "updatedAt": 1772964052686
+  "updatedAt": 1772964101962
 }
