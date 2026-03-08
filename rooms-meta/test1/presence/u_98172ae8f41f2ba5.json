@@ -1,11 +1,11 @@
 {
   "v": 1,
-  "room": "test1",
+  "room": "dm-u_85f5e10431f69bc2/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5",
   "userId": "u_98172ae8f41f2ba5",
   "username": "sotravil",
-  "online": false,
-  "lastSeenAt": 1772962740730,
-  "lastActiveAt": 1772962737978,
+  "online": true,
+  "lastSeenAt": 1772968032283,
+  "lastActiveAt": 1772968032283,
   "lastReadTs": 0,
   "lastReadMsgId": null,
   "device": {
