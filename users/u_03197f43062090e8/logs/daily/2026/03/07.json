@@ -1,0 +1,18 @@
+{
+  "v": 1,
+  "userId": "u_03197f43062090e8",
+  "date": "2026-03-07",
+  "entries": [
+    {
+      "ts": 1772936093291,
+      "type": "logout",
+      "sessionDuration": 24001
+    }
+  ],
+  "summary": {
+    "messagesSent": 0,
+    "roomsJoined": 0,
+    "sessionCount": 0
+  },
+  "updatedAt": 1772936093643
+}
