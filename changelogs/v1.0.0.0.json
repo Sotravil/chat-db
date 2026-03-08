@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0.0",
+  "title": "Style Studio 2.0 — Personalization Pro",
+  "releasedAt": 1752192000000,
+  "changes": [
+    {
+      "type": "new",
+      "emoji": "🎨",
+      "title": "Live style preview card",
+      "description": "The Style tab now shows a live preview card at the top that updates in real-time as you change your name color, status emoji, avatar ring, or message bubble. The card mimics an actual chat message — with your avatar wrapped in the selected ring, your colored sender name, status emoji, and a sample bubble rendered in your chosen gradient — so you always know exactly how you'll look to others before saving."
+    },
+    {
+      "type": "new",
+      "emoji": "🎭",
+      "title": "12 personal theme bundles",
+      "description": "A new Personal Themes section offers 12 curated style bundles: Custom, Midnight, Sakura, Arctic, Ember, Matrix, Candy, Solar, Cosmos, Crystal, Ghost, and Void. Each bundle sets a coordinated name color, avatar ring, message bubble gradient, and chat background with a single click. Themes are unisex and uncategorized — pick what resonates with you. Clicking a theme card applies it as a draft so you can still fine-tune individual settings before saving to the cloud."
+    },
+    {
+      "type": "new",
+      "emoji": "💾",
+      "title": "Unsaved-draft bar with Save / Discard",
+      "description": "Cloud-saved style fields (name color, avatar ring, status emoji, profile accent) now require an explicit save action. An orange draft bar appears at the bottom of the Style tab whenever you have unsaved changes, with a Save button that writes all pending fields to profile.json in a single commit, and a Discard button that reverts to the last saved state. This prevents accidental mid-browse saves and allows multi-field edits in one batch."
+    },
+    {
+      "type": "new",
+      "emoji": "🔬",
+      "title": "Custom hex color inputs",
+      "description": "Name color and profile accent pickers now include a custom hex input row below the swatch grid. Type any valid CSS hex value (#rrggbb) and click the color swatch button to apply it, instantly updating the live preview. This allows unlimited color choices beyond the 20 preset swatches."
+    },
+    {
+      "type": "new",
+      "emoji": "💎",
+      "title": "5 new avatar ring types",
+      "description": "Five new animated ring types are available: Gold (warm conic gradient with golden glow), Ice (cool conic gradient with cyan shimmer), Plasma (magenta-purple conic gradient with bright glow), Void (deep dark rotating ring with shadow), and Crystal (prismatic multi-color sparkle ring). Each uses dedicated CSS keyframe animations and is fully visible in the ring picker cards, live preview, member panel, and user search profiles."
+    },
+    {
+      "type": "new",
+      "emoji": "👥",
+      "title": "Member panel ring & name-color decorations",
+      "description": "The members panel in group chat rooms now renders each member's avatar ring and name color in real time. Member avatar containers are wrapped with the member-ring-wrap element (styled identically to chat rings) and member name elements carry a data-uid attribute. When a user's profile loads or changes, both their chat messages and member panel entry update instantly without any refresh."
+    },
+    {
+      "type": "new",
+      "emoji": "⚡",
+      "title": "Real-time style propagation",
+      "description": "A new _propagateProfileChange function applies profile updates (name color, avatar ring, status emoji) to every visible DOM element the moment a save is committed. It refreshes msg-sender-name spans in the chat history, member-name entries in the panel, av-ring-wrap elements around avatars, and status emoji spans — all in one pass, with no page reload required. Other users see the change on their next profile fetch or room join."
+    },
+    {
+      "type": "improved",
+      "emoji": "🔍",
+      "title": "User search renders full style profile",
+      "description": "The global user search now renders each found profile with their avatar ring, name color, and status emoji exactly as they would appear in chat. A descriptive note on the search tab explains that the profile style shown reflects what every other user sees. This makes the search result a faithful preview of the user's personalized appearance."
+    },
+    {
+      "type": "improved",
+      "emoji": "🌈",
+      "title": "Expanded color & preset palettes",
+      "description": "Name color swatches expanded from 8 to 20 options (adding sky, cornflower, violet, pink, rose, red, coral, orange, amber, gold, lime, emerald, teal, cyan, ice, lavender, peach, white, silver). Message bubble presets expanded from 6 to 10 (added Arctic, Ember, Cosmos, Mint). Chat background presets expanded from 6 to 10 (added Void, Sakura, Arctic, Matrix). All new entries are available immediately with no migration required."
+    }
+  ]
+}
