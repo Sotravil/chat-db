@@ -26,12 +26,18 @@
       "username": "sotravil",
       "platform": "Win32",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
+    },
+    {
+      "ts": 1772967710745,
+      "type": "join_room",
+      "room": "dm-u_85f5e10431f69bc2/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5",
+      "displayName": "sotravil"
     }
   ],
   "summary": {
     "messagesSent": 5,
-    "roomsJoined": 1,
+    "roomsJoined": 2,
     "sessionCount": 1
   },
-  "updatedAt": 1772964115795
+  "updatedAt": 1772967710873
 }
