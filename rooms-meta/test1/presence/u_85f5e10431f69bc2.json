@@ -1,11 +1,11 @@
 {
   "v": 1,
-  "room": "dm-u_85f5e10431f69bc2/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5",
+  "room": "test1",
   "userId": "u_85f5e10431f69bc2",
   "username": "kevin",
-  "online": false,
-  "lastSeenAt": 1772968120178,
-  "lastActiveAt": 1772968056854,
+  "online": true,
+  "lastSeenAt": 1772970486741,
+  "lastActiveAt": 1772970486741,
   "lastReadTs": 0,
   "lastReadMsgId": null,
   "device": {
