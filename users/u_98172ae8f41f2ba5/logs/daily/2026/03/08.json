@@ -50,12 +50,18 @@
       "type": "join_room",
       "room": "prueba1",
       "displayName": "sotravil"
+    },
+    {
+      "ts": 1772998192401,
+      "type": "join_room",
+      "room": "prueba1",
+      "displayName": "sotravil"
     }
   ],
   "summary": {
     "messagesSent": 5,
-    "roomsJoined": 5,
+    "roomsJoined": 6,
     "sessionCount": 1
   },
-  "updatedAt": 1772990556872
+  "updatedAt": 1772998192530
 }
