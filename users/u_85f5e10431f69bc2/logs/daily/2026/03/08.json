@@ -26,12 +26,24 @@
       "type": "join_room",
       "room": "dm-u_85f5e10431f69bc2/conv-u_85f5e10431f69bc2--u_98172ae8f41f2ba5",
       "displayName": "kevin"
+    },
+    {
+      "ts": 1772968058420,
+      "type": "join_room",
+      "room": "test1",
+      "displayName": "kevin"
+    },
+    {
+      "ts": 1772968058420,
+      "type": "messages_sent",
+      "count": 2,
+      "room": "test1"
     }
   ],
   "summary": {
-    "messagesSent": 0,
-    "roomsJoined": 2,
+    "messagesSent": 2,
+    "roomsJoined": 3,
     "sessionCount": 1
   },
-  "updatedAt": 1772967754905
+  "updatedAt": 1772968058567
 }
