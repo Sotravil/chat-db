@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0.17",
+  "date": "2026-03-08",
+  "type": "feature",
+  "summary": "Thickness Controls Full Integration",
+  "subsystems": ["appearance", "style-tab", "draft"],
+  "changes": [
+    "Added clampThickness(v, min, max) global utility — rounds to integer, clamps to [min, max], safe for all falsy inputs",
+    "Added _appearanceJsonSha cache for conflict-safe appearance.json writes",
+    "Extended loadStyleTab to also fetch appearance.json and load Tier 2 thickness fields into _styleDraft",
+    "Extended _commitDraft to write all 8 thickness fields to users/{uid}/appearance.json with SHA conflict protection",
+    "_commitDraft now propagates appearance changes after save via _propagateAppearanceChange",
+    "Added styleThicknessSection HTML placeholder div in Style tab",
+    "Added loadThicknessSection(uid) function — renders 8 bounded range sliders with live preview (debounced 60ms)",
+    "Fixed missing loadParticleSection(uid) call in loadStyleTab (was defined but never wired)",
+    "Thickness fields: ringThickness(1-6), nameGlowThickness(2-16), nameOutlineThickness(1-4), bubbleOutlineThickness(0-4), bubbleGlowThickness(2-20), rowOutlineThickness(0-3), badgeOutlineThickness(0-3), profileOutlineThickness(0-4)"
+  ],
+  "breaking": false,
+  "migrationRequired": false
+}

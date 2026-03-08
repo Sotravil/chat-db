@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0.26",
+  "date": "2026-03-08",
+  "title": "Shape-Aware Rings + Chat Background Preview",
+  "changes": [
+    "Static CSS: .style-preview-av-wrap, ::before, and .style-preview-av now use CSS custom properties (--prev-geo-r, --prev-geo-cp, --prev-ring-inset) instead of hardcoded 50% border-radius and -4px inset — JS sets these props once per render and all three elements cascade automatically",
+    "HTML: added ring-card-av class to #stylePreviewAv so all CSS rules av-ring-wrap.ring-X > .ring-card-av fire on the preview avatar div without extra JS",
+    "CSS: added av-ring-wrap::before {opacity:1} activation rules for ring-gold, ring-ice, ring-plasma, ring-void, ring-crystal — these ring gradients were only defined for member-ring-wrap before and were invisible in the chat message preview",
+    "_renderStylePreview(): ring section fully rewritten — the function now hoists ringPreset and geo outside the two if-blocks, sets --prev-ring-inset from ringThickness (adds 2px margin), and for color rings (has color, no gradient) applies filter:drop-shadow on the wrapper element (#stylePreviewAvWrap has no clip-path so the shadow is always visible and naturally follows the painted shape for hexagon/diamond)",
+    "_renderStylePreview(): removed the _applyOnceCSS('__prevGeoRing') call that injected a one-time style override — the same effect is now achieved by the static CSS custom-property rules which are always up to date",
+    "_renderStylePreview(): new chat-background preview section reads cp2p_chat_bg from localStorage, finds the STYLE_CHAT_BG_PRESETS entry, and sets #stylePreviewCard background to the preset gradient — reset to rgba(255,255,255,.04) when 'default'",
+    "Chat-bg picker: onclick handler now calls _renderPreview() after _applyChatBg() so selecting a chat background immediately updates the preview card above"
+  ]
+}

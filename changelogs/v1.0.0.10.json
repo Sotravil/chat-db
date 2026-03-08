@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0.10",
+  "date": "2025-07-24",
+  "title": "Room Appearance — Full Implementation",
+  "summary": "Replaces the applyRoomAppearance and cleanupRoomAppearance stubs with full DOM-manipulation implementations.",
+  "changes": [
+    {
+      "type": "feat",
+      "scope": "applyRoomAppearance",
+      "description": "Reads _roomAppearanceCache[room] and injects/updates <style id=\"__room_header\"> for headerBg and headerTextColor overrides on .chatHeader, #roomTitle, #roomSub."
+    },
+    {
+      "type": "feat",
+      "scope": "applyRoomAppearance",
+      "description": "Injects/updates <style id=\"__room_theme\"> for msgsBg (.msgs-wrap background) and inputBg (.composer background) overrides."
+    },
+    {
+      "type": "feat",
+      "scope": "applyRoomAppearance",
+      "description": "Adds/replaces room-theme-{roomTheme} CSS class on #chatPanel for theme-based styling hooks."
+    },
+    {
+      "type": "feat",
+      "scope": "applyRoomAppearance",
+      "description": "Injects/updates <style id=\"__room_input\"> with --room-accent CSS custom property when accentColor is set."
+    },
+    {
+      "type": "feat",
+      "scope": "cleanupRoomAppearance",
+      "description": "Removes all __room_header, __room_theme, __room_uishape, __room_input style tags and strips room-theme-* classes from #chatPanel."
+    },
+    {
+      "type": "feat",
+      "scope": "cleanupRoomAppearance",
+      "description": "Destroys any room-bound particle canvases from _particleCanvases[room] (forward-compatible hook for v1.0.0.13 particle engine)."
+    }
+  ]
+}

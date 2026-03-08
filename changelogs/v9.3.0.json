@@ -1,0 +1,62 @@
+{
+  "version": "9.3.0",
+  "releasedAt": 1741219200000,
+  "title": "Closets 2.0 & Modern UI Dialogs",
+  "summary": "DM rooms now show friendly names instead of raw IDs, a full nickname system for Closets, isolated per-pair message storage, and all native browser dialogs replaced with beautiful custom modals.",
+  "changes": [
+    {
+      "type": "feature",
+      "emoji": "💌",
+      "title": "DM Friendly Names",
+      "description": "Closet (DM) rooms now display the partner's @username in the chat header instead of the raw internal ID like #closet--u_xxx--u_yyy."
+    },
+    {
+      "type": "feature",
+      "emoji": "✏️",
+      "title": "Nickname System for Closets",
+      "description": "You can now set a personal nickname for any DM contact. Tap the ✏️ button next to their name in the header, or use the ⋮ menu in the Closets profile tab. Nicknames are saved to your account and sync across sessions."
+    },
+    {
+      "type": "feature",
+      "emoji": "🗂️",
+      "title": "Closets Tab Rebuilt",
+      "description": "The Closets tab in your profile now shows a clean card per contact with avatar, display name (nickname or @handle), last activity, and a ⋮ menu for: Open Closet, Edit Nickname, and Remove from List."
+    },
+    {
+      "type": "feature",
+      "emoji": "✅",
+      "title": "Quick Enable for Disabled Links",
+      "description": "Disabled shared links now show an inline ✅ Enable button directly on the row — no need to open the 3-dots menu just to re‑enable a link."
+    },
+    {
+      "type": "improvement",
+      "emoji": "🏗️",
+      "title": "Isolated DM Message Storage",
+      "description": "Each Closet conversation now uses a dedicated storage path (dm-{targetUid}/conv-{pairId}) in the repo. UserA and UserC both chatting with UserB each have completely separate message histories — even if they share a room name — so no messages bleed between conversations."
+    },
+    {
+      "type": "improvement",
+      "emoji": "🔇",
+      "title": "Cleaner DM Room Experience",
+      "description": "When inside a Closet: the Share, Roommates, and Settings buttons are hidden; no 'X joined' system message is injected; and the DM is not recorded in your rooms-joined list — only in dms.json."
+    },
+    {
+      "type": "improvement",
+      "emoji": "🔒",
+      "title": "Backward Compatibility for Old Closets",
+      "description": "Existing closet-- style DM keys from previous versions continue to work. The new dm-/conv- format applies only to newly opened Closets."
+    },
+    {
+      "type": "fix",
+      "emoji": "🗔",
+      "title": "Replaced All Native Browser Dialogs",
+      "description": "Every alert(), confirm(), and prompt() call has been removed and replaced with a custom modal system (uiAlert / uiConfirm / uiPrompt) with smooth animations, dark-mode aware styling, keyboard support (Enter / Escape), and danger-mode red buttons for destructive actions."
+    },
+    {
+      "type": "fix",
+      "emoji": "🚫",
+      "title": "DM Rooms Excluded from Rooms Tab",
+      "description": "The Rooms tab in your profile no longer shows DM conversation keys, keeping it clean with only actual group rooms."
+    }
+  ]
+}

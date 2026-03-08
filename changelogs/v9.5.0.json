@@ -1,0 +1,115 @@
+{
+  "version": "9.5.0",
+  "title": "Audit & Reliability Pass",
+  "releasedAt": 1751580000000,
+  "changes": [
+    {
+      "type": "fixed",
+      "emoji": "🔔",
+      "title": "Notification Center now actually works",
+      "description": "addNotif() was defined but never called from the message-receive path. Fixed: incoming messages and @mentions now correctly populate the notification center and trigger sound/browser alerts."
+    },
+    {
+      "type": "fixed",
+      "emoji": "📜",
+      "title": "Changelog index update restored",
+      "description": "ensureChangelogInRepo was referencing an undefined variable (GH_TOKEN_READY instead of ghTokenReady), silently no-oping on every load. The changelog index now correctly updates when a new version is deployed."
+    },
+    {
+      "type": "fixed",
+      "emoji": "👤",
+      "title": "Add Member by username no longer fails silently",
+      "description": "The member search was traversing users/index.json with the wrong data structure path, always returning 'User not found'. Fixed to correctly look up users via byUsernameLower map."
+    },
+    {
+      "type": "fixed",
+      "emoji": "👑",
+      "title": "Owner badge now visible for all room viewers",
+      "description": "The owner badge in the members panel used isRoomOwner() which returns true only for the current session user, not for any member row. Now correctly checks the roles cache ownerUid against each member's userId."
+    },
+    {
+      "type": "fixed",
+      "emoji": "🛡️",
+      "title": "Role badges in User Profile work from avatar hover cards",
+      "description": "Opening a user profile via an in-chat avatar click bypassed the members panel, leaving _currentRoomOwnerCache empty. Profile now falls back to _roomRolesCache for role resolution."
+    },
+    {
+      "type": "fixed",
+      "emoji": "🔒",
+      "title": "XSS hardening in read-receipt chips",
+      "description": "Avatar URLs in read-receipt chips were injected via innerHTML. Replaced with safe createElement + img.src assignment to prevent crafted avatar URLs from executing script."
+    },
+    {
+      "type": "fixed",
+      "emoji": "⚡",
+      "title": "Activity log flush rate-limited (45 s minimum interval)",
+      "description": "flushUserLogs() triggers 3 GitHub API writes per call. Rapid room joins or interactions were stacking writes and exhausting the API rate limit. Added a 45-second minimum interval guard with automatic rescheduling — pending events are never lost."
+    },
+    {
+      "type": "fixed",
+      "emoji": "🔔",
+      "title": "@mention and unread counts updated on all sync branches",
+      "description": "checkNewMessages() was only called in one of four syncLatestFromStorage branches. Added coverage to the 'user significantly behind' and 'verify last 3 cells' paths so badges update on every sync."
+    },
+    {
+      "type": "new",
+      "emoji": "🔔",
+      "title": "Notification Center (§1)",
+      "description": "Bell icon in the header opens a full notification center. Notifications persist in localStorage (max 80). Supports message, mention, friend, room, and system notification types."
+    },
+    {
+      "type": "new",
+      "emoji": "👤",
+      "title": "User Profile Screen (§2)",
+      "description": "Tap any avatar to open a full profile view with banner, bio, status, role badges, personas, friend/DM actions, and admin controls."
+    },
+    {
+      "type": "new",
+      "emoji": "⚙️",
+      "title": "Admin Config Modal (§3)",
+      "description": "Granular admin permission editor appears when promoting a member to admin: control per-admin access to messages, media, links, and moderation."
+    },
+    {
+      "type": "new",
+      "emoji": "🎟️",
+      "title": "Guest Trial Mode (§4)",
+      "description": "Guests get a limited trial of up to 10 messages before being prompted to create an account. Trial counter persists across reloads."
+    },
+    {
+      "type": "new",
+      "emoji": "🔊",
+      "title": "Sound System (§5)",
+      "description": "Sound notifications with per-type volume control. Synths built from Web Audio API — no external files required."
+    },
+    {
+      "type": "new",
+      "emoji": "🌐",
+      "title": "Browser Push Notifications (§6)",
+      "description": "Optional Web Notifications API integration for out-of-focus alerts on mentions and direct messages."
+    },
+    {
+      "type": "improved",
+      "emoji": "🖱️",
+      "title": "Dropdown handler system (§7)",
+      "description": "Consolidated all dropdown open/close logic into a unified handler with outside-click dismissal and esc key support."
+    },
+    {
+      "type": "improved",
+      "emoji": "💤",
+      "title": "Idle polling heartbeat",
+      "description": "Poll loop now fires a 30-second heartbeat even while idle (POLL_MS_IDLE / 3) so users on passive reading sessions don't permanently miss messages."
+    },
+    {
+      "type": "improved",
+      "emoji": "📦",
+      "title": "Cell metadata persisted across reloads",
+      "description": "Current cell / total cells indicator now restores on reload from localStorage cache."
+    },
+    {
+      "type": "dev",
+      "emoji": "🔧",
+      "title": "Engineering audit v9.5.0",
+      "description": "Full production audit across 17 domains: storage sync, auth, permissions, repo architecture, write queues, polling, UI state, notifications, DMs, changelog, guest mode, personalization, offline recovery, performance, API error handling, multi-user consistency. 8 bugs fixed, 7 improvements applied."
+    }
+  ]
+}

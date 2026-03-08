@@ -1,0 +1,13 @@
+{
+  "version": "9.2.0",
+  "date": "2026-03-06",
+  "title": "UI Bug Fixes · Structure Repairs",
+  "entries": [
+    { "type": "fixed",    "text": "Chat panel structure repaired — composer and messages were trapped inside the header's flex layout due to a missing closing tag" },
+    { "type": "fixed",    "text": "Fullscreen toggle button repositioned into the header action group (was position:absolute, now sits correctly in the flex row)" },
+    { "type": "fixed",    "text": "Messages no longer jump upward on hover — removed translateY lift from .msg:hover" },
+    { "type": "fixed",    "text": "Favicon path changed to relative (./) so the icon loads correctly when opening the file locally" },
+    { "type": "fixed",    "text": "Room Settings button now always visible when inside a room — was silently hidden due to admins.json 404 failing the admin check" },
+    { "type": "improved", "text": "Message transitions now only animate border-color and box-shadow — eliminates layout recomputes on every hover" }
+  ]
+}

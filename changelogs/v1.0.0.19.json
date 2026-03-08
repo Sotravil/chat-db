@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0.19",
+  "date": "2026-03-08",
+  "type": "feature",
+  "summary": "Room and DM Rules/Settings Persistence with System-Message Rendering",
+  "subsystems": ["sysmsg", "room-settings", "room-appearance"],
+  "changes": [
+    "Hooked createSysMsg into saveRoomSettings — fires 'settings-changed' sysmsg after every room settings save",
+    "Hooked createSysMsg into room appearance save handler — fires 'appearance-changed' sysmsg after room appearance is saved",
+    "Extended fetchAndRenderNewSysMsgs with date-separator rows — inserts day-boundary separators between sysmsgs crossing midnight",
+    "Extended fetchAndRenderNewSysMsgs with compact grouping — when rules.allowCompact is true, consecutive same-compactGroup sysmsgs are merged into a single 'N changes' row",
+    "All sysmsg creation is fire-and-forget with caught errors to avoid blocking the save flow"
+  ],
+  "breaking": false,
+  "migrationRequired": false
+}

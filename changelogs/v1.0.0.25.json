@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0.25",
+  "date": "2026-03-08",
+  "title": "Reset to Factory Defaults + Emoji/Char Particles",
+  "changes": [
+    "Added '🔄 Reset Everything to Default' button at the bottom of the Style tab — clears ring, name colour, bubble styles, badge, profile geometry and all Tier 2 appearance fields back to factory defaults, writes the clean state to both profile.json and appearance.json, removes local particle config from localStorage, destroys active canvases and reloads the tab",
+    "Confirmation dialog shown before reset to prevent accidental data loss",
+    "loadParticleSection: added 'Custom shape' text input inside the controls block — accepts a single emoji, letter or number (e.g. ❤️, A, 7); leave blank to keep the default shape for the selected type",
+    "_readCurPtCfg: now includes a 'char' field — value is saved to localStorage along with all other particle settings and applied on Apply",
+    "_tickParticles: added char-mode branch — when config.char is non-empty, draws the character via ctx.fillText instead of arc/rect; inherits the current type's movement pattern, colour, opacity, blur and twinkle timing",
+    "_spawnChatParticles: same char-mode branch added to the chat-particles draw loop so emoji/char particles also work in the live chat",
+    "Char input live-previews in the style tab preview card with 120 ms debounce, matching behaviour of all other particle controls"
+  ]
+}

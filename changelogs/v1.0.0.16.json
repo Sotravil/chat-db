@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0.16",
+  "date": "2026-03-08",
+  "type": "feature",
+  "summary": "Profile Cover Animation + Advanced Profile Cosmetics",
+  "subsystems": ["appearance", "profile"],
+  "changes": [
+    "Added _PROFILE_GEOMETRY_SHAPES constant (circle, squircle, rounded, hexagon, diamond)",
+    "Added _applyProfileDecorations(imgEl, uid) function — applies geometry, outline, and glow to avatar img elements",
+    "Wired _applyProfileDecorations into createMessageElement after ring wrap assembly",
+    "Wired _applyProfileDecorations propagation in _propagateAppearanceChange after bubble loop",
+    "Reads profileGeometry, profileOutlineColor/Thickness, profileGlowColor from _appearanceCache[uid]",
+    "All outline thickness values pass through clampThickness(0–4)",
+    "Idempotent — resets all profile styles before re-applying",
+    "diagLog instrumentation on every call"
+  ],
+  "breaking": false,
+  "migrationRequired": false
+}

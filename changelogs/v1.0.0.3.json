@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0.3",
+  "title": "Appearance Draft Model + Save/Load Plumbing",
+  "releasedAt": 1752451200000,
+  "changes": [
+    {
+      "type": "internal",
+      "emoji": "🏛️",
+      "title": "Canonical default appearance schema",
+      "description": "Added _defaultAppearance() returning a canonical object with all 29 Tier-2 appearance fields set to null (meaning 'use defaults'). All appearance read/write operations merge against this baseline to ensure forward compatibility as new fields are added in future versions."
+    },
+    {
+      "type": "internal",
+      "emoji": "💾",
+      "title": "saveUserAppearance() — first write of appearance.json",
+      "description": "Implemented saveUserAppearance(uid, appearanceObj) — the low-level write pathway for users/{uid}/appearance.json. It reads the current file for its SHA to avoid conflicts, deep-merges with _defaultAppearance() for completeness, writes via ghPutJson, and updates the TTL cache. This is the first version where appearance.json can be written to the GitHub repo."
+    },
+    {
+      "type": "internal",
+      "emoji": "📝",
+      "title": "Appearance draft state variables",
+      "description": "Added module-level _appearanceDraftUid, _appearanceDraft (working copy), and _appearanceDraftBase (last server state). These follow the same pattern as _styleDraft/_styleDraftBase for profile fields and persist across tab switches within a session."
+    },
+    {
+      "type": "internal",
+      "emoji": "🔧",
+      "title": "initAppearanceDraft(uid)",
+      "description": "Async initialiser that populates the appearance draft from the TTL cache (triggering a fetch if absent) and merges with _defaultAppearance() for completeness. Idempotent — if the draft is already loaded for the same uid, returns immediately."
+    },
+    {
+      "type": "internal",
+      "emoji": "🔍",
+      "title": "hasAppearanceDraftChanges()",
+      "description": "Returns true if any field in _appearanceDraft differs from _appearanceDraftBase. Array fields are compared via JSON.stringify for deep equality. Used to drive the appearance draft bar visibility (UI wiring in v1.0.0.5+)."
+    },
+    {
+      "type": "internal",
+      "emoji": "✏️",
+      "title": "updateAppearanceDraft(fields)",
+      "description": "Merges an arbitrary fields object into _appearanceDraft without writing to cloud. Individual appearance editors (badge, glow, outline, etc.) will call this when fielding changes from their controls."
+    },
+    {
+      "type": "internal",
+      "emoji": "🚀",
+      "title": "commitAppearanceDraft(uid) + discardAppearanceDraft()",
+      "description": "commitAppearanceDraft writes the working draft to cloud via saveUserAppearance, updates both draft variables to the saved server state, and calls _propagateAppearanceChange for immediate local DOM updates. discardAppearanceDraft resets _appearanceDraft to _appearanceDraftBase, undoing all unsaved changes."
+    }
+  ]
+}
