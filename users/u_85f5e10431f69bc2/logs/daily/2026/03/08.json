@@ -34,7 +34,7 @@
       "displayName": "kevin"
     },
     {
-      "ts": 1772970488726,
+      "ts": 1772970520393,
       "type": "join_room",
       "room": "test1",
       "displayName": "kevin"
@@ -45,5 +45,5 @@
     "roomsJoined": 4,
     "sessionCount": 1
   },
-  "updatedAt": 1772970488879
+  "updatedAt": 1772970520423
 }
