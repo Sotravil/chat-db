@@ -1,0 +1,37 @@
+{
+  "version": "9.7.0",
+  "title": "Background Notifications, Links Panel & Guest UX",
+  "releasedAt": 1772928000000,
+  "changes": [
+    {
+      "type": "new",
+      "emoji": "🔔",
+      "title": "True background notifications via Service Worker",
+      "description": "A service worker (sw.js) is now registered on first load. When you grant notification permission the SW is activated and, on supported browsers (Chrome 80+), Periodic Background Sync is scheduled so you receive message alerts even while the tab is closed. The SW handles notification click events — clicking a notification focuses the app and automatically joins the right room."
+    },
+    {
+      "type": "improved",
+      "emoji": "📡",
+      "title": "Notification permission prompt upgraded",
+      "description": "Accepting the notification banner now also registers the service worker and schedules background sync in one step. The opt-in banner copy has been updated to make the background-delivery benefit clear."
+    },
+    {
+      "type": "fixed",
+      "emoji": "🎟️",
+      "title": "Guest 'msgs left' badge hidden for logged-in users",
+      "description": "The guest trial badge was only guarded at render time. When a user registered or logged in the badge could persist from the current session. applySessionToUi() now explicitly removes the badge and dismisses the lock overlay the moment a session is established."
+    },
+    {
+      "type": "fixed",
+      "emoji": "💌",
+      "title": "'DMs coming soon' replaced with real DM navigation",
+      "description": "The openOrCreateDm stub now delegates to openDMWithUser instead of showing a toast placeholder. The dropdown 'My Closets' button uses openDmListPanel (already implemented) with a fallback that opens the Closets tab in the profile modal."
+    },
+    {
+      "type": "new",
+      "emoji": "🔗",
+      "title": "My Links panel is live",
+      "description": "The 'My Links' dropdown item previously showed 'Links panel coming soon!'. openUserLinksPanel() is now implemented: it opens the profile modal and switches directly to the Shared Links tab where you can view, copy, edit expiry, manage whitelists, see viewer stats, and delete tracked links."
+    }
+  ]
+}
