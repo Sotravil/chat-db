@@ -1,0 +1,35 @@
+{
+  "version": "9.8.0",
+  "date": "2025-07-19",
+  "title": "Personalization Studio",
+  "highlights": [
+    "✨ Animated avatar rings: Glow, Pulse, Fire, Neon, Aura, Spin, Rainbow, Sparks (Particles)",
+    "🎵 Status emoji beside your name in chat (15 options)",
+    "🏠 Per-room custom backgrounds (9 gradient presets, saved per room)",
+    "💌 Per-closet (DM) color tints (8 tint options)",
+    "🎆 Particle canvas effect orbiting your header avatar when Sparks ring is active",
+    "🎨 Style tab expanded with all new personalization sections"
+  ],
+  "changes": [
+    "[NEW] CSS @keyframes av-ring-rotate, av-pulse-ring, av-fire-ring, av-aura-ring",
+    "[NEW] .av-ring-wrap wrapper div wraps every message avatar — enables ::before spinning rings",
+    "[NEW] 9 avatar ring styles: none, glow, pulse, fire, neon, aura, spin, rainbow, particles",
+    "[NEW] STYLE_RING_PRESETS constant with CSS class, color, gradient metadata",
+    "[NEW] _avatarRingCache + _maybeLoadAvatarRing(userId) — fetches profile.avatarRing async",
+    "[NEW] _applyAvatarRingToAll(userId, ringId) — applies ring to all DOM avatars for that user",
+    "[NEW] _handleOwnRingParticles(ringId) — spawns requestAnimationFrame canvas on header avatar",
+    "[NEW] STYLE_STATUS_EMOJIS (15 options) + _statusEmojiCache + _maybeLoadStatusEmoji(userId)",
+    "[NEW] Status emoji .msg-status-emoji span rendered after sender name in messages",
+    "[NEW] STYLE_ROOM_BG_PRESETS (9 presets) — night, forest, ocean, rose, ember, cyber, soft, ash",
+    "[NEW] _applyRoomBg(roomName) — reads cp2p_room_bg_{room} from localStorage",
+    "[NEW] STYLE_CLOSET_TINTS (8 tints) + _applyClosetTint(dmRoom)",
+    "[NEW] Style tab: Avatar Ring section (animated ring demo picker)",
+    "[NEW] Style tab: Status Emoji section (emoji grid)",
+    "[NEW] Style tab: Per-Room Background section (only when in a group room)",
+    "[NEW] Style tab: Closet Tint section (only when in a DM room)",
+    "[WIRE] _doJoinRoom calls _applyRoomBg or _applyClosetTint on join",
+    "[WIRE] Login flow calls _maybeLoadAvatarRing(session.userId)",
+    "[WIRE] Message renderer wraps avatarEl in av-ring-wrap + loads ring async",
+    "[WIRE] Message renderer checks _statusEmojiCache and appends emoji span"
+  ]
+}
