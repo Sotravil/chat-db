@@ -1,42 +1,43 @@
 {
   "version": "1.0.0.32",
-  "title": "DOM Dialog System Overhaul & UI Refinements",
-  "date": "2026-03-08",
-  "summary": "Replaced all native browser alert/confirm/prompt calls with fully custom DOM dialogs featuring glass-morphic design, animated entry/exit, keyboard support, and a danger variant. Also adds GIF upload support for room and avatar photos, and a global modern scrollbar style.",
+  "date": "2026-03-09",
+  "title": "DOM Dialog System Overhaul, GIF Upload & Modern Scrollbars",
+  "summary": "Replaces all native browser alert/confirm/prompt calls with fully custom DOM dialogs featuring glass-morphic design, animated entry/exit, keyboard support, and a danger variant. Adds GIF upload support for room and avatar photos. Introduces a global modern teal scrollbar across all scrollable panels.",
   "changes": [
     {
-      "category": "Feature",
-      "items": [
-        "New glass-morphic modal dialog system: uiAlert, uiConfirm, and uiPrompt rebuilt from scratch with animated entry (slideUp + fade) and exit (slideDown + fade) via .ui-closing class and animationend event.",
-        "Modal panels feature icon-wrap (teal for normal, red for danger), a close-X button, and a structured top-bar / body / footer layout.",
-        "Danger variant: uiConfirm now accepts { danger: true } which applies red glow border, red-tinted icon wrap, and a solid red gradient action button.",
-        "Confirm button uses a teal-to-purple gradient with a soft cyan box-shadow glow.",
-        "Cancel button rendered as a muted semi-transparent chip.",
-        "Global keyboard handling: Enter confirms/submits, Escape cancels/closes for all dialog types. Handler is stored on the overlay element and removed on close to prevent leaks.",
-        "_uiClose() helper plays exit animation before DOM removal, keeping resolve() callback tied to animation completion.",
-        "_uiPanelHtml() shared template helper generates all dialog HTML from a single options object.",
-        "GIF upload support for room photos: inline file input inside the room settings panel; GIF files bypass canvas compression to preserve animation; non-GIF images compressed to max 400px / 82% JPEG quality.",
-        "GIF upload support for avatars: _handlePhotoFile detects image/gif and reads raw data URL, skipping canvas; file size limit raised from 5 MB to 8 MB.",
-        "Room and avatar file inputs updated to accept=\"image/*,image/gif\".",
-        "Global modern scrollbar: 5px thin teal (rgba 56 189 248) scrollbar applied to all scrollable containers via universal * selector with opt-out for html, body, composer textarea, .prf-tabs, and [data-hide-scroll]."
-      ]
+      "area": "Modal CSS — Complete Redesign",
+      "type": "feature",
+      "description": "Rewrote all .ui-modal-* CSS. Overlay now uses backdrop-filter: blur(10px) saturate(1.3) with rgba(0,0,0,.7) bg. Panel uses linear-gradient(160deg, rgba(30,41,59,.98), rgba(15,23,42,.99)) with 22px border-radius and layered box-shadow (spread glow + inner rim). New .ui-modal-top-bar holds a 48x48px icon-wrap and a close-X button. .ui-modal-footer has a subtle top border and right-aligned action buttons. Added .ui-danger-panel variant (red glow border and tint). Confirm button is teal→purple gradient with cyan glow; danger confirm is solid red gradient; cancel is muted semi-transparent chip. New keyframes uiMoOut and uiMoSlideOut power the closing animation via the .ui-closing class."
     },
     {
-      "category": "Fix",
-      "items": [
-        "Removed last two native confirm() calls: style-reset button (styleResetDefaultsBtn.onclick) now uses await uiConfirm() with danger:true; UPS block-user button converted to async arrow and uses await uiConfirm() with danger:true.",
-        "UPS block-user handler correctly calls closeUserProfileScreen() after block confirmation regardless of outcome.",
-        "Keyboard handler no longer leaks on repeated dialog open/close cycles."
-      ]
+      "area": "Modal JS — uiAlert / uiConfirm / uiPrompt Rebuild",
+      "type": "feature",
+      "description": "All three dialog functions rebuilt from scratch. New _uiClose(ov, resolve, value) helper adds .ui-closing, waits for animationend, then removes the overlay and calls resolve — ensuring smooth exit before DOM removal. New _uiPanelHtml() shared template generates all dialog HTML from a single options object (icon, title, msg, danger, hasInput, confirmLabel, cancelLabel, alertOnly). Global document keydown handler stored on ov._keyHandler and removed on close to prevent listener leaks; Enter confirms, Escape cancels for all dialog types. Close-X button wired in all three dialogs."
     },
     {
-      "category": "Style",
-      "items": [
-        "Modal overlay uses backdrop-filter: blur(10px) saturate(1.3) and rgba(0,0,0,.7) background.",
-        "Panel background: linear-gradient(160deg, rgba(30,41,59,.98), rgba(15,23,42,.99)) with 22px border-radius and layered box-shadow (spread + inner glow).",
-        "New keyframes: uiMoOut (overlay fade-out) and uiMoSlideOut (panel slide-down + fade-out).",
-        "ui-modal-input redesigned: dark semi-transparent background, teal focus ring, smooth transition."
-      ]
+      "area": "Raw confirm() Removal — Style Reset Button",
+      "type": "fix",
+      "description": "styleResetDefaultsBtn.onclick was the last place using native confirm(). Converted handler to async and replaced with await uiConfirm('Reset ALL styles to factory defaults?', { title:'Reset to Factory Defaults', icon:'⚠️', confirmLabel:'Reset Everything', danger:true })."
+    },
+    {
+      "area": "Raw confirm() Removal — UPS Block User Button",
+      "type": "fix",
+      "description": "The block-user button in the User Profile Screen was using native confirm(). Converted the click handler to an async arrow function and replaced with await uiConfirm(..., { danger:true }). closeUserProfileScreen() is now always called after the action regardless of outcome."
+    },
+    {
+      "area": "GIF Upload — Room Photos",
+      "type": "feature",
+      "description": "Room settings panel now has an inline file input (accept='image/*,image/gif') inside a label button. GIF files skip canvas compression entirely so animations are preserved; non-GIF images are compressed to max 400px / 82% JPEG. The pending data URL is stored on body._rsbPendingPhotoDataUrl and consumed by the save handler."
+    },
+    {
+      "area": "GIF Upload — Avatar Photos",
+      "type": "feature",
+      "description": "_handlePhotoFile now detects image/gif and reads the raw data URL, bypassing the canvas resize path. File size limit raised from 5 MB to 8 MB. photoFileInput and photoCameraInput accept attributes updated to 'image/*,image/gif'."
+    },
+    {
+      "area": "Scrollbars — Global Modern Style",
+      "type": "feature",
+      "description": "Added a global * scrollbar block: 5px width/height, transparent track, rgba(56,189,248,.22) teal thumb with 99px border-radius, hover brightens to .55 opacity. Opt-out applied to html, body, .composer textarea, .prf-tabs, and [data-hide-scroll]. Removed now-redundant individual scrollbar-width:none overrides from .msgs, .log, .room-list, and .welcome-container, which all now use the global thin scrollbar."
     }
   ]
 }
