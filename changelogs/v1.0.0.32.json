@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0.32",
+  "title": "DOM Dialog System Overhaul & UI Refinements",
+  "date": "2025-07-27",
+  "summary": "Replaced all native browser alert/confirm/prompt calls with fully custom DOM dialogs featuring glass-morphic design, animated entry/exit, keyboard support, and a danger variant. Also adds GIF upload support for room and avatar photos, and a global modern scrollbar style.",
+  "changes": [
+    {
+      "category": "Feature",
+      "items": [
+        "New glass-morphic modal dialog system: uiAlert, uiConfirm, and uiPrompt rebuilt from scratch with animated entry (slideUp + fade) and exit (slideDown + fade) via .ui-closing class and animationend event.",
+        "Modal panels feature icon-wrap (teal for normal, red for danger), a close-X button, and a structured top-bar / body / footer layout.",
+        "Danger variant: uiConfirm now accepts { danger: true } which applies red glow border, red-tinted icon wrap, and a solid red gradient action button.",
+        "Confirm button uses a teal-to-purple gradient with a soft cyan box-shadow glow.",
+        "Cancel button rendered as a muted semi-transparent chip.",
+        "Global keyboard handling: Enter confirms/submits, Escape cancels/closes for all dialog types. Handler is stored on the overlay element and removed on close to prevent leaks.",
+        "_uiClose() helper plays exit animation before DOM removal, keeping resolve() callback tied to animation completion.",
+        "_uiPanelHtml() shared template helper generates all dialog HTML from a single options object.",
+        "GIF upload support for room photos: inline file input inside the room settings panel; GIF files bypass canvas compression to preserve animation; non-GIF images compressed to max 400px / 82% JPEG quality.",
+        "GIF upload support for avatars: _handlePhotoFile detects image/gif and reads raw data URL, skipping canvas; file size limit raised from 5 MB to 8 MB.",
+        "Room and avatar file inputs updated to accept=\"image/*,image/gif\".",
+        "Global modern scrollbar: 5px thin teal (rgba 56 189 248) scrollbar applied to all scrollable containers via universal * selector with opt-out for html, body, composer textarea, .prf-tabs, and [data-hide-scroll]."
+      ]
+    },
+    {
+      "category": "Fix",
+      "items": [
+        "Removed last two native confirm() calls: style-reset button (styleResetDefaultsBtn.onclick) now uses await uiConfirm() with danger:true; UPS block-user button converted to async arrow and uses await uiConfirm() with danger:true.",
+        "UPS block-user handler correctly calls closeUserProfileScreen() after block confirmation regardless of outcome.",
+        "Keyboard handler no longer leaks on repeated dialog open/close cycles."
+      ]
+    },
+    {
+      "category": "Style",
+      "items": [
+        "Modal overlay uses backdrop-filter: blur(10px) saturate(1.3) and rgba(0,0,0,.7) background.",
+        "Panel background: linear-gradient(160deg, rgba(30,41,59,.98), rgba(15,23,42,.99)) with 22px border-radius and layered box-shadow (spread + inner glow).",
+        "New keyframes: uiMoOut (overlay fade-out) and uiMoSlideOut (panel slide-down + fade-out).",
+        "ui-modal-input redesigned: dark semi-transparent background, teal focus ring, smooth transition."
+      ]
+    }
+  ]
+}
