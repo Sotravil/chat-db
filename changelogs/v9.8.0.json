@@ -1,35 +1,49 @@
 {
   "version": "9.8.0",
-  "date": "2025-07-19",
   "title": "Personalization Studio",
-  "highlights": [
-    "✨ Animated avatar rings: Glow, Pulse, Fire, Neon, Aura, Spin, Rainbow, Sparks (Particles)",
-    "🎵 Status emoji beside your name in chat (15 options)",
-    "🏠 Per-room custom backgrounds (9 gradient presets, saved per room)",
-    "💌 Per-closet (DM) color tints (8 tint options)",
-    "🎆 Particle canvas effect orbiting your header avatar when Sparks ring is active",
-    "🎨 Style tab expanded with all new personalization sections"
-  ],
+  "releasedAt": 1772928000000,
   "changes": [
-    "[NEW] CSS @keyframes av-ring-rotate, av-pulse-ring, av-fire-ring, av-aura-ring",
-    "[NEW] .av-ring-wrap wrapper div wraps every message avatar — enables ::before spinning rings",
-    "[NEW] 9 avatar ring styles: none, glow, pulse, fire, neon, aura, spin, rainbow, particles",
-    "[NEW] STYLE_RING_PRESETS constant with CSS class, color, gradient metadata",
-    "[NEW] _avatarRingCache + _maybeLoadAvatarRing(userId) — fetches profile.avatarRing async",
-    "[NEW] _applyAvatarRingToAll(userId, ringId) — applies ring to all DOM avatars for that user",
-    "[NEW] _handleOwnRingParticles(ringId) — spawns requestAnimationFrame canvas on header avatar",
-    "[NEW] STYLE_STATUS_EMOJIS (15 options) + _statusEmojiCache + _maybeLoadStatusEmoji(userId)",
-    "[NEW] Status emoji .msg-status-emoji span rendered after sender name in messages",
-    "[NEW] STYLE_ROOM_BG_PRESETS (9 presets) — night, forest, ocean, rose, ember, cyber, soft, ash",
-    "[NEW] _applyRoomBg(roomName) — reads cp2p_room_bg_{room} from localStorage",
-    "[NEW] STYLE_CLOSET_TINTS (8 tints) + _applyClosetTint(dmRoom)",
-    "[NEW] Style tab: Avatar Ring section (animated ring demo picker)",
-    "[NEW] Style tab: Status Emoji section (emoji grid)",
-    "[NEW] Style tab: Per-Room Background section (only when in a group room)",
-    "[NEW] Style tab: Closet Tint section (only when in a DM room)",
-    "[WIRE] _doJoinRoom calls _applyRoomBg or _applyClosetTint on join",
-    "[WIRE] Login flow calls _maybeLoadAvatarRing(session.userId)",
-    "[WIRE] Message renderer wraps avatarEl in av-ring-wrap + loads ring async",
-    "[WIRE] Message renderer checks _statusEmojiCache and appends emoji span"
+    {
+      "type": "new",
+      "emoji": "💍",
+      "title": "Animated avatar rings",
+      "description": "9 ring styles — None, Glow, Pulse, Fire, Neon, Aura, Spin, Rainbow, and Sparks — can be set from the Style tab. Spin, Rainbow, Fire and Sparks use a rotating conic-gradient rendered via an .av-ring-wrap wrapper div around every chat avatar. Glow, Pulse, Neon and Aura animate using box-shadow keyframes directly. The chosen ring is saved to profile.json and displayed to all other users in every room and closet."
+    },
+    {
+      "type": "new",
+      "emoji": "✨",
+      "title": "Particle canvas on your header avatar",
+      "description": "Selecting the Sparks ring spawns a requestAnimationFrame canvas positioned over your header avatar button. Coloured dots orbit the avatar continuously. Switching to any other ring removes the canvas and stops the animation loop."
+    },
+    {
+      "type": "new",
+      "emoji": "🎵",
+      "title": "Status emoji beside your chat name",
+      "description": "Pick one of 15 status emojis (🔥 ⭐ 👑 ⚡ 💎 and more) from the Style tab. The emoji appears next to your sender name in chat for everyone to see. It is stored in profile.json and loaded asynchronously the first time your messages are rendered, then retroactively added to any existing name spans already in the DOM."
+    },
+    {
+      "type": "new",
+      "emoji": "🏠",
+      "title": "Per-room custom backgrounds",
+      "description": "The Style tab now shows a Room Background section when you are inside a group room. Choose from 9 gradient presets (Night, Forest, Ocean, Rose, Ember, Cyber, Soft, Ash, or Default). The selection is stored locally under cp2p_room_bg_{roomName} and applied every time you join that room. Room owners and admins can override this with a forced background or disable user customisation entirely — see Room Settings."
+    },
+    {
+      "type": "new",
+      "emoji": "💌",
+      "title": "Per-closet color tints",
+      "description": "While inside a DM room the Style tab shows a Closet Tint section with 8 colour tints (Violet, Rose, Sky, Amber, Emerald, Pink, Slate, None). The tint is applied as a background rgba overlay with a matching left border on the messages panel. Stored locally under cp2p_closet_tint_{dmRoom}."
+    },
+    {
+      "type": "new",
+      "emoji": "🎨",
+      "title": "Ring picker card UI with live animated preview",
+      "description": "The avatar ring picker uses card components instead of plain circles. Each card shows your actual avatar photo inside a live-animated ring preview — the same CSS keyframes used in chat — so what you see in the picker is exactly what others will see. A checkmark badge marks the active selection."
+    },
+    {
+      "type": "new",
+      "emoji": "🔒",
+      "title": "Room appearance permissions for owners and admins",
+      "description": "A new Appearance Permissions section in Room Settings lets owners and admins control the background experience. Toggling 'Allow user-side custom backgrounds' off blocks members from changing the room background from their own Style tab. Choosing a forced background preset overrides every user's preference so everyone sees the same gradient. Both settings are stored in the room's settings.json under the appearance field."
+    }
   ]
 }
